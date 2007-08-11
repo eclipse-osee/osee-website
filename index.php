@@ -14,9 +14,9 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "OSEE";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageTitle 		= "Open System Engineering Environment";
+	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
+	$pageAuthor		= "Ryan D. Brooks";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -31,8 +31,32 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
-	  This project was just provisioned, so there is nothing to see here.
+		<h1>$pageTitle</h1>
+		<h2>What is OSEE?</h2>
+			OSEE provides a tightly integrated environment that supports lean engineering across the full product life-cycle. Since OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time. At the heart of the OSEE architecture are the OSEE core services and application framework which are available to all the OSEE applications and enable their tight integration.
 	</div>
+	
+	<div id="rightcolumn">
+     <div class="sideitem">
+       <h6>Incubation</h6><p>
+       <div align="center">
+         <a href="/projects/what-is-incubation.php">
+           <img align="center" src="/images/egg-incubation.png" border="0"/>
+         </a>
+       </div>
+       <div align="center">  
+         This project is in the 
+         <a href="/projects/dev_process/validation-phase.php">Incubation Phase</a>
+       </div>
+     </div>
+
+	  <div class="sideitem">
+			<h6>Links</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/proposals/osee/" target="_blank">Project Proposal</a></li>
+				<li><a href="http://www.eweek.com/article2/0,1895,1939964,00.asp" target="_blank">eweek - new Ajax project for eclipse</a></li>
+			</ul>
+		</div>
 
 EOHTML;
 
