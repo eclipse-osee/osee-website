@@ -54,7 +54,6 @@
 			<h6>Links</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/proposals/osee/" target="_blank">Project Proposal</a></li>
-				<li><a href="http://www.eweek.com/article2/0,1895,1939964,00.asp" target="_blank">eweek - new Ajax project for eclipse</a></li>
 			</ul>
 		</div>
 
