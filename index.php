@@ -35,7 +35,15 @@
 		<h2>What is OSEE?</h2>
 			OSEE provides a tightly integrated environment that supports lean engineering across the full product life-cycle. Since OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time. At the heart of the OSEE architecture are the OSEE core services and application framework which are available to all the OSEE applications and enable their tight integration.
 			
-			
+		<h2>Tutorials - Screencasts - Demo Installatio</h2>
+      In order to help understand OSEE, the following screencasts are available that will help the user/developer/manager understand more about what OSEE is and can provide for any engineering project.<br><br>
+
+      For those users wishing to follow along and take OSEE for a test run, we also provides a demo installation that includes a copy of the OSEE installation and a database loaded with sample data.<br><br>
+
+      Although the OSEE team is moving toward providing the demo installation download from this site, it is currently only available directly from the team leads.  Please feel free to email <a href="mailto:donald.g.dunne@boeing.com">Don Dunne</a> or <a href="mailto:ryan.d.brooks@boeing.com">Ryan Brooks</a> to access a copy of this installation.  The installation is NOT required to view the following screencasts.<br><br>
+
+<a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/1.0%20OSEE%20Demo%20Introduction%20Screencast.zip">OSEE Demo Introduction Screencast - START HERE</a><br><br>
+
 		<h2>EclipseCon 2008 - Proposed Talks</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
