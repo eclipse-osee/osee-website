@@ -63,6 +63,9 @@
 		<h2>12/10/2007 - Demo Screencasts Available</h2>
       The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
 
+		<h2>12/8/2007 - OSEE source code committed to Eclipse</h2>
+      The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.<br>
+
 		<h2>EclipseCon 2008 - Proposed Talks</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
