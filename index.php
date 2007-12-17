@@ -55,7 +55,7 @@
 <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/6.0%20OSEE%20ATS%20Introduction%20Screencast.zip">OSEE Action Tracking System (ATS) Introduction</a> - This screencast introduces OSEE ATS, the integrated configuration management/change request application built into OSEE.  It will introduce the purpose of creating an integrated change management system, the terms and objects used in ATS, the benefits of integrated processes and configured workflows in an integrated environment and the scenarios of creating and transitioning an action to completion.  It will also walk through a simple configuration of ATS for a new product and briefly introduce the peer review framework that is available.<br><br>
 
 		<h1>Latest News</h1>
-		<h2>12/17/2007 - EclipseCon 2008 - Accepted Talks</h2>
+		<h2>12/17/2007 - Talks accepted for EclipseCon 2008</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
@@ -66,7 +66,7 @@
 		<h2>12/8/2007 - OSEE source code committed to Eclipse</h2>
       The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.<br>
 
-		<h2>EclipseCon 2008 - Proposed Talks</h2>
+		<h2>11/19/2007 - Proposed Talks for EclipseCon 2008</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
