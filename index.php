@@ -56,7 +56,7 @@
 
 		<h1>Latest News</h1>
 		<h2>12/17/2007 - EclipseCon 2008 - Accepted Talks</h2>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk<br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
 
