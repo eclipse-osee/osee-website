@@ -54,12 +54,21 @@
 
 <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/6.0%20OSEE%20ATS%20Introduction%20Screencast.zip">OSEE Action Tracking System (ATS) Introduction</a> - This screencast introduces OSEE ATS, the integrated configuration management/change request application built into OSEE.  It will introduce the purpose of creating an integrated change management system, the terms and objects used in ATS, the benefits of integrated processes and configured workflows in an integrated environment and the scenarios of creating and transitioning an action to completion.  It will also walk through a simple configuration of ATS for a new product and briefly introduce the peer review framework that is available.<br><br>
 
+		<h1>Latest News</h1>
+		<h2>12/17/2007 - EclipseCon 2008 - Accepted Talks</h2>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
+
+		<h2>12/10/2007 - Demo Screencasts Available</h2>
+      The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
+
 		<h2>EclipseCon 2008 - Proposed Talks</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br>
 		
 	</div>
 	
