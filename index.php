@@ -30,7 +30,6 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
-	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>What is OSEE?</h2>
 			OSEE provides a tightly integrated environment that supports lean engineering across the full product life-cycle. Since OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time. At the heart of the OSEE architecture are the OSEE core services and application framework which are available to all the OSEE applications and enable their tight integration.<br><br>
@@ -56,9 +55,9 @@
 
 		<h1>Latest News</h1>
 		<h2>12/17/2007 - EclipseCon 2008 - Accepted Talks</h2>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk<br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
+<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
 
 		<h2>12/10/2007 - Demo Screencasts Available</h2>
       The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
@@ -70,8 +69,6 @@
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br>
 		
-	</div>
-	
 	<div id="rightcolumn">
      <div class="sideitem">
        <h6>Incubation</h6><p>
