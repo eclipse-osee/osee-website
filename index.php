@@ -30,10 +30,13 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
 			provide bidirectional traceability across the full product life-cycle 
 			including: architecture and design, requirements management, implementation, 
 			verification, and validation.
-
+		<br><br>
       <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, it's architecture, the maturity of the application framework and the status and maturity of the different applications that use the framework.<br>
 
-      <a href="http://en.wikipedia.org/wiki/V_model"><img align="center" src="images/VDiagram_sm.png" border="0" /></a>
+		<br><br>
+      <a href="http://en.wikipedia.org/wiki/V_model" target="_blank"><img align="center" src="images/VDiagram_sm.png" border="0" /></a>
+      <br>
+      <a href="http://en.wikipedia.org/wiki/V_model" target="_blank">V-Model - http://en.wikipedia.org/wiki/V_model</a>
       
 	</div>		
 	
