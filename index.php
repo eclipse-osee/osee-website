@@ -54,14 +54,6 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
        </div>
      </div>
 
-	  <div class="sideitem">
-			<h6>Links</h6>
-			<ul>
-				<li><a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee" target="_blank">OSEE Newsgroup</a></li>
-				<li><a href="http://www.eclipse.org/proposals/osee/" target="_blank">OSEE Proposal</a></li>
-			</ul>
-		</div>
-
 EOHTML;
 
 
