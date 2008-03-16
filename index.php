@@ -25,15 +25,17 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2>What is OSEE?</h2>
-			OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, user-definable data model to eloquently provide bidirectional traceability across the full product life-cycle including: architecture and design, requirements management, implementation, verification, and validation.
+			OSEE provides a tightly integrated environment that supports lean engineering.  
+			It is integrated around a simple, user-definable data model to eloquently 
+			provide bidirectional traceability across the full product life-cycle 
+			including: architecture and design, requirements management, implementation, 
+			verification, and validation.
 
-<a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, it's architecture, the maturity of the application framework and the status and maturity of the different applications that use the framework.<br>
-
+      <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, it's architecture, the maturity of the application framework and the status and maturity of the different applications that use the framework.<br>
 	</div>
 	
 	<div align="center">
-      <a href="http://en.wikipedia.org/wiki/V_model"><img align="center" src="images/VDiagram.png" border="0" />
+      <a href="http://en.wikipedia.org/wiki/V_model"><img align="center" src="images/VDiagram_sm.png" border="0" />
 	   </a>
 	</div>		
 	
