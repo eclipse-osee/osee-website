@@ -36,7 +36,7 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
 		<br><br>
       <a href="http://en.wikipedia.org/wiki/V_model" target="_blank"><img align="center" src="images/VDiagram_sm.png" border="0" /></a>
       <br>
-      <a href="http://en.wikipedia.org/wiki/V_model" target="_blank">V-Model - http://en.wikipedia.org/wiki/V_model</a>
+      <a href="http://en.wikipedia.org/wiki/V_model" target="_blank" align="center">V-Model - http://en.wikipedia.org/wiki/V_model</a>
       
 	</div>		
 	
