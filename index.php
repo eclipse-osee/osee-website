@@ -46,7 +46,7 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
       allow the visualization and navigation of the artifacts in the system.  Any user can walk the path in either direction from
       the customer requirement down to the code unit and even the verification, validation and integration tests.
 		<br><br>
-      <img align="center" src="images/OSEE_Trace.png" border="0" width="940" height="600"/>
+      <img align="center" src="images/OSEE_Trace.png" border="0" width="1280" height="1024"/>
 	</div>		
 	
 	<div id="rightcolumn">
