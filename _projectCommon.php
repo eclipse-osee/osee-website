@@ -12,7 +12,7 @@
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	$Nav->addNavSeparator("Getting Started", 	"/osee/index.php");
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;About OSEE", "/osee/about.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Demos", "/osee/demo.php", "_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Demos", "/osee/demos.php", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Downloads", "/osee/downloads.php", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;FAQ", "/osee/faq.php", 	"_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;News", "/osee/news.php", 	"_self", 1);
