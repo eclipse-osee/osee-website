@@ -6,12 +6,15 @@
 	# Optional: defaults to system theme 
 	$theme = "";
 
+	$Nav->setLinkList(array());
+
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
-	# these are optional
-	$Nav->addNavSeparator("Project Home", 	"index.php");
-	#$Nav->addCustomNav("Downloads", 		"downloads.php", 	"_self", 2);
-	#$Nav->addCustomNav("Installation", 		"install.php", 		"_self", 2);
-	#$Nav->addCustomNav("FAQ", 				"faq.php", 			"_self", 2);
+	$Nav->addNavSeparator("Getting Started", 	"/osee/index.php");
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Demos", "/osee/demo.php", "_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Downloads", "/osee/downloads.php", "_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;FAQ", "/osee/faq.php", 	"_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;News", "/osee/news.php", 	"_self", 1);
+	$Nav->addNavSeparator("Development", 	"");
 
 ?>
