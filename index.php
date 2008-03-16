@@ -37,7 +37,16 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
       <a href="http://en.wikipedia.org/wiki/V_model" target="_blank"><img align="center" src="images/VDiagram_sm.png" border="0" /></a>
       <br>
       <a href="http://en.wikipedia.org/wiki/V_model" target="_blank" align="center">V-Model - http://en.wikipedia.org/wiki/V_model</a>
-      
+
+      <h2>Traceability</h2>
+      From the first requirement that comes in to the last deliverable, all artifacts are stored, manipulated and configuration
+      managed within OSEE.  Traceability from System to Subsystem to Software Requirements is created at the time of decomposition
+      and maintained as an integral part of the engineering process.  Through tightly integrated configuration management and
+      OSEE built-in workflow engine, users are more easily able to follow complex lifecycles of engineering.  Graphical editors
+      allow the visualization and navigation of the artifacts in the system.  Any user can walk the path in either direction from
+      the customer requirement down to the code unit and even the verification, validation and integration tests.
+		<br><br>
+      <img align="center" src="images/OSEE_Trace.png" border="0" />
 	</div>		
 	
 	<div id="rightcolumn">
