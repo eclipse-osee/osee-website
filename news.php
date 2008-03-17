@@ -59,7 +59,7 @@
 		<h2>2007, July 10 - Project Proposal Phase Approved</h2>
 		<h2>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h2>
 		<h2>2004, November - Test Environment first used for requirements verification in simulated environment</h2>
-	
+	</div>
 	<div id="news">
        <h1>In the News</h1><p>
        <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller on OSEE Collaboration and EclipseCon</a>
