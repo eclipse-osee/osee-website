@@ -31,26 +31,40 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
-		<h2>12/17/2007 - Talks accepted for EclipseCon 2008</h2>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
+		<h1>Events and Milestones</h1>
+		<h2>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h2>
+<a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
 
-		<h2>12/10/2007 - Demo Screencasts Available</h2>
+		<h2>2007, December 17 - Talks accepted for EclipseCon 2008</h2>
+<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
+<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
+<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
+
+		<h2>2007, December 10 - Demo Screencasts Available</h2>
       The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
 
-		<h2>12/8/2007 - OSEE source code committed to Eclipse</h2>
+		<h2>2007, December 8 - OSEE source code committed to Eclipse</h2>
       The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.<br>
 
-		<h2>11/19/2007 - Proposed Talks for EclipseCon 2008</h2>
+		<h2>2007, December 19 - Proposed Talks for EclipseCon 2008</h2>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br><br>
-		
+	
+		<h2>2007, Nov 8 - Delivered OSEE w/database to US Army</h2>
+		<h2>2007, Aug 10 - Incubation Phase (conforming)</h2>
+		<h2>2007, July 10 - Project Proposal Phase Approved</h2>
+		<h2>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h2>
+		<h2>2004, November - Test Environment first used for requirements verification in simulated environment</h2>
 	</div>
+	
+	
+	<div id="rightcolumn">
+       <h2>In the News</h2><p>
+       <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
+   </div>
 	
 EOHTML;
 
