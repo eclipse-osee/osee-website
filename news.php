@@ -62,9 +62,9 @@
 	</div>
 	<div id="news">
        <h1>In the News</h1><p>
-       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller on OSEE Collaboration and EclipseCon</a>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">Boeing Pilots Test Solution With Eclipse Persistence</a>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">SDTimes - Persistence is a Virtue</a>
+       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller on OSEE Collaboration and EclipseCon</a><br>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">Boeing Pilots Test Solution With Eclipse Persistence</a><br>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">SDTimes - Persistence is a Virtue</a><br>
        <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
    </div>
 </div>
