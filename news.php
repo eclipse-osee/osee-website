@@ -30,7 +30,8 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
-	<div id="midcolumn">
+<div id="midcolumn">
+	   <div id="events>
 		<h1>Events and Milestones</h1>
 		<h2>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h2>
 <a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
@@ -58,13 +59,15 @@
 		<h2>2007, July 10 - Project Proposal Phase Approved</h2>
 		<h2>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h2>
 		<h2>2004, November - Test Environment first used for requirements verification in simulated environment</h2>
-	</div>
 	
-	
-	<div id="rightcolumn">
-       <h2>In the News</h2><p>
+	<div id="news">
+       <h1>In the News</h1><p>
+       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller on OSEE Collaboration and EclipseCon</a>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">Boeing Pilots Test Solution With Eclipse Persistence</a>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">SDTimes - Persistence is a Virtue</a>
        <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
    </div>
+</div>
 	
 EOHTML;
 
