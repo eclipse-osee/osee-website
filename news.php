@@ -53,7 +53,7 @@
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
 <a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br><br>
 	
-		<h2>2007, Nov 8 - Delivered OSEE w/database to US Army</h2>
+		<h2>2007, Nov 8 - Delivered OSEE with database to US Army</h2>
 		<h2>2007, Aug 10 - Incubation Phase (conforming)</h2>
 		<h2>2007, July 10 - Project Proposal Phase Approved</h2>
 		<h2>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h2>
@@ -61,9 +61,9 @@
 	</div>
 	<div id="rightcolumn">
        <h1>In the News</h1><p>
-       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller on OSEE Collaboration and EclipseCon</a><br><br>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">Boeing Pilots Test Solution With Eclipse Persistence</a><br><br>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">SDTimes - Persistence is a Virtue</a><br><br>
+       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
+       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">SDTimes - "Persistence is a Virtue"</a><br><br>
        <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
    </div>
 	
