@@ -26,6 +26,9 @@
       <li>OSEE uses the GEF's Zest Visualization plugins.  To resolve these dependencies, you will need to anonymously connect to the /cvsroot/tools 
       CVS repository, expand out the org.eclipse.gef project and check out org.eclilpse.zest.core and org.eclipse.zest.layouts projects.  
       Instructions on doing this are at <a href="http://wiki.eclipse.org/index.php/CVS_Howto">http://wiki.eclipse.org/index.php/CVS_Howto</a> 
+      <li>OSEE uses Nebula's CalendarCombo.  To resolve this dependencies, you will need to anonymously connect to the /cvsroot/technology 
+      CVS repository, expand out the org.eclipse.swt.nebula project and check out org.eclipse.nebula.widgets.calendarcombo project.  
+      Instructions on doing this are at <a href="http://wiki.eclipse.org/index.php/CVS_Howto">http://wiki.eclipse.org/index.php/CVS_Howto</a> 
       </ol>
 EOHTML;
 
