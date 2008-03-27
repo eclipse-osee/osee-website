@@ -17,6 +17,8 @@
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;News and Events", "/osee/news.php", 	"_self", 1);
 	$Nav->addNavSeparator("Development", 	"");
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_blank", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Architecture", "/osee/arch.php", "_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Workspace Setup", "/osee/devSetup.php", "_self", 1);
 	$Nav->addNavSeparator("Other", 	"");
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;OSEE Proposal", "http://www.eclipse.org/proposals/osee/", "_blank", 1);
 
