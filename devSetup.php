@@ -25,7 +25,7 @@
       anonymous connection if you are not an OSEE committer.  Instructions are here <a href="http://wiki.eclipse.org/SVN_Howto">http://wiki.eclipse.org/SVN_Howto</a>.
       <li>OSEE uses the GEF's Zest Visualization plugins.  To resolve these dependencies, you will need to anonymously connect to the /cvsroot/tools 
       CVS repository, expand out the org.eclipse.gef project and check out org.eclilpse.zest.core and org.eclipse.zest.layouts projects.  
-      Instructions on doing this are at http://wiki.eclipse.org/index.php/CVS_Howto 
+      Instructions on doing this are at <a href="http://wiki.eclipse.org/index.php/CVS_Howto">http://wiki.eclipse.org/index.php/CVS_Howto</a> 
       </ol>
 EOHTML;
 
