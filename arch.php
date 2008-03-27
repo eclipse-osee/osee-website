@@ -11,7 +11,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
       
-      <img align="center" src="images/OSEEArchitecture.gif" border="0" />
+      <img align="center" src="images/OSEEArchitecture.gif" border="0" background="blue"/>
 EOHTML;
 
 
