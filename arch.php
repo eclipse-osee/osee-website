@@ -10,7 +10,6 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-      <body bgcolor="blue">
       <img align="center" src="images/OSEEArchitecture.gif" border="0"/>
 EOHTML;
 
