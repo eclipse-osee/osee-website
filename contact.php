@@ -17,24 +17,24 @@
 <div class="homeitem3col">
 <h3><a name="Committers"></a>Committers</h3>
 <p><table border="0" width="100%"><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Ken Aguilar<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/RyanBrooks.jpg"/><br/>Ryan Brooks<br/>Boeing<br>OSEE Project Lead<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/DonDunne.jpg"/><br/>Don Dunne<br/>Boeing<br>OSEE Project Lead<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Ken Aguilar<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/RyanBrooks.jpg"/><br/>Ryan Brooks<br/>Boeing<br>OSEE Project Lead<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/DonDunne.jpg"/><br/>Don Dunne<br/>Boeing<br>OSEE Project Lead<br/></td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Robert Escobar<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/AnyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Robert Escobar<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AnyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/></td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/></td>
 </table>
 
 </div>
 <div class="homeitem3col">
 <h3><a name="Contributors"></a>Contributors (7)</h3>
 <p><table border="0" width="100%"><tr >
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="/images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
 </tr></table>
 
 </div>
