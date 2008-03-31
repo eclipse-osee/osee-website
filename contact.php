@@ -57,7 +57,7 @@
 <div id="rightcolumn">	<div class="sideitem">
 		<h6>Submit Yourself</h6>
 
-		<p>Not on this list? Information wrong or missing? Attach your details and a photo (or URL) to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=">bug ??</a>.</p>
+		<p>Not on this list? Information wrong or missing? Attach your details and a photo (or URL) to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=224930">bug 224930</a>.</p>
 </div>
 </div>
 
