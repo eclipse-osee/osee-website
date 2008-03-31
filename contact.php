@@ -11,19 +11,20 @@
 <div id="container"><div id="midcolumn">
 	<h1>OSEE Committers, Contributers and Collaboration Partners</h1><blockquote><ul><li><a href="#Committers">Committers</a> &#160;
 <a href="#Contributors">Contributors</a> &#160;
+<a href="#Collaborators">Collaborators</a> &#160;
 </li></ul>
 
 </blockquote>
 <div class="homeitem3col">
 <h3><a name="Committers"></a>Committers</h3>
 <p><table border="0" width="100%"><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Ken Aguilar<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/RyanBrooks.jpg"/><br/>Ryan Brooks<br/>Boeing<br>OSEE Project Lead<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/DonDunne.jpg"/><br/>Don Dunne<br/>Boeing<br>OSEE Project Lead<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Ken Aguilar<br/>Boeing<br/>Framework, Test<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/RyanBrooks.jpg"/><br/>Ryan Brooks<br/>Boeing<br>OSEE Project Lead<br/>Framework, Define</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/DonDunne.jpg"/><br/>Don Dunne<br/>Boeing<br>OSEE Project Lead<br/>Framework, ATS</td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Robert Escobar<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Robert Escobar<br/>Boeing<br/>Framework, Define</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/>Framework, Test</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/>Framework, Test</td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/></td>
 </table>
@@ -31,6 +32,19 @@
 </div>
 <div class="homeitem3col">
 <h3><a name="Contributors"></a>Contributors (7)</h3>
+<p><table border="0" width="100%"><tr >
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
+</tr><tr>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
+</tr></table>
+
+</div>
+<div class="homeitem3col">
+<h3><a name="Collaborators"></a>Collaborators (7)</h3>
 <p><table border="0" width="100%"><tr >
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
