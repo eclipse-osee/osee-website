@@ -22,7 +22,7 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/DonDunne.jpg"/><br/>Don Dunne<br/>Boeing<br>OSEE Project Lead<br/></td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Robert Escobar<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AnyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/></td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/></td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/></td>
