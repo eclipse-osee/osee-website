@@ -12,7 +12,7 @@
 	<h1>OSEE Committers, Contributers and Collaboration Partners</h1>
 <blockquote><ul><li><a href="#Committers">Committers</a> &#160;
 <a href="#Contributors">Contributors</a> &#160;
-<a href="#Collaborators">Collaborators</a> &#160;
+<a href="#Collaborators">Interested Parties</a> &#160;
 </li></ul>
 
 </blockquote>
@@ -44,7 +44,7 @@
 
 </div>
 <div class="homeitem3col">
-<h3><a name="Collaborators"></a>Collaborators</h3>
+<h3><a name="Collaborators"></a>Interested Parties</h3>
 <p><table border="0" width="100%"><tr >
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Boeing<br/></td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Boeing<br/></td>
