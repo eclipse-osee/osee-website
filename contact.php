@@ -9,7 +9,7 @@
 	$html = <<<EOHTML
 
 <div id="container"><div id="midcolumn">
-	<h1>Meet The Modeling Project Team</h1><blockquote><ul><li><a href="#Committers">Committers</a> &#160;
+	<h1>OSEE Committers, Contributers and Collaboration Partners</h1><blockquote><ul><li><a href="#Committers">Committers</a> &#160;
 <a href="#Contributors">Contributors</a> &#160;
 </li></ul>
 
