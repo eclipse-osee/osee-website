@@ -8,8 +8,9 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
-<div id="container"><div id="midcolumn">
-	<h1>OSEE Committers, Contributers and Collaboration Partners</h1><blockquote><ul><li><a href="#Committers">Committers</a> &#160;
+<div id="midcolumn">
+	<h1>OSEE Committers, Contributers and Collaboration Partners</h1>
+<blockquote><ul><li><a href="#Committers">Committers</a> &#160;
 <a href="#Contributors">Contributors</a> &#160;
 <a href="#Collaborators">Collaborators</a> &#160;
 </li></ul>
@@ -26,20 +27,19 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyFinkbeiner.jpg"/><br/>Andrew Finkbeiner<br/>Boeing<br/>Framework, Test</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/>Framework, Test</td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/>Jeff Phillips<br/>Boeing<br/>Framework, Define</td>
 </table>
 
 </div>
 <div class="homeitem3col">
 <h3><a name="Contributors"></a>Contributors (7)</h3>
 <p><table border="0" width="100%"><tr >
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/>Define</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/>Test</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/>Define, Test</td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Theron Virgin<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Paul Walfogel<br/>Boeing<br/>Define, Test</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Andy Jury<br/>Boeing<br/>Test</td>
 </tr></table>
 
 </div>
@@ -58,6 +58,7 @@
 		<h6>Submit Yourself</h6>
 
 		<p>Not on this list? Information wrong or missing? Attach your details and a photo (or URL) to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=182613#c11">bug 182613</a>.</p>
+</div>
 </div>
 
 
