@@ -9,7 +9,7 @@
 	$html = <<<EOHTML
 
 <div id="midcolumn">
-	<h1>OSEE Committers, Contributers and Collaboration Partners</h1>
+	<h1>OSEE Committers, Contributors and Collaboration Partners</h1>
 <blockquote><ul><li><a href="#Committers">Committers</a> &#160;
 <a href="#Contributors">Contributors</a> &#160;
 <a href="#Collaborators">Interested Parties</a> &#160;
