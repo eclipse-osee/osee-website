@@ -1,15 +1,7 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
-	#*****************************************************************************
-	#
+	#****************************************************************************
 	# template.php
-	#
-	# Author: 		Denis Roy
-	# Date:			2005-06-16
-	#
-	# Description: Type your page comments here - these are not sent to the browser
-	#
-	#
 	#****************************************************************************
 	
 	#
@@ -32,6 +24,8 @@
 
 <div id="midcolumn">
 		<h1>Events and Milestones</h1>
+		<h2>2008, March 26 - MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h2>
+		<h2>2008, March 24 - Eclipse ORMF Project joins OSEE as a component.</h2>
 		<h2>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h2>
 <a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
 
