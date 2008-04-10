@@ -40,6 +40,7 @@
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Joel Rosi-Schwartz<br/>Etish Limited<br/>Define, ORMF</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Barbara Rosi-Schwartz<br/>Etish Limited<br/>Define, ORMF</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Stephan Eberle<br/>Geensys<br>Define, Framework, Application Dev</td>
 </tr></table>
 
 </div>
