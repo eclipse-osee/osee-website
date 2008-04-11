@@ -39,11 +39,11 @@
 		can be created or integrated on the framework to share and contribute to the same data.
 
 		<h2>What are Artifacts, Attributes and Relations?</h2>
-Artifacts: Any data object stored within OSEE.  This is a strongly typed object that can store any data throughout the lifecycle of systems engineering.  From meeting minutes to architecture diagrams, processes to requirements, artifacts are the main object within OSEE's data store.   There may be a "Software Requirement" artifact defined to hold the requirements at a software level or a "User" artifact defined to hold data associated to an OSEE user.
+Artifacts: Any data object stored within OSEE.  This is a strongly typed object that can store any data throughout the lifecycle of systems engineering.  From meeting minutes to architecture diagrams, processes to requirements, artifacts are the main object within OSEE's data store.   There may be a "Software Requirement" artifact defined to hold the requirements at a software level or a "User" artifact defined to hold data associated to an OSEE user.<br>
 
-Attributes: Metadata attached to any Artifact.  With the example of a "Software Requirement" artifact, the attributes may be "Qualification Method", "Safety Criticality" or "Subsystem".  For a "User" artifact, the attributes would be "Email", "Name" and "Phone".
+Attributes: Metadata attached to any Artifact.  With the example of a "Software Requirement" artifact, the attributes may be "Qualification Method", "Safety Criticality" or "Subsystem".  For a "User" artifact, the attributes would be "Email", "Name" and "Phone".<br>
 
-Relations: The link between artifacts.  These too are strongly typed such that you can relate a "User" to a "Meeting" that they attended.  Or   relate the high level customer requirements to the lower level software requirements that satisfy them.  These relations can also have "Rationale" stored which gives the user the ability to note why the relation exists.
+Relations: The link between artifacts.  These too are strongly typed such that you can relate a "User" to a "Meeting" that they attended.  Or   relate the high level customer requirements to the lower level software requirements that satisfy them.  These relations can also have "Rationale" stored which gives the user the ability to note why the relation exists.<br>
 		
 
 		<h2>Other products sound similar.  Why OSEE?</h2>
@@ -93,26 +93,25 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  The only requirement is that the paragraph are specified as "Heading" type.
 
 		<h2>Do I have to create a new database table for every type of Artifact that I want to use</h2>
-Quick Answer: No
+Quick Answer: No<br>
 
 The OSEE Architecture Framework uses a common table structure to store all types of artifacts, attributes and relations.  This allows the users to dynamically create and start using new objects without major database modification.
       
 		<h2>Do I have to use the Artifact types that are built into OSEE?</h2>
-Quick Answer: No
+Quick Answer: No<br>
 
-All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics systems engineering project, it was architected to store any data by simply defining a different data model to use.
+All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics systems engineering project, it was architected to store any data by simply defining a different data model to use.<br>
 
 In addition, these data models can be dynamically modified.  New Artifacts, Attributes and Relations can be specified at anytime (and even by end users if allowed).  Modification and deletion of these can be performed with some administrative back-end tools with the understanding that you would need to determine what to do with the removed data.
 
 		<h2>Do I have to use Microsoft Word to enter my requirements?</h2>
-Quick Answer: No
+Quick Answer: No<br>
 
-This question comes up when users find out that OSEE is integrated with Microsoft Word as one method to enter artifact data such as requirements.
+This question comes up when users find out that OSEE is integrated with Microsoft Word as one method to enter artifact data such as requirements.<br>
 
-OSEE uses Artifacts, Attributes and Relations to store information in it's data store.  The Attributes associated with   a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.
+OSEE uses Artifacts, Attributes and Relations to store information in it's data store.  The Attributes associated with   a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.<br>
 
 In addition to this specific type of Attribute, OSEE does allows any operating system file to be dragged in and created as an Artifact.  This artifact, when opened, will extract its data and present it to the operating system to allow viewing and editing.  This allows things like requirements to be specified by other modeling, diagraming or even mathematical applications that OSEE doesn't know about.  These artifacts can have their own metadata associated and also be related to other artifacts in the system.
-
 
 	</div>
 	
