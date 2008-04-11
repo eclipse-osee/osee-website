@@ -24,7 +24,7 @@
 
 <div id="midcolumn">
 		<h1>Events and Milestones</h1>
-		<h2>2008, April 10 - OSEE holds first Artitecture deep-divs</h2>
+		<h2>2008, April 10 - OSEE holds first Architecture deep-dive.</h2>
 		<h2>2008, March 26 - MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h2>
 		<h2>2008, March 24 - Eclipse ORMF Project joins OSEE as a component.</h2>
 		<h2>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h2>
@@ -56,7 +56,7 @@
 	</div>
 	<div id="rightcolumn">
        <h1>In the News</h1><p>
-       <a href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">Reduce Software Project Failure</a><br><br>
+       <a href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
        <a href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
        <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
        <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
