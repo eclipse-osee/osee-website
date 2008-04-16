@@ -20,6 +20,7 @@
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Committers/Contacts", "/osee/contact.php", "_blank", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_blank", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?product=OSEE", "_blank", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Bugzilla Components", "https://bugs.eclipse.org/bugs/describecomponents.cgi?product=OSEE", "_blank", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Architecture", "/osee/arch.php", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Workspace Setup", "/osee/devSetup.php", "_self", 1);
 	$Nav->addNavSeparator("Other", 	"");
