@@ -47,6 +47,7 @@
 		<li><a href="#importexcel">Can I import from Microsoft Excel(c)?</a>
 		<li><a href="#publishdocuments">Can I publish documents from OSEE?</a>
 		<li><a href="#whatdatabases">What databases can be used with OSEE?</a>
+		<li><a href="#offline">Can OSEE be used offline and later sync'd up?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
