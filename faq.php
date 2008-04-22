@@ -39,6 +39,7 @@
 		<li><a href="#newtable">Do I have to create a new database table for every type of Artifact that I want to use</a>
 		<li><a href="#customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</a>
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
+		<li><a href="#whatisskynet">What is Skynet?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -152,6 +153,10 @@ This question comes up when users find out that OSEE is integrated with Microsof
 OSEE uses Artifacts, Attributes and Relations to store information in it's data store.  The Attributes associated with   a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.<br><br>
 
 In addition to this specific type of Attribute, OSEE does allows any operating system file to be dragged in and created as an Artifact.  This artifact, when opened, will extract its data and present it to the operating system to allow viewing and editing.  This allows things like requirements to be specified by other modeling, diagraming or even mathematical applications that OSEE doesn't know about.  These artifacts can have their own metadata associated and also be related to other artifacts in the system.<br><br>
+
+		<h3 id="whatisskynet">What is Skynet?</h3>
+      Skynet is a legacy term for the OSEE Application Framework.  It is being phased out of the documentation, code and 
+      our daily discussions, but may come up during the conversion.<br><br>
 
 	</div>
 	
