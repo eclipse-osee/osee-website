@@ -46,6 +46,7 @@
 		<li><a href="#importtraceability">Can I import existing traceability into OSEE?</a>
 		<li><a href="#importexcel">Can I import from Microsoft Excel(c)?</a>
 		<li><a href="#publishdocuments">Can I publish documents from OSEE?</a>
+		<li><a href="#whatdatabases">What databases can be used with OSEE?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -222,21 +223,37 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 		<h3 id="publishdocuments">How do I publish documents from OSEE?</h3>
       The majority of the work in publishing out of OSEE has been in the format of Microsoft Word(c) documents.
       The user can create a Word template that "describes" the format, headers, footers and what data maps into
-      the specified areas in the template. A <a href="whatisblam:>BLAM</a> is then ran where the user can specify
+      the specified areas in the template. A <a href="whatisblam">BLAM</a> is then ran where the user can specify
       the <a href="whatarebranches">branch</a> and what artifacts are to be published.  Upon execution, the 
       documents are created.  This method has successfully generated documents in excess of 10,000 pages that
       were delivered to the customer.<br><br>
       
-      OSEE architecture is built to support other methods of publishing including web and open document formats.
-      Depending on the level of complexity, some work would be done to make the export generic.
+      The OSEE architecture also supports other methods of publishing including web and open document formats.
+      Depending on the level of complexity, some work would be done to provide further export capabilities.
       
       Another form of publishing that OSEE was architected for is delivery of OSEE and the database.  Although
-      OSEE can generate as many documents as the user desires, it was decided early on that the vendors and customers
+      OSEE can publish documents and reports, it was decided early on that the vendors and customers
       would want and need the same navigation and exporation capabilities that OSEE provides.  Instead of 
       delivering generated documents, one of the projects that OSEE is deployed on delivers a copy of OSEE with
       a sanitized database (confidential data removed).  This has been very successful from both the program
       and customer's point of view.
       
+		<h3 id="whatdatabases">What databases can be used with OSEE?</h3>
+      OSEE was architected to be database independent.  It can be run on any SQL compliant relational DB.
+      It is currently running on multiple projects using the Oracle 10g database.  The PostgreSQL database 
+      has also been used for development and also deployment to customers.  The current OSEE Demo is currently
+      bundled with PostgreSQL.  In addition, the OSEE Team is looking into supporting the Derby database.  Some
+      effort would be necessary to port OSEE to MySQL or any other compliant database.  If desired, the OSEE Team
+      could work with the user/developers to help perform this task.
+
+		<h3 id="offline">Can OSEE be used offline and later sync'd up?</h3>
+      Although OSEE does not currently provide the capability to download database artifacts, work offline and
+      then sync up when re-connected, it was certainly a consideration in the design.  The most complex part
+      would be resolving conflicts that may occur to artifacts edited in both disconnected OSEE's.  Since OSEE
+      already has the capability to run on multiple databases and the capability to export and import artifacts,
+      it would just take some effort to provide the first versions of this feature. This would be a great area
+      for collaboration.
+
       <br><br><br>
 	</div>
 	
