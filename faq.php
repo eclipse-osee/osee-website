@@ -35,13 +35,16 @@
 	   <li><a href="#whatisdefine">What is the OSEE Define?</a>
 	   <li><a href="#whatisats">What is the OSEE ATS?</a>
 		<li><a href="#bugtracking">Why build yet another bug tracking tool like the Action Tracking System (ATS)?</a>
-		<li><a href="#importword">Can I import existing Word documents into OSEE?</a>
+		<li><a href="#importword">Can I import existing Microsoft Word(c) documents into OSEE?</a>
 		<li><a href="#newtable">Do I have to create a new database table for every type of Artifact that I want to use</a>
 		<li><a href="#customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</a>
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
 		<li><a href="#whatisskynet">What is Skynet?</a>
 		<li><a href="#frameworktypes">What are Artifact Framework types?</a>
 		<li><a href="#handletraceability">How does OSEE handle traceability?</a>
+		<li><a href="#whatisblam">What is BLAM?</a>
+		<li><a href="#importtraceability">Can I import existing traceability into OSEE?</a>
+		<li><a href="#importexcel">Can I import from Microsoft Excel(c)?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -132,7 +135,7 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       can follow their own "process" which may contain 5 different states while the application developers can 
       follow their own more complex "process" which may contain 30 different states.
 
-		<h3 id="importword">Can I import existing Word documents into OSEE?</h3>
+		<h3 id="importword">Can I import existing Microsoft Word(c) documents into OSEE?</h3>
       Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  
       The only requirement is that the paragraph are specified as "Heading" type.
 
@@ -207,6 +210,11 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       provides <a href="whatisblam">BLAM</a> that would enable traceability to be imported from existing 
       applications, documents, excel spreadsheets.  This capability has already been used a number of times
       to successfully import traceability from legacy documents and systems on projects OSEE has been deployed to.
+
+		<h3 id="importexcel">Can I import from Excel?</h3>
+      Quick Answer: Yes<br><br>
+      Through OSEE's <a href="whatisblam">BLAM</a>, users can import from other applications, documents 
+      and spreadsheets.
 
       <br><br><br>
 	</div>
