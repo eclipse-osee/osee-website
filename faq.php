@@ -40,14 +40,12 @@
 		<li><a href="#customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</a>
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
       </ol>
-      <a name="whatisosee"/>
-		<h3>What is OSEE?</h3>
+		<h3 name="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
       user-definable data model to eloquently provide bidirectional traceability across the full product life-cycle 
       including: architecture and design, requirements management, implementation, verification, and validation.
 
-      <a name="isoseeanapplication"/>
-		<h3>Is OSEE an application framework or an application?</h3>
+		<h3 name="isoseeanapplication">Is OSEE an application framework or an application?</h3>
 		The simple answer is BOTH.  OSEE Application Framework is created to allow applications to be built
 		on top and share the common data model.  This can be used independently of any OSEE applications.  In addition,
 		there are applications that are delivered with and use the OSEE Application Framework.  This includes a full
@@ -56,16 +54,14 @@
 		other project, reporting and metrics tools.  These application can be used out-of-the-box and new applications
 		can be created or integrated on the framework to share and contribute to the same data.
 
-      <a name="whatareartifacts"/>
-		<h3>What are Artifacts, Attributes and Relations?</h3>
+		<h3 name="whatareartifacts">What are Artifacts, Attributes and Relations?</h3>
 Artifacts: Any data object stored within OSEE.  This is a strongly typed object that can store any data throughout the lifecycle of systems engineering.  From meeting minutes to architecture diagrams, processes to requirements, artifacts are the main object within OSEE's data store.   There may be a "Software Requirement" artifact defined to hold the requirements at a software level or a "User" artifact defined to hold data associated to an OSEE user.<br><br>
 
 Attributes: Metadata attached to any Artifact.  With the example of a "Software Requirement" artifact, the attributes may be "Qualification Method", "Safety Criticality" or "Subsystem".  For a "User" artifact, the attributes would be "Email", "Name" and "Phone".<br><br>
 
 Relations: The link between artifacts.  These too are strongly typed such that you can relate a "User" to a "Meeting" that they attended.  Or   relate the high level customer requirements to the lower level software requirements that satisfy them.  These relations can also have "Rationale" stored which gives the user the ability to note why the relation exists.
 		
-      <a name="whatarebranches"/>
-		<h3>What are Branches and how are they used in OSEE?</h3>
+		<h3 name="whatarebranches">What are Branches and how are they used in OSEE?</h3>
       One of the problems OSEE intended to solve was to be able to manage Variants or Product Lines.  After a set of
       requirements is developed, it may become the baseline for variant sets of requirements for similar products.
       In other words, you may develop the same product for another customer, but have slight changes to the
@@ -77,8 +73,7 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       changes made to the baseline branches to be easily committed to the variants.  In addition, OSEE manages these
       variants in an efficient manner such that only the changed requirements (or artifacts) are "copied".<br><br>
 
-      <a name="whatisaworkingbranch"/>
-		<h3>What is a Working Branch?</h3>
+		<h3 name="whatisaworkingbranch">What is a Working Branch?</h3>
       A working branch is simply a sandbox area for a users to make changes and perform reviews before committing
       to the baseline branch.<br><br>
       On complex systems engineering, requirements, and other artifacts, can be developed by hundreds of engineers.
@@ -88,8 +83,7 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       to revert or throw away their changes and start over without polluting the baseline branch and teams also
       need the ablity to review changes before committing them to main baseline.  This is done using working branches.
 
-      <a name="whyosee"/>
-		<h3>Other products sound similar.  Why OSEE?</h3>
+		<h3 name="whyosee">Other products sound similar.  Why OSEE?</h3>
 		<ol>
       <li>Open Source Extensible Platform
 		<li>Open Eclipse Project w/ Collaboration
@@ -97,16 +91,14 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 		<li>Full Lifecycle Engineering Environment
 		</ol>
 
-      <a name="onlyavionics"/>
-		<h3>Is OSEE only for Avionics Engineering?</h3>
+		<h3 name="onlyavionics">Is OSEE only for Avionics Engineering?</h3>
 		No.  OSEE's was created by The Boeing Company in support of the Apache AH-64 Attack Helicopter flight control
 		software.  Although it was created for the complexity of a large US Department of Defense program, it was
 		architected to support any systems engineering project from a simple application built for a customer to a 
 		large complex application like the Apache flight controls.  In addition, since OSEE is an application on
 		it's own, the OSEE Team uses OSEE to develop, deploy and maintain OSEE.
 
-      <a name="whatisdefine"/>
-	   <h3>What is the OSEE Define?</h3>
+	   <h3 name="whatisdefine">What is the OSEE Define?</h3>
 		OSEE Define is OSEE's advanced Requirements and Document Management System.  OSEE Define can be used to
 		track a simple application's requirements, code and test or configured to support a large program
 		doing concurrent development with multiple parallel builds and manage requirements for multiple product
@@ -116,16 +108,14 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 		changes.  Integrated tightly with the Action Tracking System, OSEE Define can be configured to provide
 		advanced configuration management for any set of requirements object.
 
-      <a name="whatisats"/>
-	   <h3>What is the Action Tracking System (ATS)?</h3>
+	   <h3 name="whatisats">What is the Action Tracking System (ATS)?</h3>
 		The Action Tracking System is the tightly integrated configuration management system built in OSEE and
 		very tightly integrated with the OSEE Application Framework.  It uses a powerful workflow engine to
 		provides a fully customizeable workflow to track improvements, problems and support for any number of 
 		teams/tools/programs simultaneously.  This gives the user a single point view into all the work that
 		they are required to do.
 	
-      <a name="bugtracking"/>
-		<h3>Why build yet another bug tracking tool like the Action Tracking System (ATS)?</h3>
+		<h3 name="bugtracking">Why build yet another bug tracking tool like the Action Tracking System (ATS)?</h3>
 		Although there are a number of open source and commercial bug tracking systems available, OSEE's goal to
 		integrate workflow management and provide a tight integration with the Application Framework, and the
 		applications built on top, required us to develop ATS.  ATS is meant to be more than simple bug tracking
@@ -139,26 +129,22 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       can follow their own "process" which may contain 5 different states while the application developers can 
       follow their own more complex "process" which may contain 30 different states.
 
-      <a name="importword"/>
-		<h3>Can I import existing Word documents into OSEE?</h3>
+		<h3 name="importword">Can I import existing Word documents into OSEE?</h3>
       Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  The only requirement is that the paragraph are specified as "Heading" type.
 
-      <a name="newtable"/>
-		<h3>Do I have to create a new database table for every type of Artifact that I want to use</h3>
+		<h3 name="newtable">Do I have to create a new database table for every type of Artifact that I want to use</h3>
 Quick Answer: No<br>
 
 The OSEE Architecture Framework uses a common table structure to store all types of artifacts, attributes and relations.  This allows the users to dynamically create and start using new objects without major database modification.
       
-      <a name="customizeartifacttypes"/>
-		<h3>Do I have to use the Artifact types that are built into OSEE?</h3>
+		<h3 name="customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</h3>
 Quick Answer: No<br><br>
 
 All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics systems engineering project, it was architected to store any data by simply defining a different data model to use.<br><br>
 
 In addition, these data models can be dynamically modified.  New Artifacts, Attributes and Relations can be specified at anytime (and even by end users if allowed).  Modification and deletion of these can be performed with some administrative back-end tools with the understanding that you would need to determine what to do with the removed data.
 
-      <a name="havetouseword"/>
-		<h3>Do I have to use Microsoft Word to enter my requirements?</h3>
+		<h3 name="havetouseword">Do I have to use Microsoft Word to enter my requirements?</h3>
 Quick Answer: No<br><br>
 
 This question comes up when users find out that OSEE is integrated with Microsoft Word as one method to enter artifact data such as requirements.<br><br>
