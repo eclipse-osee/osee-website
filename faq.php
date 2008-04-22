@@ -41,6 +41,7 @@
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
 		<li><a href="#whatisskynet">What is Skynet?</a>
 		<li><a href="#frameworktypes">What are Artifact Framework types?</a>
+		<li><a href="#handletraceability">How does OSEE handle traceability?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -185,6 +186,13 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       a "Software Requirement to Allocation" relation.  These types are defined in the Artifact Framework and
       can be created dynamically in the system during database creation or while running.  This allows the end 
       user to expand the data that is being stored in OSEE without providing a new release.
+
+		<h3 id="handletraceability">How does OSEE handle traceability?</h3>
+      <a href="http://en.wikipedia.org/wiki/Requirements_Traceability">Traceability</a> is handled in OSEE
+      through the use of <a href="#whatareartifacts">Relations</a>.  These relations can be 
+      <a href="#frameworktypes">defined in OSEE</a> according to their need and the users can then
+      add and remove these relations throughout the lifecycle of the requriements or other artifacts.  Deliverable
+      documents or any report generation would also use this traceability.
 
 	</div>
 	
