@@ -21,6 +21,8 @@
       http://www.polarion.org/index.php?page=download&project=subversive</a>. You will
       want to add all plugins available at Note:  This will allow you to connect to the OSEE SVN repositories AND OSEE uses some of these 
       plugins for compiling.
+      <li>If not already installed, install the Graphical Editing Framework by selecting Help pulldown - Software Updates - 
+      Find and Install - Search for new features to install - Select GEF Update Site and complete installation.
       <li>Connect to the OSEE SVN repository and checkout all plugins.  You will connect using your committer username password or do an
       anonymous connection if you are not an OSEE committer.  Instructions are here <a href="http://wiki.eclipse.org/SVN_Howto">http://wiki.eclipse.org/SVN_Howto</a>.
       <li>OSEE uses the GEF's Zest Visualization plugins.  To resolve these dependencies, you will need to anonymously connect to the /cvsroot/tools 

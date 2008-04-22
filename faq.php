@@ -24,6 +24,11 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+      <ol>
+      <li><a href="#whatisosee">What is OSEE?</a>
+      <li><a href="#whatisaworkingbranch">What is a Working Branch?</a>
+      </ol>
+      <a name="whatisosee"/>
 		<h3>What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
       user-definable data model to eloquently provide bidirectional traceability across the full product life-cycle 
@@ -45,6 +50,28 @@ Attributes: Metadata attached to any Artifact.  With the example of a "Software 
 
 Relations: The link between artifacts.  These too are strongly typed such that you can relate a "User" to a "Meeting" that they attended.  Or   relate the high level customer requirements to the lower level software requirements that satisfy them.  These relations can also have "Rationale" stored which gives the user the ability to note why the relation exists.
 		
+		<h3>What are Branches and how are they used in OSEE?</h3>
+      One of the problems OSEE intended to solve was to be able to manage Variants or Product Lines.  After a set of
+      requirements is developed, it may become the baseline for variant sets of requirements for similar products.
+      In other words, you may develop the same product for another customer, but have slight changes to the
+      requirements, code and test for features specific to that customer.  Historically, this would mean maintaining
+      completely separate "copies" of all the requirements and other artifacts.  This is costly to maintain when
+      changes from the baseline artifacts are required to be propogated to the other product line.  Add 5 or 10 more
+      customers with different needs and this becomes a major undertaking.<br><br>OSEE provides the capability to create
+      these variant branches and maintain not only the record of where these branches came from, but also enables
+      changes made to the baseline branches to be easily committed to the variants.  In addition, OSEE manages these
+      variants in an efficient manner such that only the changed requirements (or artifacts) are "copied".<br><br>
+
+      <a name="whatisaworkingbranch"/>
+		<h3>What is a Working Branch?</h3>
+      A working branch is simply a sandbox area for a users to make changes and perform reviews before committing
+      to the baseline branch.<br><br>
+      On complex systems engineering, requirements, and other artifacts, can be developed by hundreds of engineers.
+      To have requirements "locked" while they are being modified by one user can cause significant delays in
+      schedule.  The need for parallel development (multiple users working on the same requirements) 
+      is a necessity to keeping a project moving forward.  In addition, users making mistakes need the ability
+      to revert or throw away their changes and start over without polluting the baseline branch and teams also
+      need the ablity to review changes before committing them to main baseline.  This is done using working branches.
 
 		<h3>Other products sound similar.  Why OSEE?</h3>
 		<ol>
@@ -87,7 +114,10 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 		necessary workflows for all the teams that need to perform work.  For example, a workflow may be created
 		for not only the Software Development team, but also the test team, documentation team, integration team
 		and even facilities like labs or conference rooms.  Each team then moves intependently through its
-		workflow to perform the work necessary for the common "Action".
+		workflow to perform the work necessary for the common "Action".  In addition, ATS enables complete 
+      customization of different workflows for each configured team.  This means that the documentation team
+      can follow their own "process" which may contain 5 different states while the application developers can 
+      follow their own more complex "process" which may contain 30 different states.
 
 		<h3>Can I import existing Word documents into OSEE?</h3>
       Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  The only requirement is that the paragraph are specified as "Heading" type.
