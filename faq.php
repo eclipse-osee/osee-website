@@ -40,6 +40,7 @@
 		<li><a href="#customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</a>
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
 		<li><a href="#whatisskynet">What is Skynet?</a>
+		<li><a href="#frameworktypes">What are Artifact Framework types?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -131,32 +132,59 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       follow their own more complex "process" which may contain 30 different states.
 
 		<h3 id="importword">Can I import existing Word documents into OSEE?</h3>
-      Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  The only requirement is that the paragraph are specified as "Heading" type.
+      Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  
+      The only requirement is that the paragraph are specified as "Heading" type.
 
 		<h3 id="newtable">Do I have to create a new database table for every type of Artifact that I want to use</h3>
-Quick Answer: No<br>
+      Quick Answer: No<br>
 
-The OSEE Architecture Framework uses a common table structure to store all types of artifacts, attributes and relations.  This allows the users to dynamically create and start using new objects without major database modification.
+      The OSEE Architecture Framework uses a common table structure to store all types of artifacts, attributes and 
+      relations.  This allows the users to dynamically create and start using new objects without major database modification.
       
 		<h3 id="customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</h3>
-Quick Answer: No<br><br>
+      Quick Answer: No<br><br>
 
-All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics systems engineering project, it was architected to store any data by simply defining a different data model to use.<br><br>
+      All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  
+      Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics 
+      systems engineering project, it was architected to store any data by simply defining a different data model to use.<br><br>
 
-In addition, these data models can be dynamically modified.  New Artifacts, Attributes and Relations can be specified at anytime (and even by end users if allowed).  Modification and deletion of these can be performed with some administrative back-end tools with the understanding that you would need to determine what to do with the removed data.
+      In addition, these data models can be dynamically modified.  New Artifacts, Attributes and Relations can be 
+      specified at anytime (and even by end users if allowed).  Modification and deletion of these can be 
+      performed with some administrative back-end tools with the understanding that you would need to determine what to 
+      do with the removed data.
 
 		<h3 id="havetouseword">Do I have to use Microsoft Word to enter my requirements?</h3>
-Quick Answer: No<br><br>
+      Quick Answer: No<br><br>
 
-This question comes up when users find out that OSEE is integrated with Microsoft Word as one method to enter artifact data such as requirements.<br><br>
+      This question comes up when users find out that OSEE is integrated with Microsoft Word as one method to 
+      enter artifact data such as requirements.<br><br>
 
-OSEE uses Artifacts, Attributes and Relations to store information in it's data store.  The Attributes associated with   a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.<br><br>
+      OSEE uses Artifacts, Attributes and Relations to store information in it's data store.  The Attributes associated 
+      with a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type 
+      is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, 
+      however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that 
+      must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing 
+      applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.<br><br>
 
-In addition to this specific type of Attribute, OSEE does allows any operating system file to be dragged in and created as an Artifact.  This artifact, when opened, will extract its data and present it to the operating system to allow viewing and editing.  This allows things like requirements to be specified by other modeling, diagraming or even mathematical applications that OSEE doesn't know about.  These artifacts can have their own metadata associated and also be related to other artifacts in the system.<br><br>
+      In addition to this specific type of Attribute, OSEE does allows any operating system file to be 
+      dragged in and created as an Artifact.  This artifact, when opened, will extract its data and present 
+      it to the operating system to allow viewing and editing.  This allows things like requirements to be 
+      specified by other modeling, diagraming or even mathematical applications that OSEE doesn't know 
+      about.  These artifacts can have their own metadata associated and also be related to other 
+      artifacts in the system.<br><br>
 
 		<h3 id="whatisskynet">What is Skynet?</h3>
-      Skynet is a legacy term for the OSEE Application Framework.  It is being phased out of the documentation, code and 
-      our daily discussions, but may come up during the conversion.<br><br>
+      Skynet is a legacy term for the OSEE Application Framework.  It is being phased out of the 
+      documentation, code and our daily discussions, but may come up during the conversion.<br><br>
+
+		<h3 id="frameworktypes">What are Artifact Framework types?</h3>
+      OSEE provides <a href="#whatareartifacts">Artifacts, Attributes and Relations</a> that are strongly
+      typed.  This means that the user can create their own artifact type, for example a "Software Requirement"
+      to represent the requirements at a software level and their own attribute types, for example a
+      "Qualification" attribute or a "Safety Criticality" attribute and event their own relations, for example
+      a "Software Requirement to Allocation" relation.  These types are defined in the Artifact Framework and
+      can be created dynamically in the system during database creation or while running.  This allows the end 
+      user to expand the data that is being stored in OSEE without providing a new release.
 
 	</div>
 	
