@@ -27,9 +27,9 @@
       <ol>
       <li><a href="#whatisosee">What is OSEE?</a>
 		<li><a href="#isoseeanapplication">Is OSEE an application framework or an application?</a>
-      <li><a href="#whatisaworkingbranch">What is a Working Branch?</a>
 		<li><a href="#whatareartifacts">What are Artifacts, Attributes and Relations?</a>
 		<li><a href="#whatarebranches">What are Branches and how are they used in OSEE?</a>
+      <li><a href="#whatisaworkingbranch">What is a Working Branch?</a>
 		<li><a href="#whyosee">Other products sound similar.  Why OSEE?</a>
 		<li><a href="#onlyavionics">Is OSEE only for Avionics Engineering?</a>
 	   <li><a href="#whatisdefine">What is the OSEE Define?</a>
