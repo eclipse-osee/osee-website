@@ -211,7 +211,7 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       applications, documents, excel spreadsheets.  This capability has already been used a number of times
       to successfully import traceability from legacy documents and systems on projects OSEE has been deployed to.
 
-		<h3 id="importexcel">Can I import from Excel?</h3>
+		<h3 id="importexcel">Can I import from Microsoft Excel(c)?</h3>
       Quick Answer: Yes<br><br>
       Through OSEE's <a href="whatisblam">BLAM</a>, users can import from other applications, documents 
       and spreadsheets.
