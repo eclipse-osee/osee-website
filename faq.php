@@ -137,7 +137,7 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       The only requirement is that the paragraph are specified as "Heading" type.
 
 		<h3 id="newtable">Do I have to create a new database table for every type of Artifact that I want to use</h3>
-      Quick Answer: No<br>
+      Quick Answer: No<br><br>
 
       The OSEE Architecture Framework uses a common table structure to store all types of artifacts, attributes and 
       relations.  This allows the users to dynamically create and start using new objects without major database modification.
@@ -191,9 +191,24 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       <a href="http://en.wikipedia.org/wiki/Requirements_Traceability">Traceability</a> is handled in OSEE
       through the use of <a href="#whatareartifacts">Relations</a>.  These relations can be 
       <a href="#frameworktypes">defined in OSEE</a> according to their need and the users can then
-      add and remove these relations throughout the lifecycle of the requriements or other artifacts.  Deliverable
+      add and remove these relations throughout the lifecycle of the requirements or other artifacts.  Deliverable
       documents or any report generation would also use this traceability.
 
+		<h3 id="whatisblam">What is BLAM?</h3>
+      BLAM Lightweight Artifact Manipulation (BLAM) allows non-programmers to graphically construct workflows 
+      to automate repetitive tasks. A given workflow can be used for variety of similar tasks by using 
+      customizable controls to specify workflow parameters.  It also provides programmers the ability to interact
+      with the OSEE Artifact Framework API to build and execute tasks.
+
+		<h3 id="importtraceability">Can I import existing traceability into OSEE?</h3>
+      Quick Answer: Yes<br><br>
+      Since traceability is usually defined in a way that is specific to it's use and the objects that are being 
+      traced, there is currently no "generic" traceability importing in OSEE, however OSEE 
+      provides <a href="whatisblam">BLAM</a> that would enable traceability to be imported from existing 
+      applications, documents, excel spreadsheets.  This capability has already been used a number of times
+      to successfully import traceability from legacy documents and systems on projects OSEE has been deployed to.
+
+      <br><br><br>
 	</div>
 	
 EOHTML;
