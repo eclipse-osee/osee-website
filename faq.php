@@ -45,6 +45,7 @@
 		<li><a href="#whatisblam">What is BLAM?</a>
 		<li><a href="#importtraceability">Can I import existing traceability into OSEE?</a>
 		<li><a href="#importexcel">Can I import from Microsoft Excel(c)?</a>
+		<li><a href="#publishdocuments">Can I publish documents from OSEE?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -150,11 +151,13 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 
       All Artifact Types, Attribute Types and Relation Types (with a few exceptions) are fully customizable.  
       Although OSEE was initially built for capturing all data throughout the lifecycle of a large avionics 
-      systems engineering project, it was architected to store any data by simply defining a different data model to use.<br><br>
+      systems engineering project, it was architected to store any data by simply defining a 
+      different data model to use.<br><br>
 
       In addition, these data models can be dynamically modified.  New Artifacts, Attributes and Relations can be 
       specified at anytime (and even by end users if allowed).  Modification and deletion of these can be 
-      performed with some administrative back-end tools with the understanding that you would need to determine what to 
+      performed with some administrative back-end tools with the understanding that you would need to 
+      determine what to 
       do with the removed data.
 
 		<h3 id="havetouseword">Do I have to use Microsoft Word to enter my requirements?</h3>
@@ -216,6 +219,24 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       Through OSEE's <a href="whatisblam">BLAM</a>, users can import from other applications, documents 
       and spreadsheets.
 
+		<h3 id="publishdocuments">How do I publish documents from OSEE?</h3>
+      The majority of the work in publishing out of OSEE has been in the format of Microsoft Word(c) documents.
+      The user can create a Word template that "describes" the format, headers, footers and what data maps into
+      the specified areas in the template. A <a href="whatisblam:>BLAM</a> is then ran where the user can specify
+      the <a href="whatarebranches">branch</a> and what artifacts are to be published.  Upon execution, the 
+      documents are created.  This method has successfully generated documents in excess of 10,000 pages that
+      were delivered to the customer.<br><br>
+      
+      OSEE architecture is built to support other methods of publishing including web and open document formats.
+      Depending on the level of complexity, some work would be done to make the export generic.
+      
+      Another form of publishing that OSEE was architected for is delivery of OSEE and the database.  Although
+      OSEE can generate as many documents as the user desires, it was decided early on that the vendors and customers
+      would want and need the same navigation and exporation capabilities that OSEE provides.  Instead of 
+      delivering generated documents, one of the projects that OSEE is deployed on delivers a copy of OSEE with
+      a sanitized database (confidential data removed).  This has been very successful from both the program
+      and customer's point of view.
+      
       <br><br><br>
 	</div>
 	
