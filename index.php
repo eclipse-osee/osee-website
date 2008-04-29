@@ -69,7 +69,8 @@ include ($App->getProjectCommon()); # All on the same line to unclutter the user
 		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - EclipseCon 2008<br>
 		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - EclipseCon 2008<br>
 		<a href="http://www.eclipse.org/osee/news.php">Other News and Events</a>
-      
+		
+      <br><br><br>
 	</div>		
 	
 	<div id="rightcolumn">
