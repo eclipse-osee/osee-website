@@ -48,6 +48,7 @@
 		<li><a href="#publishdocuments">Can I publish documents from OSEE?</a>
 		<li><a href="#whatdatabases">What databases can be used with OSEE?</a>
 		<li><a href="#offline">Can OSEE be used offline and later sync'd up?</a>
+		<li><a href="#whatisvue">What is VUE?</a>
       </ol>
 		<h3 id="whatisosee">What is OSEE?</h3>
       OSEE provides a tightly integrated environment that supports lean engineering.  It is integrated around a simple, 
@@ -255,6 +256,19 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       it would just take some effort to provide the first versions of this feature. This would be a great area
       for collaboration.
 
+		<h3 id="whatisvue">What is VUE?</h3>
+      VUE is one of the last remaining external dependencies.  For those 
+      that aren't familiar, VUE (http://vue.uit.tufts.edu/) is a diagramming 
+      tool that OSEE ATS uses to define it's workflows.  Simply put, you can 
+      create a simple state diagram using the editor and embed the XML 
+      necessary to render the widgets for each state in the workflow.  
+      OSEE stores this file as XML and reads it to dynamically create and 
+      walk the users/teams through their process/workflow.  
+
+      The plan has been to replace this with an integrated GEF editor as 
+      soon as possible.  This would be a great are for collaboration for
+      whomever might be interested.
+      
       <br><br><br>
 	</div>
 	
