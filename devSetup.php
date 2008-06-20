@@ -18,8 +18,8 @@
 	      <li>Install Eclipse 3.3
 	      <li>Add SVN client to Eclipse by following instructions at <a href="http://www.polarion.org/index.php?page=download&project=subversive">
 	      http://www.polarion.org/index.php?page=download&project=subversive</a>. You will
-	      want to add all plugins available at Note:  This will allow you to connect to the OSEE SVN repositories AND OSEE uses some of these 
-	      plugins for compiling.
+	      want to add all plug-ins available at Note:  This will allow you to connect to the OSEE SVN repositories AND OSEE uses some of these 
+	      plug-ins for compiling.
 	      <li>If not already installed, install the Graphical Editing Framework by selecting Help pulldown - Software Updates - 
 	      Find and Install - Search for new features to install - Select GEF Update Site and complete installation.</li>
 	      <li>OSEE uses the GEF's Zest Visualization plugins.  To resolve these dependencies, you will need to anonymously connect to the /cvsroot/tools 
@@ -31,14 +31,19 @@
 	      <li>Create two workspaces: workspaceOseeClient and workspaceOseeServer and do the following for each:</li>
 	      <ul>
 	      	<li>Connect to the OSEE SVN repository.  You will connect using your committer username password or do an
-	      anonymous connection if you are not an OSEE committer.  Instructions are here <a href="http://wiki.eclipse.org/SVN_Howto">http://wiki.eclipse.org/SVN_Howto</a>.
+	      anonymous connection if you are not an OSEE committer.  Instructions are here <a href="http://wiki.eclipse.org/SVN_Howto">http://wiki.eclipse.org/SVN_Howto</a>.</li>
 	      	<li>checkout org.eclipse.osee.support.config</li>
 	      	<li>File -> Import -> Preferences -> org.eclipse.osee.support.config\osee_team.epf</li>
 	      	<li>select org.eclipse.osee.support.config\projectSets\Osee[AppServer|Client]ProjectSet.psf -> Import -> Team Project Set</li>
-	      </ul> 
+	      </ul>
+	      <li>In the workspaceOseeServer and do the following for each:</li>
+	      <ul>
+	      	<li>Double-click on /targetPlatforms/equinox3.4M6.target – an editor will open</li>
+	      	<li>In the editor that opens, in the upper right hand corner click "Set as Target Platform"</li>
+	      	<li>Launch the OSEE Application Server using the launch configuration "runOseeServer"</li>
+	      </ul>
 	      </ol>
 EOHTML;
-
 
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
