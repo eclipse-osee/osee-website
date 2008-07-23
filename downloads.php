@@ -19,41 +19,47 @@
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
+	# Must update these values after every release
+	$releaseDate = "XX July 2008";
+	$releaseMajorVersion = "X.X";
+	$releaseVersion = "X.X.X";
+	$releaseFullVersion = "XXXX";
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>
-			OSEE distribution consists of two parts - OSEE plug-ins and JDBC Drivers. Both parts are required.<br> 
-			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.<br> 		
-			JDBC Drivers are external libraries with their own licenses, which are distributed from an external location at <a href="http://osee.microdoc.com/">osee.microdoc.com</a>.
+			OSEE distribution consists of two parts - OSEE plug-ins and JDBC drivers. These two items are required to work with OSEE. OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>. JDBC Drivers are external libraries with their own licenses, which are distributed from an external location at <a href="http://osee.microdoc.com/">osee.microdoc.com</a>.	
+		</p>
+		<p>
+			In order to install OSEE you should install OSEE plug-ins and at least one JDBC driver, such as PostgreSQL or Derby. OSEE plug-ins and JDBC drivers are distributed from different update sites on different locations, so you should point to two different update sites in the Eclipse update manager.
 		</p>
 		<h2>Installation and update process</h2>
 		<p>
-		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">Installation instructions</a> and in <a href="/osee/documentation/gettingStarted/aboutOsee/update_eclipse.php">Update instructions</a>.
+		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'Installation Instructions'</a> and in <a href="/osee/documentation/gettingStarted/aboutOsee/update_eclipse.php">'Update Instructions'</a>.
 		</p>
 		<h2>Requirements</h2>
         <p>
-            This version requires Eclipse 3.4 and doesn't support previous versions of Eclipse IDE. You can see full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a>.
+            This version requires Eclipse 3.4 and doesn't support previous versions of Eclipse IDE. You can see a full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a>.
         </p>
 		<div class="homeitem3col">
 			<h3>Latest Version</h3>
 			<ul>
             	<li>
-                    <b>Version</b>: XXX  |  <b>Date</b>: XX July 2008  |  <b>Type</b>: X.X.X Release<br/>
+                    <b>Version</b>: $releaseFullVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: $releaseVersion Release<br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/changelog.txt">Change Log</a><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/releasenotes.txt">Release Notes</a>
                 </li>
                 <li>
                 	<b>Update Site</b><br/>
-                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://download.eclipse.org/technology/osee/VERSION/update-site/">http://download.eclipse.org/technology/osee/VERSION/update-site/</a></b> - [required]<br/>
+                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://download.eclipse.org/technology/osee/$releaseMajorVersion/update-site/">http://download.eclipse.org/technology/osee/$releaseMajorVersion/update-site/</a></b> - [required]<br/>
                 	<i>Important: In order to start working with OSEE you need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://osee.microdoc.com/">Visit external site to get JDBC Drivers</a></b> - [required]
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
-                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href='http://www.eclipse.org.downloads/download.php?file=/osee/downloads/drops/RELEASE/osee-all-in-one-VERSION.zip'></a></b><br/>
+                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href='http://www.eclipse.org.downloads/download.php?file=/osee/downloads/drops/$releaseMajorVersion/osee-all-in-one-$releaseFullVersion.zip'>osee-all-in-one-$releaseFullVersion.zip</a></b><br/>
                 	<i>Important: In order to start working with OSEE you need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://osee.microdoc.com/">Visit external site to get JDBC Drivers</a></b> - [required]
                 </li>
