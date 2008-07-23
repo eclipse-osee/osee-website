@@ -25,15 +25,17 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>
-			OSEE distribution consists of two parts - OSEE plug-ins and JDBC Drivers. Both parts are required in order to work with OSEE. OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>. JDBC Drivers are external libraries with their own licenses, which are distributed from an external location at <a href="http://osee.microdoc.com/">osee.microdoc.com</a>.
+			OSEE distribution consists of two parts - OSEE plug-ins and JDBC Drivers. Both parts are required.<br> 
+			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.<br> 		
+			JDBC Drivers are external libraries with their own licenses, which are distributed from an external location at <a href="http://osee.microdoc.com/">osee.microdoc.com</a>.
 		</p>
 		<h2>Installation and update process</h2>
 		<p>
-		    Installation and update process is simple and straightforward. You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">Installation instructions</a> and in <a href="/osee/documentation/gettingStarted/aboutOsee/update_eclipse.php">Update instructions</a>.
+		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">Installation instructions</a> and in <a href="/osee/documentation/gettingStarted/aboutOsee/update_eclipse.php">Update instructions</a>.
 		</p>
 		<h2>Requirements</h2>
         <p>
-            This version requires Eclipse 3.4 and doesn't support previous versions of Eclipse IDE. You can see full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a> topic.
+            This version requires Eclipse 3.4 and doesn't support previous versions of Eclipse IDE. You can see full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a>.
         </p>
 		<div class="homeitem3col">
 			<h3>Latest Version</h3>
