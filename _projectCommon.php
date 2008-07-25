@@ -4,28 +4,25 @@
 	# See the Committer Tools "How Do I" for list of themes
 	# https://dev.eclipse.org/committers/
 	# Optional: defaults to system theme 
-	$theme = "";
-
+	$theme = "Phoenix";
+	
+	include("sidebar.php");
+	
 	$Nav->setLinkList(array());
 
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
-	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 1);
-	$Nav->addNavSeparator("Getting Started", 	"/osee/documentation/gettingStarted/gettingStarted.php");
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Components", "/osee/components.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Demos", "/osee/demos.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Downloads", "/osee/downloads.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;FAQ", "/osee/faq.php", 	"_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;News and Events", "/osee/news.php", 	"_self", 1);
-	$Nav->addNavSeparator("Development", 	"");
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Committers/Contacts", "/osee/contact.php", "_blank", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_blank", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Developer Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_blank", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?product=OSEE", "_blank", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Bugzilla Components", "https://bugs.eclipse.org/bugs/describecomponents.cgi?product=OSEE", "_blank", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Architecture", "/osee/arch.php", "_self", 1);
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Workspace Setup", "/osee/devSetup.php", "_self", 1);
-	$Nav->addNavSeparator("Other", 	"");
-	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;OSEE Proposal", "http://www.eclipse.org/proposals/osee/", "_blank", 1);
-
+	$Nav->addNavSeparator("OSEE Home", "/osee/index.php");
+	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
+	$Nav->addCustomNav("Getting Started", 	"/osee/documentation/gettingStarted/gettingStarted.php", "_self", 2);
+	$Nav->addCustomNav("Documentation", "/osee/documentation/index.php", "_self", 2);
+	$Nav->addCustomNav("Demos", "/osee/demos.php", "_self", 2);
+	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
+	$Nav->addCustomNav("Repository", "http://dev.eclipse.org/viewsvn/index.cgi/org.eclipse.osee/?root=Technology_SVN", "_self", 2);
+	$Nav->addCustomNav("Bugs", "/osee/bugs.php", "_self", 2);
+	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
+	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_self", 2);
+	$Nav->addCustomNav("FAQ", "/osee/faq.php", "_self", 2);
+	$Nav->addCustomNav("News and Events", "/osee/news.php", "_self", 2);	
+	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
 ?>
