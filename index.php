@@ -26,14 +26,14 @@ include ($App->getProjectCommon());
 
 <div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<img align="left" src="images/osee_logo.gif" style="padding-right: 10px;" alt="OSEE logo" />
+		<img align="left" src="images/osee_logo.png" style="padding-right: 10px;" alt="OSEE logo" />
 		<p>OSEE provides a tightly integrated environment that supports lean engineering. 
 		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
 		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
 		   verification, and validation.
 		</p>
 		<a href="http://en.wikipedia.org/wiki/V_model" target="_blank">
-		<img align="center" src="images/VDiagram_sm.png" border="1" width="401" height="208"/>V-Model</a>
+		<img align="center" src="images/VDiagram_sm.png" border="1" width="401" height="208"/></a>
 		
 		<p>General Features:</p>
 		<ul>
@@ -41,7 +41,7 @@ include ($App->getProjectCommon());
 			<li>Integrated Process and Workflow</li>
 		</ul>
                   
-      <div class="homeitem3col">
+      <div class="homeitem">
       <h3>New to OSEE?</h3>
       	<ul>
       		<li>
@@ -53,7 +53,7 @@ include ($App->getProjectCommon());
       	</ul>
       </div>
       
-		<div class="homeitem3col">	
+		<div class="homeitem">	
 			<h3>What's New</h3>
 			<ul>
 				<li>
