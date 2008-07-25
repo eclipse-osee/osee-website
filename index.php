@@ -25,8 +25,7 @@ include ($App->getProjectCommon());
 	$html = <<<EOHTML
 
 <div id="midcolumn">
-		<h1>$pageTitle</h1>
-		<img align="left" src="images/osee_logo.png" style="padding-right: 10px;" alt="OSEE logo" />
+		<h1>$pageTitle</h1>		
 		<p>OSEE provides a tightly integrated environment that supports lean engineering. 
 		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
 		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
