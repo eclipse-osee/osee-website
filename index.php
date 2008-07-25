@@ -26,8 +26,9 @@ include ($App->getProjectCommon());
 
 <div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<a href="http://en.wikipedia.org/wiki/V_model" target="_blank">
-		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;" width="401" height="208" alt="V-Model"/></a>		
+		
+		<a href="http://en.wikipedia.org/wiki/V_model" target="_self">
+		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>		
 		<p>OSEE provides a tightly integrated environment that supports lean engineering. 
 		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
 		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
