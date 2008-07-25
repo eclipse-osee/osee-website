@@ -27,7 +27,7 @@
 		<h3>Configurable and Extensible</h3>
 			The data type configuration in OSEE is extensible and user configurable. Users can define new artifact, attribute, and relation types and their constraints such as multiplicity and applicability. Type inheritance allows similar types to be defined and modified without tedious redundancy because similar types inherit what is common from their super type.
 		<h3>Default Type Configuration</h3>
-			This type information is defined in an xml spreadsheet and contributed using the extension point org.eclipse.osee.framework.skynet.core.OseeTypes.  The default type configuration which servers as a good example can be found at https://dev.eclipse.org/svnroot/technology/trunk/org.eclipse.osee.framework.skynet.core/support/		
+			This type information is defined using xml spreadsheets that are contributed using the extension point org.eclipse.osee.framework.skynet.core.OseeTypes.  The default type configuration which servers as a good example can be found at https://dev.eclipse.org/svnroot/technology/trunk/org.eclipse.osee.framework.skynet.core/support/		
 		<h3>Artifact Type Definition</h3>
 			Factory class: The java class that constructs artifacts of a specific type
 			Artifact Type Name: The name of the artifact type.

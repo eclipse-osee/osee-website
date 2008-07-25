@@ -22,8 +22,9 @@
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
-	<h3>Concepts</h3>
+
 	<div id="midcolumn" style="width:95%">
+		<h3>Concepts</h3>
 		<a href="concepts/TypeConfiguration.php">Data Types</a>
 	</div>
 
