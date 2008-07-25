@@ -10,7 +10,7 @@
 		<h6>Quick Links</h6>
 		<ul>
 			<li><a href="http://www.eclipse.org/proposals/osee/">Project Proposal</a></li>
-			<li><a href="http://osee.microdoc.com/node/2">OSEE external distribution home page</a></li>
+			<li><a href="http://osee.microdoc.com/node/2">OSEE add-ons page</a></li>
 		</ul>
 	</div>
 
