@@ -23,13 +23,15 @@ include ($App->getProjectCommon());
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
-
-<div id="midcolumn">
-	<div id="intro">
+	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		
+		<table>
+		<tr>
+		<td>
 		<a href="http://en.wikipedia.org/wiki/V_model" target="_self">
-		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>		
+		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
+		</td>
+		<td>		
 		<p>OSEE provides a tightly integrated environment that supports lean engineering. 
 		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
 		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
@@ -41,7 +43,9 @@ include ($App->getProjectCommon());
 			<li>Bi-Directional Traceability</li>
 			<li>Integrated Process and Workflow</li>
 		</ul>
-      </div>            
+		</td>
+		</tr>
+        </table>
       <div class="homeitem">
       <h3>New to OSEE?</h3>
       	<ul>
@@ -65,9 +69,8 @@ include ($App->getProjectCommon());
 					. Stay Tuned.
 				</li>
 			</ul>		
-		</div>
-	</div>		
-	
+		</div>	
+	</div> 
 	<div id="rightcolumn">
 		$sidebar
      </div>
