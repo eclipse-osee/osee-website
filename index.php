@@ -25,6 +25,7 @@ include ($App->getProjectCommon());
 	$html = <<<EOHTML
 
 <div id="midcolumn">
+	<div id="intro">
 		<h1>$pageTitle</h1>
 		
 		<a href="http://en.wikipedia.org/wiki/V_model" target="_self">
@@ -40,7 +41,7 @@ include ($App->getProjectCommon());
 			<li>Bi-Directional Traceability</li>
 			<li>Integrated Process and Workflow</li>
 		</ul>
-                  
+      </div>            
       <div class="homeitem">
       <h3>New to OSEE?</h3>
       	<ul>
