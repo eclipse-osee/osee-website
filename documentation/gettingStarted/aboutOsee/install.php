@@ -17,7 +17,7 @@
 	#
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "OSEE - Documentation";
-	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
+	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar";
 
 	# Paste your HTML content between the EOHTML markers!
