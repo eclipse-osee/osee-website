@@ -26,7 +26,7 @@
 
 	<div id="midcolumn" style="width:95%">
 
-		<h3>OSEE installation instructions</h3>
+		<h3>OSEE Installation Instructions</h3>
 		<p> OSEE can be installed from within Eclipse using update manager. All the user should do is point update manager to the remote or local update site. To install OSEE:</p>
 	<ol>
 		<li>
