@@ -21,7 +21,7 @@
 		And just like Eclipse RCP allows an application to be built and deployed using the Eclipse framework but not include all the
 		Exemplary applications like JDT, OSEE allows an application to be built and deployed using the OSEE Application 
 		Framework without including such applications as OSEE Define and OSEE ATS.<br><br>
-      <img align="center" src="images/OSEEArchitecture.gif" border="0"/>
+      <img align="center" src="/osee/images/OSEEArchitecture.gif" border="0"/>
 EOHTML;
 
 

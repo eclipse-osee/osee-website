@@ -25,7 +25,7 @@
 
 		<h1>OSEE User Guide</h1>
 		<p>
-		<a href="gettingStarted.php">Getting started</a>
+		<a href="gettingStarted/gettingStarted.php">Getting started</a>
 		</p>
 	<br/>
 	</div>	

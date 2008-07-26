@@ -10,13 +10,13 @@
 
 	#*****************************************************************************
 	#
-	# requirements.php
+	# Getting Started.php
 	#
 	#****************************************************************************
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Documentation";
+	$pageTitle 		= "OSEE - Getting Started";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -24,8 +24,25 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn" style="width:95%">
-		<h3>Concepts</h3>
-		<a href="concepts/TypeConfiguration.php">Data Types</a>
+		<h3>$pageTitle</h3>
+		<p>
+		Before installation, users should familiarize themselves with the 
+		<a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'requirements'</a> for installation. 
+		To get detailed instructions refer to <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'OSEE installation instructions'</a>. 
+		</p>
+		
+		<h2>I installed now what?</h2>
+		<p>
+		Before diving into the system, please take a look at the following topics or proceed to the <a href="/osee/demos/php">'demos'</a> section:
+		</p>
+		<ul>
+			<li><a href="concepts/arch.php">Architecture</li>
+			<li><a href="concepts/components.php">Components</li>
+			<li><a href="concepts/TypeConfiguration.php">Data Types</a></li>
+		</ul>
+		<p>
+		More detailed information can be found in the <a href="../index.php">'Documentation'</a>.
+		</p>		
 	</div>
 
 EOHTML;
