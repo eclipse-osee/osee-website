@@ -65,15 +65,15 @@
                 	<b>Update Site</b><br/>
                 	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://download.eclipse.org/technology/osee/$releaseMajorVersion/update-site/">http://download.eclipse.org/technology/osee/$releaseMajorVersion/update-site/</a></b> - [required]<br/>
                 	
-                	<i>Important: In order to start working with OSEE you need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b> - [required]
+                	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
+                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
-                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href='http://www.eclipse.org.downloads/download.php?file=/osee/downloads/drops/$releaseMajorVersion/osee-all-in-one-$releaseFullVersion.zip'>osee-all-in-one-$releaseFullVersion.zip</a></b><br/>
-                	
-                	<i>Important: In order to start working with OSEE you need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b> - [required]
+                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
+                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.4, add-ons, and dependencies. 
+                	Refer to <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'requirements'</a> for a list of dependencies. 
+                	Such scheme of distribution is caused by licensing requirements.</i><br/>                    
                 </li>
             </ul>
 		</div>
