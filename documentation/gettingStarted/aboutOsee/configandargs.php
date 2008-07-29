@@ -30,7 +30,7 @@
 	<br/>
 	<p>Client refers to Eclipse/OSEE on local host. Server refers to the OSEE application server</p>
 	<br/>
-	<table>
+	<table border="1" width="95%">
 		<tr>
 			<th>Name</th>
 			<th>Values</th>
