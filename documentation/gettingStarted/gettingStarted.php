@@ -39,6 +39,7 @@
 			<li><a href="concepts/arch.php">Architecture</li>
 			<li><a href="concepts/components.php">Components</li>
 			<li><a href="concepts/TypeConfiguration.php">Data Types</a></li>
+			<li><a href="aboutOsee/configandargs.php">Configuration and VM Arguments</a></li>
 		</ul>
 		<p>
 		More detailed information can be found in the <a href="../index.php">'Documentation'</a>.
