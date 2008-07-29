@@ -39,7 +39,7 @@
 		</tr>
 		<tr>
 			<td>osee.application.server.override</td>
-			<td>[http://&ltaddress&gt:&ltport&gt]</td>
+			<td>[http://&lt;address&gt;:&lt;port&gt;]</td>
 			<td>Client</td>
 			<td><p>Speciefies the application server address to use. This overrides the application server address specified in the database.</p></td>
 		</tr>
@@ -57,7 +57,7 @@
 		</tr>
 		<tr>
 			<td>osee.local.http.worker.port</td>
-			<td>&ltport&gt</td>
+			<td>&lt;port&gt;</td>
 			<td>Client</td>
 			<td><p>Port to use for local worker server.</p></td>
 		</tr>
@@ -69,7 +69,7 @@
 		</tr>
 		<tr>
 			<td>osee.db.connection.id</td>
-			<td>&ltdb identifier&gt</td>
+			<td>&lt;db identifier&gt;</td>
 			<td>Both</td>
 			<td><p>Specifies which database OSEE should connect to as specified by the ...db.connection.xml file. See db.connection file for more information.</p></td>
 		</tr>
