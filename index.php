@@ -64,7 +64,7 @@ include ($App->getProjectCommon());
 				<li>
 					<a href="">OSEE 0.4.0 RC 1</a> will be released on 
 					<span class="dates">
-						07/28/08
+						08/15/08
 					</span>
 					. Stay Tuned.
 				</li>

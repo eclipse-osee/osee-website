@@ -20,7 +20,7 @@
 	$pageAuthor		= "Roberto E. Escobar";
 
 	# Must update these values after every release
-	$releaseDate = "28 July 2008";
+	$releaseDate = "15 Aug 2008";
 	$releaseMajorVersion = "0.4";
 	$releaseVersion = "0.4.0";
 	$releaseFullVersion = "XXXX";
@@ -54,7 +54,7 @@
             You can see a full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a>.
         </p>
 		<div class="homeitem3col">
-			<h3>Latest Version</h3>
+			<h3>Latest Version - Not Yet Released</h3>
 			<ul>
             	<li>
                     <b>Version</b>: $releaseFullVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: $releaseVersion Release Candidate<br/>
