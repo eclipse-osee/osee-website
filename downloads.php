@@ -50,14 +50,13 @@
 		</p>
 		<h2>Requirements</h2>
         <p>
-            This version requires Eclipse 3.4 and doesn't support previous versions of Eclipse IDE. 
-            You can see a full list of requirements in <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'Requirements'</a>.
+            This version of OSEE requires Eclipse 3.4 and doesn't support previous versions of Eclipse.  Additionally, Java 1.6 or greater is required. 
         </p>
 		<div class="homeitem3col">
-			<h3>Latest Version - Not Yet Released</h3>
+			<h3>Latest Version - Released</h3>
 			<ul>
             	<li>
-                    <b>Version</b>: $releaseFullVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: $releaseVersion Release Candidate<br/>
+                    <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release Candidate<br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/changelog.txt">Change Log</a><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/releasenotes.txt">Release Notes</a>
                 </li>
