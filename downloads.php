@@ -20,10 +20,9 @@
 	$pageAuthor		= "Roberto E. Escobar";
 
 	# Must update these values after every release
-	$releaseDate = "15 Aug 2008";
+	$releaseDate = "24 Sep 2008";
 	$releaseMajorVersion = "0.4";
 	$releaseVersion = "0.4.0";
-	$releaseFullVersion = "XXXX";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
 
 	# Paste your HTML content between the EOHTML markers!
@@ -56,7 +55,7 @@
 			<h3>Latest Version - Released</h3>
 			<ul>
             	<li>
-                    <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release Candidate<br/>
+                    <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/changelog.txt">Change Log</a><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/releasenotes.txt">Release Notes</a>
                 </li>

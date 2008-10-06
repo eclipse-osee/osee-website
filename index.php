@@ -62,13 +62,12 @@ include ($App->getProjectCommon());
 			<h3>What's New</h3>
 			<ul>
 				<li>
-					<a href="">OSEE 0.4.0 RC 1</a> will be released on 
+					<a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.4.0 RC 1</a> was released on 
 					<span class="dates">
-						08/15/08
+						2008-09-24
 					</span>
-					. Stay Tuned.
 				</li>
-			</ul>		
+			</ul>
 		</div>	
 	</div> 
 	<div id="rightcolumn">
