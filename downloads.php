@@ -56,7 +56,7 @@
 			<ul>
             	<li>
                     <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/changelog.txt">Change Log</a><br/>
+                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/downloads/0_4_0/0_4_0.html">Change Log</a><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/changelogs/releasenotes.txt">Release Notes</a>
                 </li>
                 <li>
