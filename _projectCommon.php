@@ -18,7 +18,7 @@
 	$Nav->addCustomNav("Documentation", "/osee/documentation/index.php", "_self", 2);
 	$Nav->addCustomNav("Demos", "/osee/demos.php", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
-	$Nav->addCustomNav("Repository", "http://dev.eclipse.org/viewsvn/index.cgi/org.eclipse.osee/?root=Technology_SVN", "_self", 2);
+	$Nav->addCustomNav("Repository", "http://dev.eclipse.org/viewsvn/index.cgi/org.eclipse.osee/?root=svnroot/technology/org.eclipse.osee", "_self", 2);
 	$Nav->addCustomNav("Bug Components", "https://bugs.eclipse.org/bugs/describecomponents.cgi?product=OSEE", "_self", 2);
 	$Nav->addCustomNav("Bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 2);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
