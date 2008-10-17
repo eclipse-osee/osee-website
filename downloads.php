@@ -44,8 +44,7 @@
 		</p>
 		<h2>Installation and update process</h2>
 		<p>
-		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'Installation Instructions'</a> 
-		    and in <a href="/osee/documentation/gettingStarted/aboutOsee/update_eclipse.php">'Update Instructions'</a>.
+		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'Installation Instructions'</a>.
 		</p>
 		<h2>Requirements</h2>
         <p>
