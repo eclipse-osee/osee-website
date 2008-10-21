@@ -37,12 +37,13 @@
 	<h3>Fully automated testing</h3>
 	<ul>
 		<li>Automated test point tally and rollup of pass/fail determination</li>
-		<li>Functional Testing</li>
+		<li>Functional Testing
 		<ul>
 			<li>Simulated Environment (eases demand on limited test station resources)</li>
 			<li>Tests (without modification of any kind) can be run in both soft real-time and simulated environments (simultaneously, if desired)</li>
 			<li>Real-time messaging system that supports MIL-STD-1553 MUX, serial, wire, analog and digital discretes, and publish/subscribe Data Distribution Service (DDS)</li>
 		</ul>
+		</li>
 		<li>Unit Testing</li>
 		<ul>
 			<li>Java</li>
