@@ -24,9 +24,8 @@
 	<div id="midcolumn" style="width:95%">
 
 		<h1>OSEE User Guide</h1>
-		<p>
-		<a href="gettingStarted/gettingStarted.php">Getting started</a>
-		</p>
+		<a href="gettingStarted/gettingStarted.php">Getting started</a><br/>
+		<a href="OSEE_Test_and_Simulation_Component.php">Getting started</a><br/>
 	<br/>
 	</div>	
 
