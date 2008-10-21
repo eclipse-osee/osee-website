@@ -25,8 +25,7 @@
 <h3>OSEE Test and Simulation Component Features</h3>
 
 <div id="midcolumn" style="width:95%">
-<ul>
-	<h3>Test Environment Service</h3>
+	<h2>Test Environment Service</h2>
 	<ul>
 		<li>Provides dynamic lookup of resources</li>
 		<li>Provides both soft real-time and simulated capabilities</li>
@@ -42,13 +41,12 @@
 			<li>Simulated Environment (eases demand on limited test station resources)</li>
 			<li>Tests (without modification of any kind) can be run in both soft real-time and simulated environments (simultaneously, if desired)</li>
 			<li>Real-time messaging system that supports MIL-STD-1553 MUX, serial, wire, analog and digital discretes, and publish/subscribe Data Distribution Service (DDS)</li>
-		</ul>
-		</li>
-		<li>Unit Testing</li>
+		</ul></li>
+		<li>Unit Testing
 		<ul>
 			<li>Java</li>
 			<li>C++</li>
-		</ul>
+		</ul></li>
 		<li>Automated Display Testing (ADT)</li>
 	</ul>
 	<h3>Interactive Testing (automated tests with user input)</h3>
@@ -59,11 +57,11 @@
 		<li>User selectable views of outfiles: normal, debug, and flat</li>
 		<li>Direct linking of output file lines to source test lines</li>
 		<li>Automatic correlation of a run-time test point to the test source line that generated it</li>
-		<li>XML output file can be automatically transformed into any format</li>
+		<li>XML output file can be automatically transformed into any format
 		<ul>
 			<li>Current output file transform is JavaScript enabled HTML</li>
 			<li>Can apply any XSLT translation</li>
-		</ul>
+		</ul></li>
 	</ul>
 	<h3>Test Source File</h3>
 	<ul>
@@ -104,7 +102,7 @@
 		<li>supports advanced debugging of the test environment using repeatable conditions</li>
 		<li>investigate flight recordings</li>
 	</ul>
-	</div>
+</div>
 
 EOHTML;
 
