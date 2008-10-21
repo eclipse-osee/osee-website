@@ -26,7 +26,7 @@
 
 <div id="midcolumn" style="width:95%">
 <ul>
-	<li>Test Environment Service</li>
+	<h3>Test Environment Service</h3>
 	<ul>
 		<li>Provides dynamic lookup of resources</li>
 		<li>Provides both soft real-time and simulated capabilities</li>
@@ -34,7 +34,7 @@
 		<li>Supports user configurable number of simultaneous connections</li>
 		<li>manages the I/O and testing resources</li>
 	</ul>
-	<li>Fully automated testing</li>
+	<h3>Fully automated testing</h3>
 	<ul>
 		<li>Automated test point tally and rollup of pass/fail determination</li>
 		<li>Functional Testing</li>
@@ -50,8 +50,8 @@
 		</ul>
 		<li>Automated Display Testing (ADT)</li>
 	</ul>
-	<li>Interactive Testing (automated tests with user input)</li>
-	<li>Output files</li>
+	<h3>Interactive Testing (automated tests with user input)</h3>
+	<h3>Output files</h3>
 	<ul>
 		<li>Output file in XML</li>
 		<li>Interactive outfiles (user can navigate the out file)</li>
@@ -64,11 +64,11 @@
 			<li>Can apply any XSLT translation</li>
 		</ul>
 	</ul>
-	<li>Test Source File</li>
+	<h3>Test Source File</h3>
 	<ul>
 		<li>Test files are color/tool tip annotated with failures</li>
 	</ul>
-	<li>Tightly Integrated into the Open System Engineering Environment</li>
+	<h3>Tightly Integrated into the Open System Engineering Environment</h3>
 	<ul>
 		<li>Utilizes OSEE Application Framework to provide traceability to bidirectional traceability between software requirements, application code, and test</li>
 		<li>Leverages Java Development Toolkit (JDT) and C/C++ Development Toolkit (CDT)</li>
@@ -76,7 +76,7 @@
 		<li>Supports the execution of multiple simultaneous batches within a single workspace</li>
 		<li>Built-in help system extended with test manger user guide</li>
 	</ul>
-	<li>Test Manager GUI</li>
+	<h3>Test Manager GUI</h3>
 	<ul>
 		<li>Consistent, clean interface for the control of unit and functional test in the real-time and simulated environments</li>
 		<li>Test results streamed in real-time from test service to test manager</li>
@@ -89,7 +89,7 @@
 		<li>Lists available test services that can be used to run test files</li>
 		<li>Real-time display of test service usage information</li>
 	</ul>
-	<li>Message GUI</li>
+	<h3>Message GUI</h3>
 	<ul>
 		<li>Monitor, manipulate and record real-time messaging data</li>
 		<li>Common user interface supporting P/S, 1553, discrete, analog, serial</li>
