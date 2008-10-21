@@ -71,7 +71,7 @@
 	</ul>
 	<h3>Tightly Integrated into the Open System Engineering Environment</h3>
 	<ul>
-		<li>Utilizes OSEE Application Framework to provide traceability to bidirectional traceability between software requirements, application code, and test</li>
+		<li>Utilizes OSEE Application Framework to provide bidirectional traceability between software requirements, application code, and tests</li>
 		<li>Leverages Java Development Toolkit (JDT) and C/C++ Development Toolkit (CDT)</li>
 		<li>Facilitates seamless flow between test development, debugging, execution, and result analysis</li>
 		<li>Supports the execution of multiple simultaneous batches within a single workspace</li>
