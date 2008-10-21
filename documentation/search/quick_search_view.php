@@ -1,27 +1,31 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html>
-<head>
+<?php
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
+	$App = new App();
+	$Nav = new Nav();
+	$Menu = new Menu();
+	include($App->getProjectCommon());
+	# All on the same line to unclutter the user's desktop'
 
-<meta name="copyright" content="Copyright (c) 2004, 2007 Boeing. All rights reserved. This program and the accompanying materials are made available under the terms of the Eclipse Public License v1.0 which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html Contributors: Boeing - initial API and implementation" >
+	#*****************************************************************************
+	#
+	# Getting Started.php
+	#
+	#****************************************************************************
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="STYLESHEET" href="../book.css" charset="ISO-8859-1" type="text/css">
-<title>Quick Search View</title>
-<script language="JavaScript" src="PLUGINS_ROOT/org.eclipse.help/livehelp.js"> </script>
+	#
+	# Begin: page-specific settings.  Change these.
+	$pageTitle 		= "Quick Search View";
+	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, Quick, Search";
+	$pageAuthor		= "Roberto E. Escobar";
 
-<link rel="stylesheet" href="../content/PLUGINS_ROOT/org.eclipse.help.webapp/advanced/breadcrumbs.css" charset="ISO-8859-1" type="text/css"></link>
-<script type="text/javascript" src="../content/PLUGINS_ROOT/org.eclipse.help/livehelp.js"> </script>
+	# Paste your HTML content between the EOHTML markers!
+	$html = <<<EOHTML
 
-<link rel="stylesheet" href="../content/PLUGINS_ROOT/PRODUCT_PLUGIN/narrow_book.css" type="text/css"></link>
-<link rel="stylesheet" href="../content/PLUGINS_ROOT/PRODUCT_PLUGIN/win32_narrow_book.css" type="text/css"></link>
-<script type="text/javascript">
-<!--
-if (parent.ContentToolbarFrame && parent.ContentToolbarFrame.setButtonState) parent.ContentToolbarFrame.setButtonState("toggle_highlight","hidden");
--->
-</script>
-</head>
-<body>
+<div id="midcolumn" style="width:95%">
+	<h1>$pageTitle</h1>
+	<br/>
 	<h1>Quick Search View</h1>
 
 	<p>The Quick Search view allows users to perform searches for information 
@@ -65,7 +69,12 @@ if (parent.ContentToolbarFrame && parent.ContentToolbarFrame.setButtonState) par
 	</ol>
 		
 	<p><img border="0" src="../images/ngrelc.png" alt="Related concepts" /><br>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="attribute_tagging.html">Attribute Tagging</a>
-	</p>			
-</body>
-</html>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="attribute_tagging.php">Attribute Tagging</a>
+	</p>
+</div>
+
+EOHTML;
+
+	# Generate the web page
+	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+?>

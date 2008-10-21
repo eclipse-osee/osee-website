@@ -18,7 +18,7 @@
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "Attribute Tagging for Quick Search";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, Requirements, Management";
-	$pageAuthor		= "Ryan D. Brooks";
+	$pageAuthor		= "Roberto E. Escobar";
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
@@ -98,7 +98,7 @@
 	</table>	
 
 	<p><img border="0" src="../images/ngrelr.png" alt="Related reference" /><br>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="quick_search_view.html">Quick Search View</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="quick_search_view.php">Quick Search View</a>
 	</p>
 </div>
 
