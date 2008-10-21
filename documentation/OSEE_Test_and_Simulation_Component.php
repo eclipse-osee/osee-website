@@ -24,6 +24,7 @@
 	$html = <<<EOHTML
 <h3>OSEE Test and Simulation Component Features</h3>
 
+<div id="midcolumn" style="width:95%">
 <ul>
 	<li>Test Environment Service</li>
 	<ul>
@@ -102,6 +103,7 @@
 		<li>supports advanced debugging of the test environment using repeatable conditions</li>
 		<li>investigate flight recordings</li>
 	</ul>
+	</div>
 
 EOHTML;
 

@@ -25,7 +25,7 @@
 
 		<h1>OSEE User Guide</h1>
 		<a href="gettingStarted/gettingStarted.php">Getting started</a><br/>
-		<a href="OSEE_Test_and_Simulation_Component.php">Getting started</a><br/>
+		<a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a><br/>
 	<br/>
 	</div>	
 
