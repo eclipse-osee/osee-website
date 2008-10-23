@@ -22,14 +22,14 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn" style="width:95%">
-
 		<h1>OSEE User Guide</h1>
-		<a href="gettingStarted/gettingStarted.php">Getting started</a><br/>
-		<a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a><br/>
-		<a href="search/quick_search_view.php">Quick Search View</a><br/>
-		<a href="search/attribute_tagging.php">Attribute Tagging </a><br/>
+		<li><a href="gettingStarted/gettingStarted.php">Getting started</a></li>
+		<li><a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
+		<li><a href="search/quick_search_view.php">Quick Search View</a></li>
+		<li><a href="search/attribute_tagging.php">Attribute Tagging </a></li>
 		
-	<br/>
+		<h1>External References</h1>
+		<li><a href="http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf">U.S. Department of Defense Open Technology Development</a></li>
 	</div>	
 
 EOHTML;
