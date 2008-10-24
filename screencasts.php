@@ -1,7 +1,7 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "OSEE Demos";
+	$pageTitle 		= "OSEE Screencasts";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Ryan D. Brooks; Donald G. Dunne";
 	
@@ -10,9 +10,7 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-      In order to understand OSEE, the following screencasts are available that will help the user/developer/manager understand more about what OSEE is and what it can provide for any engineering project.<br><br>
-
-      For those wishing to follow along and take OSEE for a test run, we also provides a demo installation that includes a copy OSEE and a database loaded with sample data.  Although the OSEE team is moving toward providing the demo installation downloadable from this site, it is currently only available directly from the team leads.  Please feel free to email <a href="mailto:donald.g.dunne@boeing.com">Don Dunne</a> or <a href="mailto:ryan.d.brooks@boeing.com">Ryan Brooks</a> to access a copy of this installation.  The installation is NOT required to view the following screencasts.<br><br>
+      The following screencasts provide an effective way to quickly learn what OSEE is and start to see how it can be applied to your engineering project.<br><br>
 
 <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/1.0%20OSEE%20Demo%20Introduction%20Screencast.zip">OSEE Demo Introduction Screencast - START HERE</a> - This screencast introduces all the other screencasts that are available and describes the pre-requisites necessary for following along with the remainder of the screencasts.<br><br>
 
