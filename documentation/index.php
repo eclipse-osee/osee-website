@@ -24,10 +24,15 @@
 	<div id="midcolumn" style="width:95%">
 		<h1>OSEE User Guide</h1>
 		<li><a href="gettingStarted/gettingStarted.php">Getting started</a></li>
+		<li><a href="/osee/screencasts.php">'Screencast'</a></li>
+		<li><a href="/osee/faq.php">'FAQ'</a></li>
 		<li><a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
 		<li><a href="search/quick_search_view.php">Quick Search View</a></li>
 		<li><a href="search/attribute_tagging.php">Attribute Tagging </a></li>
-		
+		<li><a href="aboutOsee/configandargs.php">Configuration and VM Arguments</a></li>
+		<li><a href="concepts/arch.php">Architecture</li>
+		<li><a href="concepts/components.php">Components</li>
+		<li><a href="concepts/TypeConfiguration.php">Data Types</a></li>
 		<h1>External References</h1>
 		<li><a href="http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf">U.S. Department of Defense Open Technology Development</a></li>
 	</div>	

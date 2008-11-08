@@ -33,13 +33,13 @@
 		
 		<h2>I installed now what?</h2>
 		<p>
-		Before diving into the system, please take a look at the following topics or proceed to the <a href="/osee/screencasts.php">'Screencast'</a> section:
+		Before diving into the system, you want to proceed to the <a href="/osee/screencasts.php">'Screencast'</a> and <a href="/osee/faq.php">'FAQ'</a> sections.
 		</p>
+		<h4>Selected Topics</h4>
 		<ul>
 			<li><a href="concepts/arch.php">Architecture</li>
 			<li><a href="concepts/components.php">Components</li>
 			<li><a href="concepts/TypeConfiguration.php">Data Types</a></li>
-			<li><a href="aboutOsee/configandargs.php">Configuration and VM Arguments</a></li>
 		</ul>
 		<p>
 		More detailed information can be found in the <a href="../index.php">'Documentation'</a>.
