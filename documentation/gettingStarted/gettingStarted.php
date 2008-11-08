@@ -33,7 +33,7 @@
 		
 		<h2>I installed now what?</h2>
 		<p>
-		Before diving into the system, please take a look at the following topics or proceed to the <a href="/osee/demos/php">'demos'</a> section:
+		Before diving into the system, please take a look at the following topics or proceed to the <a href="/osee/screencasts.php">'Screencast'</a> section:
 		</p>
 		<ul>
 			<li><a href="concepts/arch.php">Architecture</li>
