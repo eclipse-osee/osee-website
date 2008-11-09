@@ -83,13 +83,13 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       customers with different needs and this becomes a major undertaking.<br><br>OSEE provides the capability to create
       these variant branches and maintain not only the record of where these branches came from, but also enables
       changes made to the baseline branches to be easily committed to the variants.  In addition, OSEE manages these
-      variants in an efficient manner such that only the changed requirements (or artifacts) are "copied".<br><br>
+      variants in an efficient manner such that only the changed requirements (or artifacts) are "copied".
 
 		<h3 id="howartifactsarestored">How are artifacts stored?</h3>
 		The OSEE Application Framework provides a dynamic and strongly typed artifact (object) model that is stored using
-		a relational database.  All OSEE applications use this version controlled persistence layer to store their artifacts.
-
-
+		a relational database.  All OSEE applications use this version controlled persistence layer to store their
+		artifacts, provide branching, etc.
+		
 		<h3 id="whatisaworkingbranch">What is a Working Branch?</h3>
       A working branch is simply a sandbox area for a users to make changes and perform reviews before committing
       to the baseline branch.<br><br>
@@ -148,7 +148,8 @@ Relations: The link between artifacts.  These too are strongly typed such that y
 
 		<h3 id="importword">Can I import existing Microsoft Word(c) documents into OSEE?</h3>
       Yes.  OSEE will import existing Word 2003 XML documents and atomize them by their paragraph sections.  The Word
-      styles "Heading (1...9)" are used to determine the breakout into individual artifacts and their position in the document hierarchy.
+      styles "Heading (1...9)" are used to determine the breakout into individual artifacts and their position in the
+		document hierarchy.
 
 		<h3 id="newtable">Do I have to create a new database table for every type of Artifact that I want to use</h3>
       Quick Answer: No<br><br>
