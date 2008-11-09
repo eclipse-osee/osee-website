@@ -28,6 +28,7 @@
       <li><a href="#whatisosee">What is OSEE?</a>
 		<li><a href="#isoseeanapplication">Is OSEE an application framework or an application?</a>
 		<li><a href="#whatareartifacts">What are Artifacts, Attributes and Relations?</a>
+		<li><a href="#howartifactsarestored">How are artifacts stored?</a>
 		<li><a href="#whatarebranches">What are Branches and how are they used in OSEE?</a>
       <li><a href="#whatisaworkingbranch">What is a Working Branch?</a>
 		<li><a href="#whyosee">Other products sound similar.  Why OSEE?</a>
@@ -39,6 +40,7 @@
 		<li><a href="#newtable">Do I have to create a new database table for every type of Artifact that I want to use</a>
 		<li><a href="#customizeartifacttypes">Do I have to use the Artifact types that are built into OSEE?</a>
 		<li><a href="#havetouseword">Do I have to use Microsoft Word to enter my requirements?</a>
+		<li><a href="#wordstyles">How are MS Word styles and formatting handled?</a>
 		<li><a href="#whatisskynet">What is Skynet?</a>
 		<li><a href="#frameworktypes">What are Artifact Framework types?</a>
 		<li><a href="#handletraceability">How does OSEE handle traceability?</a>
@@ -82,6 +84,11 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       these variant branches and maintain not only the record of where these branches came from, but also enables
       changes made to the baseline branches to be easily committed to the variants.  In addition, OSEE manages these
       variants in an efficient manner such that only the changed requirements (or artifacts) are "copied".<br><br>
+
+		<h3 id="howartifactsarestored">How are artifacts stored?</h3>
+		The OSEE Application Framework provides a dynamic and strongly typed artifact (object) model that is stored using
+		a relational database.  All OSEE applications use this version controlled persistence layer to store their artifacts.
+
 
 		<h3 id="whatisaworkingbranch">What is a Working Branch?</h3>
       A working branch is simply a sandbox area for a users to make changes and perform reviews before committing
@@ -140,8 +147,8 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       follow their own more complex "process" which may contain 30 different states.
 
 		<h3 id="importword">Can I import existing Microsoft Word(c) documents into OSEE?</h3>
-      Yes.  OSEE will import existing Word documents and atomize them by their paragraph sections.  
-      The only requirement is that the paragraph are specified as "Heading" type.
+      Yes.  OSEE will import existing Word 2003 XML documents and atomize them by their paragraph sections.  The Word
+      styles "Heading (1...9)" are used to determine the breakout into individual artifacts and their position in the document hierarchy.
 
 		<h3 id="newtable">Do I have to create a new database table for every type of Artifact that I want to use</h3>
       Quick Answer: No<br><br>
@@ -173,19 +180,28 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       with a certain Artifact can be boolean, text, date, float or any newly created attribute type.  One such attribute type 
       is a "Word Content" attribute.  This allows word content to be added as an attribute to an Artifact.  This attribute, 
       however, is not required to be used.  One could define a "Software Requirement" to be any set of Attribute types that 
-      must/can be entered.  Although, Word is more tightly integrated into OSEE, the architecture provides for other editing 
-      applications to be plugged in.  One area of interest would be to allow Open Office to edit requirements.<br><br>
+      must/can be entered.  Although, Word 2003 XML is more tightly integrated into OSEE, the architecture provides for other editing 
+      applications to be plugged in. We are actively working on adding tight integration with Open Office to edit requirements.<br><br>
 
       In addition to this specific type of Attribute, OSEE does allows any operating system file to be 
       dragged in and created as an Artifact.  This artifact, when opened, will extract its data and present 
       it to the operating system to allow viewing and editing.  This allows things like requirements to be 
       specified by other modeling, diagraming or even mathematical applications that OSEE doesn't know 
       about.  These artifacts can have their own metadata associated and also be related to other 
-      artifacts in the system.<br><br>
+      artifacts in the system.
+
+		<h3 id="wordstyles">How are MS Word styles and formatting handled?</h3>
+		Whole MS Word documents can be stored and edited as an artifact like any other native file type without any 
+		formmatting restrictions of any kind.  However, to use the more tightly integrated support such as editing many
+		artifacts in a single Word document or the document generation capabilities, then the file format
+		needs to be MS Word 2003 XML.  Since OSEE supports user defined Word XML templates for editing, previewing, 
+		comparing, and publishing, the user has complete control over the Word styles (and all other formmatting) through
+		the rendering templates.  The only formmatting requirements for Word content are that when importing the Word styles 
+		"Heading (1...9)" are used to determine the breakout into individual artifacts and their position in the document
+		hierarchy.
 
 		<h3 id="whatisskynet">What is Skynet?</h3>
-      Skynet is a legacy term for the OSEE Application Framework.  It is being phased out of the 
-      documentation, code and our daily discussions, but may come up during the conversion.<br><br>
+      Skynet is a legacy term for the persistence portion of the OSEE Application Framework.
 
 		<h3 id="frameworktypes">What are Artifact Framework types?</h3>
       OSEE provides <a href="#whatareartifacts">Artifacts, Attributes and Relations</a> that are strongly
@@ -241,12 +257,11 @@ Relations: The link between artifacts.  These too are strongly typed such that y
       and customer's point of view.
       
 		<h3 id="whatdatabases">What databases can be used with OSEE?</h3>
-      OSEE was architected to be database independent.  It can be run on any SQL compliant relational DB.
-      It is currently running on multiple projects using the Oracle 10g database.  The PostgreSQL database 
-      has also been used for development and also deployment to customers.  The current OSEE Demo is currently
-      bundled with PostgreSQL.  In addition, the OSEE Team is looking into supporting the Derby database.  Some
-      effort would be necessary to port OSEE to MySQL or any other compliant database.  If desired, the OSEE Team
-      could work with the user/developers to help perform this task.
+      OSEE was architected to be database independent and should run on any SQL-99 compliant DB
+      that has a JDBC driver. It is currently runs on Oracle 10g and 11g and PostgreSQL 8.2.  In the past, OSEE
+      has also been run on Derby and MySQL.  The current release of OSEE would need to be tested
+      for compatibility with Derby, MySQL, or any other database.  If desired, the OSEE Team could work with
+      the user/developers to help perform this task.
 
 		<h3 id="offline">Can OSEE be used offline and later sync'd up?</h3>
       Although OSEE does not currently provide the capability to download database artifacts, work offline and

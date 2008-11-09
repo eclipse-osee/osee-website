@@ -35,7 +35,7 @@
 		<p>
 		Before diving into the system, you want to proceed to the <a href="/osee/screencasts.php">'Screencast'</a> and <a href="/osee/faq.php">'FAQ'</a> sections.
 		</p>
-		<h4>Selected Topics</h4>
+		<h4>Core Concepts and Topics</h4>
 		<ul>
 			<li><a href="concepts/arch.php">Architecture</li>
 			<li><a href="concepts/components.php">Components</li>
