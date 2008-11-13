@@ -32,7 +32,7 @@
 		<li><a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
 		<li><a href="search/quick_search_view.php">Quick Search View</a></li>
 		<li><a href="search/attribute_tagging.php">Attribute Tagging </a></li>
-		<li><a href="aboutOsee/configandargs.php">Configuration and VM Arguments</a></li>
+		<li><a href="gettingStarted/aboutOsee/configandargs.php">Configuration and VM Arguments</a></li>
 		</ul>
 		<h1>External References</h1>
 		<li><a href="http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf">U.S. Department of Defense Open Technology Development</a></li>
