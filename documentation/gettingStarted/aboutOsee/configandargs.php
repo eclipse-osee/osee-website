@@ -26,9 +26,7 @@
 	<div id="midcolumn">
 
 	<h3>OSEE Configuration and Arguments</h3>
-	<p>OSEE can be configured by setting the following VM arguments before launching Eclipse.</p>
-	<br/>
-	<p>Client refers to Eclipse/OSEE on local host. Server refers to the OSEE application server</p>
+	OSEE can be configured by setting the following Java system properties before launching Eclipse.
 	<br/>
 	<table style="border:1;width:95%;font-size:1.0em;">
 		<tr style="background:#CCCCCC">
@@ -40,7 +38,7 @@
 		</tr>
 		<tr>
 			<td>org.osgi.service.http.port</td>
-			<td>1 - 65535</td>
+			<td><code>1 - 65535</code></td>
 			<td>-1</td>
 			<td>OseeProperties</td>
 			<td>Port the client will use to communicate with the OSEE Application Server</td>
@@ -54,35 +52,35 @@
 		</tr>
 		<tr>
 			<td>osee.db.connection.id</td>
-			<td>&lt;db identifier&gt;</td>
+			<td><code>&lt;db identifier&gt;</code></td>
 			<td>Default from db.connection file</td>
 			<td>OseeProperties</td>
 			<td>Specifies which database OSEE should connect to as specified by the ...db.connection.xml file. See db.connection file for more information.</td>
 		</tr>
 		<tr>
 			<td>osee.jini.forced.reggie.search</td>
-			<td>true, false</td>
-			<td>false</td>
+			<td><code>true, false</code></td>
+			<td><code>false</code></td>
 			<td>OseeProperties</td>
 			<td>If true, adds the lookupList to the global lookup list such that a refresh will try to locate the service again</td>
 		</tr>
 		<tr>
 			<td>osee.jini.lookup.groups</td>
-			<td>string</td>
+			<td>user defined group name</td>
 			<td></td>
 			<td>OseeProperties</td>
 			<td>the Jini Group that all OSEE provided Jini services will register with</td>
 		</tr>
 		<tr>
 			<td>osee.log.default</td>
-			<td>FINE, INFO, WARNING, SEVERE</td>
+			<td><code>FINE, INFO, WARNING, SEVERE</code></td>
 			<td>WARNING</td>
 			<td>OseeProperties</td>
 			<td>the default logging level for all loggers</td>
 		</tr>
 		<tr>
 			<td>osee.port.scanner.start.port</td>
-			<td>1 - 65535</td>
+			<td><code>1 - 65535</code></td>
 			<td>18000</td>
 			<td>OseeProperties</td>
 			<td>the first port number to test for availability when a new port is needed</td>
@@ -96,115 +94,115 @@
 		</tr>
 		<tr>
 			<td>osee.arbitration.server</td>
-			<td></td>
+			<td><code>[http://&lt;address&gt;:&lt;port&gt;]</code></td>
 			<td></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>The arbitration server address and port to use. This system property must be specified for the system to gain access to OSEE data. If the application server property is set then that address takes precedence and arbitration is bypassed.</td>
 		</tr>
 		<tr>
 			<td>osee.authentication.protocol</td>
-			<td></td>
+			<td>protocol name</td>
 			<td></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>protocol to be used by the client to authenticate with the server</td>
 		</tr>
 		<tr>
 			<td>osee.choice.on.db.init</td>
-			<td></td>
+			<td>choice name</td>
 			<td></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>the predefined database initialization choice</td>
 		</tr>
 		<tr>
 			<td>osee.file.specified.schema.names.on.db.init</td>
-			<td></td>
-			<td></td>
+			<td><code>true, false</code></td>
+			<td><code>false</code></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>Specifies whether OSEE database initialization should use the schema names specified in the schema.xml files instead of using the connection schema. Using the connection specified schema is the default behavior.</td>
 		</tr>
 		<tr>
 			<td>osee.import.from.connection.id.on.db.init</td>
 			<td></td>
 			<td></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>Specifies where table data should be imported from during OSEE database initialization. The default is to use the database connection id specified in the schema.xml files.</td>
 		</tr>
 		<tr>
 			<td>osee.import.on.db.init</td>
-			<td></td>
-			<td></td>
+			<td><code>true, false</code></td>
+			<td><code>false</code></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>Specifies whether OSEE database initialization should import database data as part of its tasks.</td>
 		</tr>
 		<tr>
 			<td>osee.local.application.server</td>
-			<td>true, false</td>
-			<td>false</td>
+			<td><code>true, false</code></td>
+			<td><code>false</code></td>
 			<td>OseeClientProperties</td>
 			<td><p>When set to <b>true</b> launches an application server upon start up. <i>Uses <b>org.osgi.service.http.port</b> arg to determine port to use.</i></p></td>
 		</tr>
 		<tr>
 			<td>osee.local.http.worker.port</td>
-			<td>&lt;port&gt;</td>
+			<td><code>&lt;port&gt;</code></td>
 			<td>8010</td>
 			<td>OseeClientProperties</td>
 			<td><p>Port to use for local worker server.</p></td>
 		</tr>
 		<tr>
 			<td>osee.prompt.on.db.init</td>
-			<td></td>
-			<td></td>
+			<td><code>true, false</code></td>
+			<td><code>true</code></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>Specifies whether to interactively prompt the user during database initialization for init choice</td>
 		</tr>
 		<tr>
 			<td>osee.record.activity</td>
-			<td></td>
-			<td></td>
+			<td><code>true, false</code></td>
+			<td><code>true</code></td>
 			<td>OseeClientProperties</td>
-			<td></td>
+			<td>Specifies whether user activity should be logged</td>
 		</tr>
 		<tr>
 			<td>osee.ats.always.email.me</td>
-			<td></td>
+			<td><code>true, false</code></td>
 			<td></td>
 			<td>AtsProperties</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>osee.ats.disable.email</td>
-			<td></td>
+			<td><code>true, false</code></td>
 			<td></td>
 			<td>AtsProperties</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>osee.ats.ignore.config.upgrades</td>
-			<td></td>
+			<td><code>true, false</code></td>
 			<td></td>
 			<td>AtsProperties</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>osee.ote.benchmark</td>
-			<td></td>
+			<td><code>true, false</code></td>
 			<td></td>
 			<td>OteProperties</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>osee.ote.cmd.console</td>
-			<td></td>
+			<td><code>true, false</code></td>
 			<td></td>
 			<td>OteProperties</td>
-			<td></td>
+			<td>Specifies whether to enable the OTE command console</td>
 		</tr>
 		<tr>
 			<td>osee.ote.server.title</td>
-			<td></td>
+			<td>free text name</td>
 			<td></td>
 			<td>OteProperties</td>
-			<td></td>
+			<td>name given to the OTE server which is displayed in the test manager</td>
 		</tr>
 		<tr>
 			<td>osee.ote.timing.log.path</td>
