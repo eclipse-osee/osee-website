@@ -28,6 +28,7 @@
 	<h3>OSEE Configuration and Arguments</h3>
 	OSEE can be configured by setting the following Java system properties before launching Eclipse.
 	<br/>
+	<br/>
 	<table style="border:1;width:95%;font-size:1.0em;">
 		<tr style="background:#CCCCCC">
 			<th>System Property Name</th>
@@ -39,13 +40,13 @@
 		<tr>
 			<td>org.osgi.service.http.port</td>
 			<td><code>1 - 65535</code></td>
-			<td>-1</td>
+			<td><code>-1</code></td>
 			<td>OseeProperties</td>
 			<td>Port the client will use to communicate with the OSEE Application Server</td>
 		</tr>
 		<tr>
 			<td>osee.application.server.data</td>
-			<td>[FILE SYSTEM PATH]</td>
+			<td><code>[FILE SYSTEM PATH]</code></td>
 			<td>User Home</td>
 			<td>OseeProperties</td>
 			<td>A directory on the file system to be used by the application server to store and serve artifact binary data. <i>Only used when the application server is also launched through the same VM.</i></td>
@@ -74,14 +75,14 @@
 		<tr>
 			<td>osee.log.default</td>
 			<td><code>FINE, INFO, WARNING, SEVERE</code></td>
-			<td>WARNING</td>
+			<td><code>WARNING</code></td>
 			<td>OseeProperties</td>
 			<td>the default logging level for all loggers</td>
 		</tr>
 		<tr>
 			<td>osee.port.scanner.start.port</td>
 			<td><code>1 - 65535</code></td>
-			<td>18000</td>
+			<td><code>18000</code></td>
 			<td>OseeProperties</td>
 			<td>the first port number to test for availability when a new port is needed</td>
 		</tr>
@@ -122,7 +123,7 @@
 		</tr>
 		<tr>
 			<td>osee.import.from.connection.id.on.db.init</td>
-			<td></td>
+			<td><code>[FILE SYSTEM PATH]</code></td>
 			<td></td>
 			<td>OseeClientProperties</td>
 			<td>Specifies where table data should be imported from during OSEE database initialization. The default is to use the database connection id specified in the schema.xml files.</td>
@@ -144,7 +145,7 @@
 		<tr>
 			<td>osee.local.http.worker.port</td>
 			<td><code>&lt;port&gt;</code></td>
-			<td>8010</td>
+			<td><code>8010</code></td>
 			<td>OseeClientProperties</td>
 			<td><p>Port to use for local worker server.</p></td>
 		</tr>
