@@ -24,8 +24,8 @@
 
 <div id="midcolumn">
 		<h1>Events and Milestones</h1>
-		<h3>2008, November 19 -  Eclipse Summit Birds of Feather (BOF) session at 7:00 p.m.</h3>
-		<h3>2008, November 19 - Peter Kirschner presents OSEE talk at Eclipse Summit Europe</h3>
+		<h3>2008, November 19 -  Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3>
+		<h3>2008, November 19 - OSEE talk is presented at Eclipse Summit Europe</h3>
 		<a href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a><br>
 		<h3>2008, Sep 24 - OSEE 0.4.0 was released</h3>
 		<h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3>
