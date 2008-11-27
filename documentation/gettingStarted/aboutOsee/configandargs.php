@@ -164,20 +164,6 @@
 			<td>Specifies whether user activity should be logged</td>
 		</tr>
 		<tr>
-			<td>osee.ats.always.email.me</td>
-			<td><code>true, false</code></td>
-			<td></td>
-			<td>AtsProperties</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>osee.ats.disable.email</td>
-			<td><code>true, false</code></td>
-			<td></td>
-			<td>AtsProperties</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>osee.ats.ignore.config.upgrades</td>
 			<td><code>true, false</code></td>
 			<td></td>
