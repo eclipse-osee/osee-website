@@ -31,9 +31,9 @@
 		To get detailed instructions refer to <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'OSEE installation instructions'</a>. 
 		</p>
 		
-		<ol>
+		<ol type="upper-roman">
 			<li>Installation</li>
-				<ol>
+				<ol type="lower-roman">
 				<li><a href="../installation/requirements.php">Requirements</a></li>
 				<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
 				<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
