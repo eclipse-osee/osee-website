@@ -43,9 +43,9 @@
 			<li>MySql <i>(install instructions coming soon)</i></li>
 			<li>Oracle <i>(install instructions coming soon)</i></li>
 		</ul>
+		<br/>
 		
-		
-		<a >OSEE Microdoc Server launch instructions</a>
+		<a href="">OSEE Microdoc Server launch instructions</a>
 		<br/>
 	</div>
 EOHTML;

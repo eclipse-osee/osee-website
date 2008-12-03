@@ -33,11 +33,11 @@
 		
 		<ol type="upper-roman">
 			<li>Installation</li>
-				<ol type="lower-roman">
+				<ol type="lower-alpha">
 				<li><a href="../installation/requirements.php">Requirements</a></li>
 				<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
 				<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
-					<ol>
+					<ol type="lower-roman">
 						<li><a href="../installation/derby_install.php">Derby Installation</a></li>
 						<li><a href="../installation/postgresql_install.php">PostgreSQL Installation</a></li>
 						<li><a href="../installation/microdoc_server.php">OSEE Microdoc Server</a>
