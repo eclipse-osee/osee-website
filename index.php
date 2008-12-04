@@ -32,7 +32,7 @@ include ($App->getProjectCommon());
 		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
 		</td>
 		<td>		
-		<p>OSEE provides a tightly integrated environment that supports lean engineering. 
+		<p>OSEE is a tightly integrated environment that supports lean engineering in the context of an overall systems engineering approach.
 		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
 		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
 		   verification, and validation.
