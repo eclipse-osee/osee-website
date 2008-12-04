@@ -54,7 +54,7 @@
 		to as an arbitration server when clients interact with it in this context.  Figure 2 depicts the sequence of events involved 
 		in the arbitration process.</p>
 		
-		<br/><br/><img border="1" src="../images/arbitration_sequence.png" alt="Arbitration Sequence"/>
+		<br/><br/><img border="1" style="width:70%;height:70%;align:center;" src="../images/arbitration_sequence.png" alt="Arbitration Sequence"/>
 		<b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b>
 		<br/><br/>
 		
