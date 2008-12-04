@@ -26,7 +26,7 @@
 		<ul>
 		<li><a href="/osee/screencasts.php">Screencasts</a></li>
 		<li><a href="/osee/faq.php">FAQ</a></li>
-		<li><a href="client_server_overview.php">Client/Server Overview</a></li>
+		<li><a href="architecture/client_server_overview.php">Client/Server Overview</a></li>
 		<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
 		<li><a href="gettingStarted/concepts/components.php">Components</li>
 		<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>

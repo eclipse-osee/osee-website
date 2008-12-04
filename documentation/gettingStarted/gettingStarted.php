@@ -26,13 +26,12 @@
 	<div id="midcolumn" style="width:95%">
 		<h3>$pageTitle</h3>
 		<p>
-		Before installation, users should familiarize themselves with the 
-		<a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'requirements'</a> for installation. 
-		To get detailed instructions refer to <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'OSEE installation instructions'</a>. 
+		Before installation, users should familiarize themselves with the <a href="../installation/requirements.php">'requirements'</a> for installation. 
+		To get detailed instructions refer to the <i>OSEE installation</i> section below. 
 		</p>
 		
 		<ol type="upper-roman">
-			<li>Installation</li>
+			<li><b>OSEE Installation</b></li>
 				<ol type="lower-alpha">
 				<li><a href="../installation/requirements.php">Requirements</a></li>
 				<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
@@ -44,19 +43,22 @@
 					</ol>
 				<li><a href="../installation/db_init.php">Database Initialization</a></li>
 				</ol>
-			<li>Configuration</li>
-				<li><a href="../installation/db_init.php">Database Initialization</a></li>
+				
+				
+			<li><b>Configuration</b></li>
+				<ol type="lower-alpha">
+					<li><b>System Overview</b></li>	
+				</ol>
+			<li><a href="../installation/db_init.php">Database Initialization</a></li>
 		</ol>
 		
 		
 		<h2>I installed now what?</h2>
 		<p>
-		Before diving into the system, you want to proceed to the <a href="/osee/screencasts.php">'Screencast'</a> and <a href="/osee/faq.php">'FAQ'</a> sections.
-		</p>
-		<h4>Core Concepts and Topics</h4>
-
+		Before diving into the system, users may want to proceed to the <a href="/osee/screencasts.php">'Screencast'</a> and <a href="/osee/faq.php">'FAQ'</a> sections to learn more about OSEE. 
+		</p>		
 		<p>
-		More detailed information can be found in the <a href="../index.php">'Documentation'</a>.
+		For a listing of all available documents, please visit the <a href="../index.php">'Documentation'</a> section.
 		</p>		
 	</div>
 
