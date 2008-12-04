@@ -31,32 +31,34 @@
 		<p>In order to be a scalable system, the Open System Engineering Environment (OSEE) has been slowly migrating 
 		into a distributed architecture where clients interact with an application server in-charge of managing access 
 		to an OSEE data store. Additionally, in an effort to provide load balancing, failure recovery, and code compatibility, 
-		clients consult an arbitration server before connecting to an application server. The arbitration server’s responsibility 
+		clients consult an arbitration server before connecting to an application server.  The arbitration server’s responsibility 
 		is to keep track of all the application servers interacting with a common data store and direct clients to a healthy 
-		application server compatible with the client’s OSEE code version. In this arrangement, arbitration servers act as the 
+		application server compatible with the client’s OSEE code version.  In this arrangement, arbitration servers act as the 
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 
-		access and operate on a common OSEE data store. Figure 1 shows an example of the OSEE server cloud.</p>
+		access and operate on a common OSEE data store.  Figure 1 shows an example of the OSEE server cloud.</p>
 		
-		<br/><br/><img border="1" style="align:center;" src="../images/client_server_view.png" alt="OSEE Client/Server View"/>
+		<br/><br/><img border="1" style="width:64%;height:64%;align:center;" src="../images/client_server_view.png" alt="OSEE Client/Server View"/>
 		<b>Figure 1. OSEE Clients interacting with an OSEE Server Cloud.</b>
 		<br/><br/>
 		
-		<p>In the figure above, three application servers interact with a single OSEE data store. The data store is comprised of 
-		a relational database and a remote file system used to store binary data. It is not necessary for the database and the 
-		binary data to exist on the same machine. The only requirement is that the application servers have access to both 
-		resources. Upon start-up, each application server registers himself on the data store’s server lookup table. The server 
+		<p>In the figure above, three application servers interact with a single OSEE data store.  The data store is comprised 
+		of a relational database and a remote file system used to store binary data.  It is not necessary for the database and 
+		the binary data to exist on the same machine.  The only requirement is that the application servers have access to both 
+		resources.  Upon start-up, each application server registers himself on the data store’s server lookup table. The server 
 		records the port it is accepting requests in and its host address. Additional information include: supported code versions, 
-		and the server’s unique id. When the arbitration server receives a request to find an application server to support a 
-		client connection, the arbitration server reads the data store’s server lookup table and selects the best match for the 
-		client. The client requests this information from the arbitration server upon start-up and whenever it can’t communicate 
-		with an application server.  It is important to note that the arbitration server does not have to be a different than an 
-		application server. All application servers are able to act as the arbitration server. An application server referred to 
-		as the arbitration server when clients interact with it in this context. Figure 2 depicts the sequence of events involved 
+		and the server’s unique id.  When the arbitration server receives a request to find an application server to support a client 
+		connection, the arbitration server reads the data store’s server lookup table and selects the best match for the client.  The 
+		client requests this information from the arbitration server upon start-up and whenever it can’t communicate with an 
+		application server.  It is important to note that the arbitration server does not have to be a different server than 
+		an application server. All application servers are able to act as an arbitration server.  An application server is referred 
+		to as an arbitration server when clients interact with it in this context.  Figure 2 depicts the sequence of events involved 
 		in the arbitration process.</p>
 		
 		<br/><br/><img border="1" src="../images/arbitration_sequence.png" alt="Arbitration Sequence"/>
 		<b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b>
 		<br/><br/>
+		
+		
 		<br/><br/><img border="1" src="../images/authentication_sequence.png" alt="Authentication Sequence"/><br/><br/>
 		<p></p>
 		<br>
