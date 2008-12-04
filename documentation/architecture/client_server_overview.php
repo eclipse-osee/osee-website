@@ -37,7 +37,7 @@
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 
 		access and operate on a common OSEE data store.  Figure 1 shows an example of the OSEE server cloud.</p>
 		
-		<br/><br/><img border="1" style="width:64%;height:64%;align:center;" src="../images/client_server_view.png" alt="OSEE Client/Server View"/>
+		<br/><br/><img border="1" style="width:640;height:640;align:center;" src="../images/client_server_view.png" alt="OSEE Client/Server View"/>
 		<b>Figure 1. OSEE Clients interacting with an OSEE Server Cloud.</b>
 		<br/><br/>
 		
@@ -54,12 +54,12 @@
 		to as an arbitration server when clients interact with it in this context.  Figure 2 depicts the sequence of events involved 
 		in the arbitration process.</p>
 		
-		<br/><br/><img border="1" style="width:70%;height:70%;align:center;" src="../images/arbitration_sequence.png" alt="Arbitration Sequence"/>
+		<br/><br/><img border="1" style="width:640;height:640;align:center;" src="../images/arbitration_sequence.png" alt="Arbitration Sequence"/>
 		<b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b>
 		<br/><br/>
 		
 		
-		<br/><br/><img border="1" src="../images/authentication_sequence.png" alt="Authentication Sequence"/><br/><br/>
+		<br/><br/><img border="1" style="width:891;height:494;align:center;" src="../images/authentication_sequence.png" alt="Authentication Sequence"/><br/><br/>
 		<p></p>
 		<br>
 		</br>
