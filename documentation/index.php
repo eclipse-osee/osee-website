@@ -30,9 +30,9 @@
 		<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
 		<li><a href="gettingStarted/concepts/components.php">Components</li>
 		<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
-		<li><a href="OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
-		<li><a href="search/quick_search_view.php">Quick Search View</a></li>
-		<li><a href="search/attribute_tagging.php">Attribute Tagging </a></li>
+		<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
+		<li><a href="define/search/quick_search_view.php">Quick Search View</a></li>
+		<li><a href="define/search/attribute_tagging.php">Attribute Tagging </a></li>
 		<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
 		</ul>
 		<h1>External References</h1>
