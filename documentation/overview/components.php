@@ -23,11 +23,6 @@
 
 	<div id="midcolumn" style="width:95%">
 		<h1>$pageTitle</h1>
-
-	<p>
-		The functional description of OSEE is provided in the following listings of its proposed components along 
-		with their key capabilities.
-	</p>
 	
 	<a name="framework"/>
 		<h4>OSEE Application Framework</h4>
@@ -53,7 +48,8 @@
 				<li>Datastore Adaptor</li>
 			</ul>
 			
-		<a name="define"/>
+
+	<a name="define"/>
 		<h4>Define</h4>
 			<p>Define provides requirements and process management with tightly integrated change management using the Action Tracking System (ATS).  OSEE provides publishing capabilities that enable the creation of documents from smaller internal documents to the complex documents needed to meet military requirements for contract deliverables such as the Software Requirements Specification (SRS), System Performance Specification (SPS), Prime Item Development Specification (PIDS), and all the required traceability between them.</p>
 			<u>Key Capabilities</u>
@@ -67,7 +63,7 @@
 				<li>Automated change detection capabilities</li>
 			</ul>
 						
-		<a name="ats"/>
+	<a name="ats"/>
 		<h4>Action Tracking System (ATS)</h4>
 			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
 			<u>Key Capabilities</u>
@@ -83,7 +79,7 @@
 				<li>Bug Icon allows quick Action creation against any OSEE integrated tool</li>
 			</ul>
 			
-		<a name="ote"/>
+	<a name="ote"/>
 		<h4>OSEE Test Environment (OTE)</h4>
 			<p>OTE is a powerful test solution within OSEE that integrates with existing Java, C, and C++ development environments to provide a seamless flow between developing, debugging, executing, and dispositioning of tests for complex hardware and software.  The user is provided a common interface to the simulated and real-time environments for both functional and unit testing.
 			</p>
@@ -102,11 +98,6 @@
 				<li>Built-in XSL Transformations produce interactive HTML result reports</li>
 				<li>A test environment service that provides both soft real-time and simulated capabilities, schedules the periodic execution of simulation components, and manages the I/O and testing resources.</li>
 			</ul>
-
-
-
-
-			
 
 
 		<h4>BLAM</h4>
@@ -140,9 +131,7 @@
 			Provide capabilities needed for external software application development plug-ins, like JDT, to utilize the OSEE persistence layer and integrate with other OSEE-based applications.
 
 		<h4>Design and Modeling</h4>
-			Provide capabilities needed for external design and modeling plug-ins to utilize the OSEE persistence layer and integrate with other OSEE-based applications.
-      
-		
+			Provide capabilities needed for external design and modeling plug-ins to utilize the OSEE persistence layer and integrate with other OSEE-based applications.    		
 	</div>
 
 EOHTML;

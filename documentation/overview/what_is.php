@@ -25,41 +25,15 @@
 		<h1>$pageTitle</h1>
 		
 	<p>
-	OSEE or Open System Engineering Environment is a tightly integrated environment supporting lean 
+	OSEE or Open System Engineering Environment is a tightly integrated environment designed to support lean 
 	engineering principles across a product's full life-cycle in the context of an overall systems engineering 
-	approach.  OSEE integrates all areas through 
-	
-	 the full lifecycle data for a product is managed by a common platform 
-		allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time.  At 
-		the heart of the OSEE architecture are the OSEE core services and application framework which are available to 
-		all the OSEE applications and enable their tight integration.
-	
-	
-	
-	that supports lean engineering.  
-			It is integrated around a simple, user-definable data model to eloquently 
-			provide bidirectional traceability across the full product life-cycle 
-			including: architecture and design, requirements management, implementation, 
-			verification, and validation.  
-	
-		OSEE is a tightly integrated environment that supports . 
-				
-		Since 
-	  
+	approach.  The system captures project data into a common user-defined data model providing bidirectional 
+	traceability, project health reporting, status, and metrics which seamlessly combine to form a coherent, 
+	accurate view of a project in real-time.  By providing an extensible platform consisting of configuration management, 
+	requirements management, testing, validation, and project management, OSEE is aims to become the industry's
+	all-in-one open source systems engineering platform of choice. 
 	</p>
-	<p>
-		The vision for OSEE finds concrete grounding in daily use by Subject Matter Experts developing next generation 
-		mission software for an existing Boeing aircraft. This direct involvement with a full-scale deployment of OSEE 
-		allows important user feedback to be rapidly incorporated back into both OSEE itself and as lessons learned 
-		for the development team.
-	</p>
-	<p>
-		Since OSEE has been developed for use by separate groups of end users, careful attention has been given to 
-		providing a proper separation of core OSEE capabilities and specific extensions made for various groups. The 
-		requirement to support separate groups has helped ensure that OSEE is extensible through standard Eclipse 
-		mechanisms.  The OSEE architecture is designed to provide an integrated, extensible engineering environment 
-		that can be adopted by any group engaged in engineering.
-	</p>
+	
 	</div>
 
 EOHTML;

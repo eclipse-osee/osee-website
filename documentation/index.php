@@ -28,10 +28,10 @@
 			<li><a href="overview/what_is.php">What is OSEE?</a></li>
 			<li><a href="overview/components.php">Components</a></li>	
 				<ol type="lower-alpha">
-					<li><a href="components.php#framework">Application Framework Component</a></li>
-					<li><a href="components.php#define">Define</a></li>					
-					<li><a href="components.php#ats">Action Tracking System (ATS)</a></li>
-					<li><a href="components.php#ote">Test Environment Component</a></li>
+					<li><a href="overview/components.php#framework">Application Framework Component</a></li>
+					<li><a href="overview/components.php#define">Define</a></li>					
+					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
+					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
 				</ol>
 			<li><b>OSEE Installation & Initialization</b></li>
 				<ol type="lower-alpha">
