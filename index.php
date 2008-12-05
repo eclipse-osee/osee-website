@@ -36,7 +36,7 @@ include ($App->getProjectCommon());
 			product's full life-cycle. By streamlining department processes and workflows through a user-definable data model, OSEE is able to eloquently 
 			provide bidirectional traceability across the architecture and design, requirements management, implementation, verification, and validation 
 			stages of the product life-cycle.
-			</p>	
+			</p>
 		</td>
 		</tr>
         </table>
