@@ -26,7 +26,7 @@
 	
 	
 	<a name="framework"/>
-	<div class="homeitem">
+	<div class="homeitem3col">
 		<h4>OSEE Application Framework</h4>
 			<u>Key Capabilities</u>
 			<ul>
@@ -53,7 +53,7 @@
 			
 
 	<a name="define"/>
-	<div class="homeitem">
+	<div class="homeitem3col">
 		<h4>Define</h4>
 			<p>Define provides requirements and process management with tightly integrated change management using the Action Tracking System (ATS).  OSEE provides publishing capabilities that enable the creation of documents from smaller internal documents to the complex documents needed to meet military requirements for contract deliverables such as the Software Requirements Specification (SRS), System Performance Specification (SPS), Prime Item Development Specification (PIDS), and all the required traceability between them.</p>
 			<u>Key Capabilities</u>
@@ -69,7 +69,7 @@
 </div>
 						
 	<a name="ats"/>
-	<div class="homeitem">
+	<div class="homeitem3col">
 		<h4>Action Tracking System (ATS)</h4>
 			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
 			<u>Key Capabilities</u>
@@ -87,7 +87,7 @@
 </div>
 			
 	<a name="ote"/>
-	<div class="homeitem">
+	<div class="homeitem3col">
 		<h4>OSEE Test Environment (OTE)</h4>
 			<p>OTE is a powerful test solution within OSEE that integrates with existing Java, C, and C++ development environments to provide a seamless flow between developing, debugging, executing, and dispositioning of tests for complex hardware and software.  The user is provided a common interface to the simulated and real-time environments for both functional and unit testing.
 			</p>
@@ -109,12 +109,12 @@
 </div>
 	
 
-<div class="homeitem">
+<div class="homeitem3col">
 		<h4>BLAM</h4>
 			BLAM Lightweight Artifact Manipulation (BLAM) allows non-programmers to graphically construct workflows to automate repetitive tasks.  A given workflow can be used for variety of similar tasks by using customizable controls to specify workflow parameters.
 </div>
 				
-<div class="homeitem">
+<div class="homeitem3col">
 		<h4>Program/Project Management</h4>
 			<p>Program and project management tightly integrated with the Action Tracking System and other OSEE components to provide services necessary for estimation, planning, execution, and delivery of products managed within OSEE.</p>
 			<u>Key Capabilities</u>
@@ -127,7 +127,7 @@
 			</ul>
 	</div>
 	
-<div class="homeitem">			
+<div class="homeitem3col">			
 		<h4>Discovery and Learning</h4>
 			<p>Services provided for allowing advanced learning and discovery using OSEE’s abundant and inherent lifecycle data and metrics.</p>
 			<u>Key Capabilities</u>
@@ -142,12 +142,12 @@
 			</ul>
 	</div>
 	
-<div class="homeitem">			
+<div class="homeitem3col">			
 		<h4>Application Development</h4>
 			Provide capabilities needed for external software application development plug-ins, like JDT, to utilize the OSEE persistence layer and integrate with other OSEE-based applications.
 	</div>
 	
-<div class="homeitem">
+<div class="homeitem3col">
 		<h4>Design and Modeling</h4>
 			Provide capabilities needed for external design and modeling plug-ins to utilize the OSEE persistence layer and integrate with other OSEE-based applications.    		
 	</div>
