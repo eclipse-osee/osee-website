@@ -39,8 +39,8 @@
 			On the <i>'Add Site'</i> dialog enter the URL to the 'Add-On' update site. The proper URL can be found on 
 			<a href="http://www.eclipse.org/osee/downloads.php">http://www.eclipse.org/osee/downloads.php</a>. If the update 
 			site is marked as an archived site, you will need to download the archived update site to your local file system, and add the 
-			path to the 'Add-On' dialog by using the 'Archive' button. If the update site is not marked as an archived update site then 
-			copy the URL listed in the downloads page directly into the 'Add-On' dialog.
+			path to the 'Add-Site' dialog by using the 'Archive' button. If the update site is not marked as an archived update site then 
+			copy the URL listed in the downloads page directly into the 'Add-Site' dialog.
 			<ul>
 				<li>
 					<u><i>Please note that the use of the software you are about to access may be subject to third party terms and 
