@@ -28,32 +28,39 @@
 		
 		<p>XViewer - Advanced TreeViewer Widget</p>
 
-<p>The purpose of the XViewer is to give the application developer a more advanced and dynamic TreeViewer that has the filtering and sorting the capabilities of a spreadsheet while providing the users the ability to customize their table to suite their current needs and save/restore these customizations for future use by individual or group.<br><br>
+<p>The purpose of the XViewer is to give the application developer a more advanced and dynamic TreeViewer that has the filtering and sorting the capabilities of a spreadsheet while providing the users the ability to customize their table to suit their current needs and save/restore these customizations for future use by individual or group.<br><br>
 
-The current XViewer is used heavily in the OSEE Product, as can be seen by its use in the OSEE Action Tracking System below, and is already commited to the <a href="http://www.eclipse.org/osee">OSEE Project</a> in the org.eclipse.osee.ui.skynet plugin.<br><br>
-
-Near term plans are to submit this to the Nebula project as an alternative to the standard SWT TreeViewer.</p>
+The current XViewer already commited as part of the <a href="http://www.eclipse.org/osee/">Eclipse OSEE Project</a>. More information is available at <a href="http://www.eclipse.org/osee/documentation/core/xviewer/xviewer.php">OSEE XViewer</a>.  Near term plans to submit this to the Nebula project<br></br> 
 
 <img border="1" style="align:center" src="xviewer_main.PNG" alt="XViewer Main"/>
 
-<h3>Capabilities</h3>
+<b>Table Customizations</b>
+<ul>
+<li>Provides <font color="blue">table customization dialog</font> to allow customization of visible columns, widths and renaming of columns</li>
+<li><font color="blue">Easily reorder columns</font> through drag/drop or table customization</li>
+<li>Provides mechanism to <font color="blue">save and load table customizations</font> so users can easily switch between customizations</li>
+<li>Provides mechanism to <font color="blue">mark table customizations as individual or global </font>to provide sharing of customizations by users and teams (needs to be backed with shared file system or database)</li>
+<li>Provides mechanism to <font color="blue">mark table customization as default customization</font> to display whenever this table is shown</li>
+<li>Provides ability for <font color="blue">multiple XViewer tables to be used within the same application</font>, but provide their own columns and customiztions</li>
+</ul>
+<b>Sorting</b>
 <ul>
 <li>Sort individual columns (forward or reverse) using <font color="blue">data-specific configured sorter</font> for that columns data type</li>
 <li>Perform unlimited <font color="blue">multi-column sorting</font> by holding Ctrl key down and selecting other columns.  Re-selecting a column while Ctrl is held down will reverse the sort for that column</li>
+</ul>
+<b>Filtering</b>
+<ul>
 <li><font color="blue">Quick filter (bottom left)</font> provides for filtering of all visible data by entered keywords</li>
-<li><font color="blue">Easily reorder columns</font> through drag/drop or table customization</li>
 <li>Alt-left click on column header (or right-click menu) allows for <font color="blue">filtering by column</font>.  As many column filters can be added and work together.</li>
 <li>Provides <font color="blue">simple metrics (bottom status label)</font> to show number of objects loaded, number shown and number selected.</li>
 <li><font color="blue">Status label shows filters and sorters</font> that are currently applied to viewer (bottom status label)</li>
+</ul>
+<b>Other Capabilities</b>
+<ul>
 <li>Provides ability to <font color="blue">copy rows, columns or individual cells into buffer</font> for pasting into other applications</li>
 <li>Allows for <font color="blue">multi-column editing of selected rows/columns</font></li>
 <li>Provides <font color="blue">html rendering</font> of currently visible table data</li>
 <li>Provides <font color="blue">comma separated value export</font> to csv file that can be opened in any spreadsheet application</li>
-<li>Provides <font color="blue">table customization dialog</font> to allow customization of visible columns, widths and renaming of columns</li>
-<li>Provides mechanism to <font color="blue">save and load table customizations</font> so users can easily switch between customizations</li>
-<li>Provides mechanism to <font color="blue">mark table customizations as individual or global</font>to provide sharing of customizations by users and teams (needs to be backed with shared file system or database)</li>
-<li>Provides mechanism to <font color="blue">mark table customization as default customization</font> to display whenever this table is shown</li>
-<li>Provides ability for <font color="blue">multiple XViewer tables to be used within the same application</font>, but provide their own columns and customiztions</li>
 <li>All the normal capabilities of the existing SWT Tree/TreeViewer have been retained as XViewer is an extension to TreeViewer</li>
 </ul>
 
