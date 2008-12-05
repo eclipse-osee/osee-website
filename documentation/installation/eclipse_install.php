@@ -37,8 +37,10 @@
 		</li>
 		<li>
 			On the <i>'Add Site'</i> dialog enter the URL to the 'Add-On' update site. The proper URL can be found on 
-			<a href="http://www.eclipse.org/osee/downloads.php">http://www.eclipse.org/osee/downloads.php</a>.
-			Also the update-site for OSEE plug-ins can be added in the same way.
+			<a href="http://www.eclipse.org/osee/downloads.php">http://www.eclipse.org/osee/downloads.php</a>. If the update 
+			site is marked as an archived site, you will need to download the archived update site to your local file system, and add the 
+			path to the 'Add-On' dialog by using the 'Archive' button. If the update site is not marked as an archived update site then 
+			copy the URL listed in the downloads page directly into the 'Add-On' dialog.
 			<ul>
 				<li>
 					<u><i>Please note that the use of the software you are about to access may be subject to third party terms and 
@@ -49,11 +51,7 @@
 			<br/><br/><img border="0" src="images/new_update_site.png" alt="New update site"/><br/><br/>		
 		</li>
 		<li>
-			The OSEE update site can be found in 'Ganymede Update Site' in 'Collaboration Tools' category and provides following features list.
-			<ul>
-				Required feature, which should be installed unconditionally:
-			</ul>
-			<br/>Select OSEE and other features if required and click the <i>'Install'</i> button.
+			Select the OSEE update site entry and all features listed under its category. Click the <i>'Install'</i> button.
 			<br/><br/><img border="0" src="images/install_updates.png" alt="Feature Search Result"/><br/><br/>
 		</li>
 		<li>
@@ -69,18 +67,16 @@
 			you have completed the database initialization steps below.
 			<br/><br/><img border="0" src="images/restart_dialog.png" alt="Restart dialog"/><br/><br/>
 		</li>
-
-
-
 		<li>
-			Database Initialization tasks HERE
+			Before you can use OSEE you will need to install a relational database. Follow the instructions at 
+			<a href="supported_databases.php">'Supported Databases'</a> to complete this step.
 		</li>
 		<li>
-			Launch Eclipse and start using OSEE.
+			Initialize the database with default OSEE data <a href="db_init.php">'Database Initialization'</a>
 		</li>
-
-
-
+		<li>	
+			Setup config.ini and launch eclipse to start using OSEE <a href="../launch/osee_launch.php">'OSEE Config & Launch'</a>
+		</li>
 		<li> You can find different OSEE perspectives, such as Define and ATS, and views in correspondent dialogs, activated by menu items <i>'Window > Open Perspective > Other...'</i> and <i>'Window > Show View > Other...'</i>.
 			<br/><br/>
 			<table border="0" cellpadding="5" cellspacing="0">
