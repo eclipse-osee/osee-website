@@ -34,7 +34,7 @@ The current XViewer already commited as part of the <a href="http://www.eclipse.
 
 <img border="1" style="align:center" src="xviewer_main.PNG" alt="XViewer Main"/>
 
-<b>Table Customizations</b>
+<h3>Table Customizations</h3>
 <ul>
 <li>Provides <font color="blue">table customization dialog</font> to allow customization of visible columns, widths and renaming of columns</li>
 <li><font color="blue">Easily reorder columns</font> through drag/drop or table customization</li>
@@ -43,19 +43,19 @@ The current XViewer already commited as part of the <a href="http://www.eclipse.
 <li>Provides mechanism to <font color="blue">mark table customization as default customization</font> to display whenever this table is shown</li>
 <li>Provides ability for <font color="blue">multiple XViewer tables to be used within the same application</font>, but provide their own columns and customiztions</li>
 </ul>
-<b>Sorting</b>
+<h3>Sorting</h3>
 <ul>
 <li>Sort individual columns (forward or reverse) using <font color="blue">data-specific configured sorter</font> for that columns data type</li>
 <li>Perform unlimited <font color="blue">multi-column sorting</font> by holding Ctrl key down and selecting other columns.  Re-selecting a column while Ctrl is held down will reverse the sort for that column</li>
 </ul>
-<b>Filtering</b>
+<h3>Filtering</h3>
 <ul>
 <li><font color="blue">Quick filter (bottom left)</font> provides for filtering of all visible data by entered keywords</li>
 <li>Alt-left click on column header (or right-click menu) allows for <font color="blue">filtering by column</font>.  As many column filters can be added and work together.</li>
 <li>Provides <font color="blue">simple metrics (bottom status label)</font> to show number of objects loaded, number shown and number selected.</li>
 <li><font color="blue">Status label shows filters and sorters</font> that are currently applied to viewer (bottom status label)</li>
 </ul>
-<b>Other Capabilities</b>
+<h3>Other Capabilities</h3>
 <ul>
 <li>Provides ability to <font color="blue">copy rows, columns or individual cells into buffer</font> for pasting into other applications</li>
 <li>Allows for <font color="blue">multi-column editing of selected rows/columns</font></li>
