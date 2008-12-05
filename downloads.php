@@ -66,7 +66,7 @@
                 </li>
                 <li>
                 	<b>Update Site</b><br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/$releaseMajorVersion/org.eclipse.osee.zip">OSEE $releaseMajorVersion Achieved Update Site</a></b> - [required]<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/$releaseMajorVersion/org.eclipse.osee.zip">OSEE $releaseMajorVersion Archived Update Site</a></b> - [required]<br/>
 
                 	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
