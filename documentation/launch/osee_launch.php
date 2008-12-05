@@ -17,7 +17,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE Microdoc Launch";
+	$pageTitle 		= "OSEE - Launch & Configurations";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar";
 

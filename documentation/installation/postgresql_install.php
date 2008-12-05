@@ -28,10 +28,10 @@
 
 		<h3>$pageTitle</h3>
 
-		<h4>Pre-requisites</h4>
-		<p>
-			Ensure you have selected the best database for your needs
-		</p>
+		<h4>Pre-Requisites</h4>
+		<ul>
+			<li>Ensure you have selected the best database for your needs</li>
+		</ul>
 
 		<h4>Instructions</h4>
 		<ol>

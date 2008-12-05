@@ -38,8 +38,8 @@
 		
 		<p>OSEE provides support for the following databases:</p>
 		<ul>
-			<li><a href="../installation/derby_install.php">Derby</li>
-			<li><a href="../installation/postgresql_install.php">PostgreSQL</li>
+			<li><a href="../installation/postgresql_install.php">PostgreSQL</a></li>
+			<li><a href="../installation/derby_install.php">Derby</a> <i>(install instructions coming soon)</i></li>
 			<li>MySql <i>(install instructions coming soon)</i></li>
 			<li>Oracle <i>(install instructions coming soon)</i></li>
 		</ul>
