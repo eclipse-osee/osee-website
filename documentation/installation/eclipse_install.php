@@ -81,10 +81,10 @@
 			<br/><br/>
 			<table border="0" cellpadding="5" cellspacing="0">
 				<tr>
-					<td valign="center">
+					<td valign="top">
 						<img border="0" src="images/open_perspective.png" alt="Open Perspective"/>
 					</td>
-					<td valign="center">
+					<td valign="top">
 						<img border="0" src="images/show_view.png" alt="Show View"/>
 					</td>
 				</tr>

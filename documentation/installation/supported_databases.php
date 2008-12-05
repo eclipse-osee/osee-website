@@ -30,11 +30,11 @@
 
 		<p>Data created and managed by OSEE is persisted into a data store divided into two sections. 
 		OSEE utilizes a relational database to store type and configuration information as well as 
-		simple content. In addition, the local file system is used to store binary content. 
+		simple content. In addition, a remote file system is used to store binary content. 
 		</p>
-		<p>Before you can use OSEE, you will need to select and install a relational database suited for your needs. 
-		If you are new to OSEE and would like to try it out without installing your own relational database, you can 
-		follow the link below for instructions on using OSEE's pre-configured database server.</p>
+		<p>Before you can use OSEE, you will need to select and install a relational database suited for your needs and identify 
+		the file system path for your binary content. If you are new to OSEE and would like to try it out without installing 
+		your own relational database, you can follow the link below for instructions on using OSEE's pre-configured database server.</p>
 		
 		<p>OSEE provides support for the following databases:</p>
 		<ul>
