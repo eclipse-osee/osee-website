@@ -17,7 +17,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Derby Database Initialization";
+	$pageTitle 		= "OSEE Microdoc Launch";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar";
 

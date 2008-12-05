@@ -33,27 +33,23 @@
 		<ol type="upper-roman">
 			<li><b>OSEE Installation</b></li>
 				<ol type="lower-alpha">
-				<li><a href="../installation/requirements.php">Requirements</a></li>
-				<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
-				<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
-					<ol type="lower-roman">
-						<li><a href="../installation/derby_install.php">Derby Installation</a></li>
-						<li><a href="../installation/postgresql_install.php">PostgreSQL Installation</a></li>
-						<li><a href="../installation/microdoc_server.php">OSEE Microdoc Server</a>
-					</ol>
-				<li><a href="../installation/db_init.php">Database Initialization</a></li>
+					<li><a href="../installation/requirements.php">Requirements</a></li>
+					<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
+					<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
+						<ol type="lower-roman">
+							<li><a href="../installation/derby_install.php">Derby Installation</a></li>
+							<li><a href="../installation/postgresql_install.php">PostgreSQL Installation</a></li>
+						</ol>
+					<li><a href="../installation/db_init.php">Database Initialization</a></li>
 				</ol>
-				
-				
+			<li><a href="../launch/osee_launch.php">OSEE Launch Instructions</a><li>
 			<li><b>Configuration</b></li>
 				<ol type="lower-alpha">
-					<li><b>System Overview</b></li>	
+					<li><b>System Overview</b></li>
 				</ol>
-			<li><a href="../installation/db_init.php">Database Initialization</a></li>
 		</ol>
 		
 		
-		<h2>I installed now what?</h2>
 		<p>
 		Before diving into the system, users may want to proceed to the <a href="/osee/screencasts.php">'Screencast'</a> and <a href="/osee/faq.php">'FAQ'</a> sections to learn more about OSEE. 
 		</p>		

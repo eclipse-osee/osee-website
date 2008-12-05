@@ -45,7 +45,9 @@
 		</ul>
 		<br/>
 		
-		<a href="">OSEE Microdoc Server launch instructions</a>
+		<p>Alternatively, users may choose to use the pre-configured OSEE Demo database before configuring their own. 
+		For Launch and configuration instructions visit the following link: <a href="../launch/osee_launch.php">OSEE Launch Instructions</a>.
+		</p>		
 		<br/>
 	</div>
 EOHTML;
