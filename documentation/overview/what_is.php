@@ -14,7 +14,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Introduction";
+	$pageTitle 		= "What is OSEE?";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -25,7 +25,15 @@
 		<h1>$pageTitle</h1>
 		
 	<p>
-		OSEE is a tightly integrated environment that supports lean engineering across the full product life-cycle.  Since 
+	OSEE provides a tightly integrated environment that supports lean engineering.  
+			It is integrated around a simple, user-definable data model to eloquently 
+			provide bidirectional traceability across the full product life-cycle 
+			including: architecture and design, requirements management, implementation, 
+			verification, and validation.  
+	
+		OSEE is a tightly integrated environment that supports lean engineering across the full product life-cycle. 
+				
+		Since 
 		OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform 
 		allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time.  At 
 		the heart of the OSEE architecture are the OSEE core services and application framework which are available to 
@@ -43,10 +51,6 @@
 		requirement to support separate groups has helped ensure that OSEE is extensible through standard Eclipse 
 		mechanisms.  The OSEE architecture is designed to provide an integrated, extensible engineering environment 
 		that can be adopted by any group engaged in engineering.
-	</p>
-	<p>
-		The functional description of OSEE is provided in the following listings of its proposed components along 
-		with their key capabilities.
 	</p>
 	</div>
 

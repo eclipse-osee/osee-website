@@ -24,6 +24,11 @@
 	<div id="midcolumn" style="width:95%">
 		<h1>$pageTitle</h1>
 
+	<p>
+		The functional description of OSEE is provided in the following listings of its proposed components along 
+		with their key capabilities.
+	</p>
+	
 	<a name="framework"/>
 		<h4>OSEE Application Framework</h4>
 			<u>Key Capabilities</u>
