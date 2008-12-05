@@ -29,7 +29,7 @@
 		<h3>$pageTitle</h3>
 
 		<ol>
-			<li>Download PostgreSQL from <a href="www.postgresql.org">http://www.postgresql.org/download</a></li>					
+			<li>Download PostgreSQL from <a href="http://www.postgresql.org">http://www.postgresql.org/download</a></li>					
 			<li>Follow PostgreSQL Installation Wizard instructions:<br/>
 					<ol>
 						<li>When prompted select the language as English</li>

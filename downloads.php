@@ -30,25 +30,25 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>
-			OSEE distribution consists of two parts - OSEE plug-ins and add-ons. 
-			These two items are required to work with OSEE if you will be using a database other than Derby. 
-			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). 
-			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>. 
-			Add-ons are libraries with their own licenses, which are distributed from an external location 
-			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.	
+			OSEE distribution consists of two parts - OSEE plug-ins and add-ons.
+			These two items are required to work with OSEE if you will be using a database other than Derby.
+			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
+			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
+			Add-ons are libraries with their own licenses, which are distributed from an external location
+			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.
 		</p>
 		<p>
-			In order to install OSEE you should install OSEE plug-ins and at least one add-ons, such as PostgreSQL. 
-			OSEE plug-ins and add-ons are distributed from different update sites on different locations, 
+			In order to install OSEE you should install OSEE plug-ins and at least one add-ons, such as PostgreSQL.
+			OSEE plug-ins and add-ons are distributed from different update sites on different locations,
 			so you should point to two different update sites in the Eclipse update manager.
 		</p>
 		<h2>Installation and update process</h2>
 		<p>
-		    You can find step-by-step process descriptions in <a href="/osee/documentation/gettingStarted/aboutOsee/install.php">'Installation Instructions'</a>.
+		    You can find step-by-step process descriptions in <a href="/osee/documentation/installation/eclipse_install.php">'Installation Instructions'</a>.
 		</p>
 		<h2>Requirements</h2>
         <p>
-            This version of OSEE requires Eclipse 3.4 and doesn't support previous versions of Eclipse.  Additionally, Java 1.6 or greater is required. 
+            This version of OSEE requires Eclipse 3.4 and doesn't support previous versions of Eclipse.  Additionally, Java 1.6 or greater is required.
         </p>
 		<div class="homeitem3col">
 			<h3>Latest Version - Released</h3>
@@ -61,16 +61,16 @@
                 <li>
                 	<b>Update Site</b><br/>
                 	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/$releaseMajorVersion/org.eclipse.osee.zip">OSEE $releaseMajorVersion Achieved Update Site</a></b> - [required]<br/>
-                	
+
                 	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                     <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
                 	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
-                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.4, add-ons, and dependencies. 
-                	Refer to <a href="/osee/documentation/gettingStarted/aboutOsee/requirements.php">'requirements'</a> for a list of dependencies. 
-                	Such scheme of distribution is caused by licensing requirements.</i><br/>                    
+                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.4, add-ons, and dependencies.
+                	Refer to <a href="/osee/documentation/installation/requirements.php">'requirements'</a> for a list of dependencies.
+                	Such scheme of distribution is caused by licensing requirements.</i><br/>
                 </li>
             </ul>
 		</div>
