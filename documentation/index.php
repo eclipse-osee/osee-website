@@ -34,6 +34,7 @@
 		<li><a href="define/search/quick_search_view.php">Quick Search View</a></li>
 		<li><a href="define/search/attribute_tagging.php">Attribute Tagging </a></li>
 		<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
+		<li><a href="xviewer.php">XViewer - Advanced TreeViewer Widget</a></li>
 		</ul>
 		<h1>External References</h1>
 		<li><a href="http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf">U.S. Department of Defense Open Technology Development</a></li>
