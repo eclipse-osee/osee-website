@@ -32,17 +32,11 @@ include ($App->getProjectCommon());
 		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
 		</td>
 		<td>		
-		<p>OSEE is a tightly integrated environment that supports lean engineering in the context of an overall systems engineering approach.
-		   It is integrated around a simple, user-definable data model to eloquently provide bidirectional 
-		   traceability across the full product life-cycle including: architecture and design, requirements management, implementation, 
-		   verification, and validation.
-		</p>
-		
-		<h3>General Features:</h3>
-		<ul>
-			<li>Bi-Directional Traceability</li>
-			<li>Integrated Process and Workflow</li>
-		</ul>
+			<p>The Open System Engineering Environment (OSEE) Eclipse project is an tightly integrated environment supporting lean principles across a
+			product's full life-cycle. By streamlining department processes and workflows through a user-definable data model, OSEE is able to eloquently 
+			provide bidirectional traceability across the architecture and design, requirements management, implementation, verification, and validation 
+			stages of the product life-cycle.
+			</p>	
 		</td>
 		</tr>
         </table>
