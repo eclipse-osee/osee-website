@@ -29,12 +29,11 @@
 		<h3>$pageTitle</h3>
 
 		<p>Data created and managed by OSEE is persisted into a data store divided into two sections. 
-		OSEE utilizes a relational database to store type and configuration information as well as 
-		simple content. In addition, a remote file system is used to store binary content. 
+		A relational database to store type, configuration, and simple content and a remote file system to store binary content. 
 		</p>
 		<p>Before you can use OSEE, you will need to select and install a relational database suited for your needs and identify 
-		the file system path for your binary content. If you are new to OSEE and would like to try it out without installing 
-		your own relational database, you can follow the link below for instructions on using OSEE's pre-configured database server.</p>
+		a file system path for binary content storage. If you are new to OSEE and would like to try it out without installing 
+		your own relational database, you can follow the link below for instructions on using OSEE's pre-configured server.</p>
 		
 		<p>OSEE provides support for the following databases:</p>
 		<ul>
@@ -45,8 +44,8 @@
 		</ul>
 		<br/>
 		
-		<p>Alternatively, users may choose to use the pre-configured OSEE Demo database before configuring their own. 
-		For Launch and configuration instructions visit the following link: <a href="../launch/osee_launch.php">OSEE Launch Instructions</a>.
+		<p>Alternatively, users may choose to use the pre-configured OSEE Demo server before configuring their own. 
+		For launch and configuration instructions visit the following link: <a href="../launch/osee_launch.php">'OSEE Launch Instructions'</a>.
 		</p>		
 		<br/>
 	</div>
