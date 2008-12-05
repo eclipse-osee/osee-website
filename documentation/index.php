@@ -25,9 +25,13 @@
 		<h1>$pageTitle</h1>
 
 		<ol type="upper-roman">
-			<li><a href="what_is.php">What is OSEE?</a><l/i>	
+			<li><a href="overview/what_is.php">What is OSEE?</a></li>
+			<li><a href="overview/components.php">Components</a></li>	
 				<ol type="lower-alpha">
-					<li><a href="what_is.php#framework">OSEE Application Framework</a></li>
+					<li><a href="components.php#framework">Application Framework Component</a></li>
+					<li><a href="components.php#define">Define</a></li>					
+					<li><a href="components.php#ats">Action Tracking System (ATS)</a></li>
+					<li><a href="components.php#ote">Test Environment Component</a></li>
 				</ol>
 			<li><b>OSEE Installation & Initialization</b></li>
 				<ol type="lower-alpha">

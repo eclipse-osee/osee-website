@@ -14,7 +14,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Introduction";
+	$pageTitle 		= "OSEE - Components";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -23,33 +23,8 @@
 
 	<div id="midcolumn" style="width:95%">
 		<h1>$pageTitle</h1>
-		
-	<p>
-		OSEE is a tightly integrated environment that supports lean engineering across the full product life-cycle.  Since 
-		OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform 
-		allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time.  At 
-		the heart of the OSEE architecture are the OSEE core services and application framework which are available to 
-		all the OSEE applications and enable their tight integration.  
-	</p>
-	<p>
-		The vision for OSEE finds concrete grounding in daily use by Subject Matter Experts developing next generation 
-		mission software for an existing Boeing aircraft. This direct involvement with a full-scale deployment of OSEE 
-		allows important user feedback to be rapidly incorporated back into both OSEE itself and as lessons learned 
-		for the development team.
-	</p>
-	<p>
-		Since OSEE has been developed for use by separate groups of end users, careful attention has been given to 
-		providing a proper separation of core OSEE capabilities and specific extensions made for various groups. The 
-		requirement to support separate groups has helped ensure that OSEE is extensible through standard Eclipse 
-		mechanisms.  The OSEE architecture is designed to provide an integrated, extensible engineering environment 
-		that can be adopted by any group engaged in engineering.
-	</p>
-	<p>
-		The functional description of OSEE is provided in the following listings of its proposed components along 
-		with their key capabilities.
-	</p>
-	<h3>Proposed Components</h3>
-	<a name="framework">
+
+	<a name="framework"/>
 		<h4>OSEE Application Framework</h4>
 			<u>Key Capabilities</u>
 			<ul>
@@ -72,7 +47,38 @@
 				<li>Scheduling Service</li>
 				<li>Datastore Adaptor</li>
 			</ul>
-		</a>
+			
+		<a name="define"/>
+		<h4>Define</h4>
+			<p>Define provides requirements and process management with tightly integrated change management using the Action Tracking System (ATS).  OSEE provides publishing capabilities that enable the creation of documents from smaller internal documents to the complex documents needed to meet military requirements for contract deliverables such as the Software Requirements Specification (SRS), System Performance Specification (SPS), Prime Item Development Specification (PIDS), and all the required traceability between them.</p>
+			<u>Key Capabilities</u>
+			<ul>	
+				<li>Enterprise support for concurrent, distributed requirements development</li>
+				<li>Integrated process and workflow</li>
+				<li>Programmatic, bidirectional traceability</li>
+				<li>End user navigation and search capabilities</li>
+				<li>Capture accurate, meaningful review metrics</li>
+				<li>Tight integration with lifecycle tools</li>
+				<li>Automated change detection capabilities</li>
+			</ul>
+						
+		<a name="ats"/>
+		<h4>Action Tracking System (ATS)</h4>
+			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
+			<u>Key Capabilities</u>
+			<ul>			
+				<li>Built on same OSEE application framework as requirements, code, test development</li>
+				<li>Common Workflow Framework that provides for the creation of any number of simple to complex workflow state machine configurations that can work together during the engineering lifecycle</li>
+				<li>Workflows are configured through graphical diagrams that ATS uses at runtime</li>
+				<li>Configuration of ATS performed through OSEE’s common application framework enabling workflows to be created and modified without separate OSEE releases</li>
+				<li>Advanced project planning capabilities and release management</li>
+				<li>Duplication errors are minimized as items are automatically linked and data is shared</li>
+				<li>Menus, Views and Editors give access to ATS while working in any other aspect in OSEE</li>
+				<li>ATS is used to track changes and support issues for the development of OSEE itself</li>
+				<li>Bug Icon allows quick Action creation against any OSEE integrated tool</li>
+			</ul>
+			
+		<a name="ote"/>
 		<h4>OSEE Test Environment (OTE)</h4>
 			<p>OTE is a powerful test solution within OSEE that integrates with existing Java, C, and C++ development environments to provide a seamless flow between developing, debugging, executing, and dispositioning of tests for complex hardware and software.  The user is provided a common interface to the simulated and real-time environments for both functional and unit testing.
 			</p>
@@ -91,33 +97,12 @@
 				<li>Built-in XSL Transformations produce interactive HTML result reports</li>
 				<li>A test environment service that provides both soft real-time and simulated capabilities, schedules the periodic execution of simulation components, and manages the I/O and testing resources.</li>
 			</ul>
-		<h4>Action Tracking System (ATS)</h4>
-			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
-			<u>Key Capabilities</u>
-			<ul>			
-				<li>Built on same OSEE application framework as requirements, code, test development</li>
-				<li>Common Workflow Framework that provides for the creation of any number of simple to complex workflow state machine configurations that can work together during the engineering lifecycle</li>
-				<li>Workflows are configured through graphical diagrams that ATS uses at runtime</li>
-				<li>Configuration of ATS performed through OSEE’s common application framework enabling workflows to be created and modified without separate OSEE releases</li>
-				<li>Advanced project planning capabilities and release management</li>
-				<li>Duplication errors are minimized as items are automatically linked and data is shared</li>
-				<li>Menus, Views and Editors give access to ATS while working in any other aspect in OSEE</li>
-				<li>ATS is used to track changes and support issues for the development of OSEE itself</li>
-				<li>Bug Icon allows quick Action creation against any OSEE integrated tool</li>
-			</ul>
+
+
+
+
 			
-		<h4>Define</h4>
-			<p>Define provides requirements and process management with tightly integrated change management using the Action Tracking System (ATS).  OSEE provides publishing capabilities that enable the creation of documents from smaller internal documents to the complex documents needed to meet military requirements for contract deliverables such as the Software Requirements Specification (SRS), System Performance Specification (SPS), Prime Item Development Specification (PIDS), and all the required traceability between them.</p>
-			<u>Key Capabilities</u>
-			<ul>	
-				<li>Enterprise support for concurrent, distributed requirements development</li>
-				<li>Integrated process and workflow</li>
-				<li>Programmatic, bidirectional traceability</li>
-				<li>End user navigation and search capabilities</li>
-				<li>Capture accurate, meaningful review metrics</li>
-				<li>Tight integration with lifecycle tools</li>
-				<li>Automated change detection capabilities</li>
-			</ul>
+
 
 		<h4>BLAM</h4>
 			BLAM Lightweight Artifact Manipulation (BLAM) allows non-programmers to graphically construct workflows to automate repetitive tasks.  A given workflow can be used for variety of similar tasks by using customizable controls to specify workflow parameters.
