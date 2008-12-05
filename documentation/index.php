@@ -25,9 +25,10 @@
 		<h1>$pageTitle</h1>
 
 		<ol type="upper-roman">
-			<li><a href="../launch/osee_launch.php">What is OSEE?</a><l/i>	
-										
-			
+			<li><a href="what_is.php">What is OSEE?</a><l/i>	
+				<ol type="lower-alpha>
+					<li><a href="what_is.php#framework">OSEE Application Framework</a></li>
+				</ol>
 			<li><b>OSEE Installation & Initialization</b></li>
 				<ol type="lower-alpha">
 					<li><a href="installation/requirements.php">Requirements</a></li>
@@ -56,12 +57,9 @@
 		<h1>Needs Categorization</h1>
 		<ul>		
 			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
-
 			<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
-			<li><a href="gettingStarted/concepts/components.php">Components</li>
 			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
 			<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
-
 			<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>
 			<li><a href="core/search/attribute_tagging.php">Attribute Tagging </a></li>
 
