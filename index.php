@@ -32,7 +32,7 @@ include ($App->getProjectCommon());
 		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
 		</td>
 		<td>		
-			$description
+			$oseeDescription
 		</td>
 		</tr>
         </table>

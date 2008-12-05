@@ -25,19 +25,27 @@
 		<h1>$pageTitle</h1>
 		
 	<p>
-	OSEE provides a tightly integrated environment that supports lean engineering.  
+	OSEE or Open System Engineering Environment is a tightly integrated environment supporting lean 
+	engineering principles across a product's full life-cycle in the context of an overall systems engineering 
+	approach.  OSEE integrates all areas through 
+	
+	 the full lifecycle data for a product is managed by a common platform 
+		allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time.  At 
+		the heart of the OSEE architecture are the OSEE core services and application framework which are available to 
+		all the OSEE applications and enable their tight integration.
+	
+	
+	
+	that supports lean engineering.  
 			It is integrated around a simple, user-definable data model to eloquently 
 			provide bidirectional traceability across the full product life-cycle 
 			including: architecture and design, requirements management, implementation, 
 			verification, and validation.  
 	
-		OSEE is a tightly integrated environment that supports lean engineering across the full product life-cycle. 
+		OSEE is a tightly integrated environment that supports . 
 				
 		Since 
-		OSEE integrates all engineering areas, the full lifecycle data for a product is managed by a common platform 
-		allowing this data to be seamlessly combined to form a coherent, accurate view of a project in real-time.  At 
-		the heart of the OSEE architecture are the OSEE core services and application framework which are available to 
-		all the OSEE applications and enable their tight integration.  
+	  
 	</p>
 	<p>
 		The vision for OSEE finds concrete grounding in daily use by Subject Matter Experts developing next generation 
