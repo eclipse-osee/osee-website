@@ -27,17 +27,17 @@
 <div id="midcolumn" style="width:95%">
 	<h1>$pageTitle</h1>
 	<br/>
-	<p>When an artifact is saved, each attribute contained in the artifact is analyzed to produce a list of 
-	tags that are then associated with the artifact. Quick search is a form of <i>keyword</i> based searching 
+	<p>When an artifact is saved, each attribute contained in the artifact is analyzed to produce a list of
+	tags that are then associated with the artifact. Quick search is a form of <i>keyword</i> based searching
 	which uses tags to perform contextual artifact searches.</p>
-	
+
 	<p>For an attribute to be tagged by the system, it must meet the following criteria:</p>
 	<ol>
 		<li>The attribute's type must specify an <b>Attribute Tagger</b> to be used by the tagging system.</li>
 		<li>The attribute must contain valid data.</li>
 		<li>The attribute revision must be saved in the database before sending to tagging system.</li>
 	</ol>
-	
+
 	<p>To produce tags, modified attributes are sent to the OSEE application server where the tagging system
 	processes each attribute using an <b>Attribute Tagger</b> specified by the attribute's type. The <b>Attribute Tagger</b>
 	knows how to interpret the attribute's data and how to extract words from the content. At this point, a word is defined
@@ -47,22 +47,22 @@
 	<ol>
 		<li>The characters in the original word are converted to lower case.</li>
 		<li>The lower cased version of the word is encoded and stored in the tagging system.</li>
-		<li>The lower cased version of the word is split using punctuation characters such as (<b><code>' '</code>, 
-      <code>!</code>, <code>"</code>, <code>#</code>, <code>$</code>, 
-      <code>%</code>, <code>(</code>, <code>)</code>, <code>*</code>, <code>+</code>, 
-      <code>,</code>, <code>-</code>, <code>.</code>, <code>/</code>, <code>:</code>, 
-      <code>;</code>, <code>&lt;</code>, <code>&gt;</code>, <code>?</code>, <code>@</code>, 
-      <code>[</code>, <code>\</code>, <code>]</code>, <code>^</code>, <code>{</code>, 
+		<li>The lower cased version of the word is split using punctuation characters such as (<b><code>' '</code>,
+      <code>!</code>, <code>"</code>, <code>#</code>, <code>$</code>,
+      <code>%</code>, <code>(</code>, <code>)</code>, <code>*</code>, <code>+</code>,
+      <code>,</code>, <code>-</code>, <code>.</code>, <code>/</code>, <code>:</code>,
+      <code>;</code>, <code>&lt;</code>, <code>&gt;</code>, <code>?</code>, <code>@</code>,
+      <code>[</code>, <code>\</code>, <code>]</code>, <code>^</code>, <code>{</code>,
       <code>|</code>, <code>}</code>, <code>~</code>, <code>_</code></b>) as delimiters.</li>
 		<li>Possessive words <i>(ending in 's)</i> are converted into regular form.</li>
 		<li>Each word is converted from plural to singular form.</li>
-		<li>Each word is encoded and stored in the tag system.</li>		
+		<li>Each word is encoded and stored in the tag system.</li>
 	</ol>
-	
+
 	<p> When encoding words into tags, the tag encoder uses an algorithm which transforms the word's characters
-	into a bit-packed tag that will fit in a 64-bit integer. The tag will represent up to 12 characters 
+	into a bit-packed tag that will fit in a 64-bit integer. The tag will represent up to 12 characters
 	(all that can fit into 64-bits). Longer words will be turned into consecutive tags.</p>
-   	
+
 	<h3>Tag Encoding Examples</h3>
 	<table style="width:50%;" border="1">
 		<tr style="background:lightgrey">
@@ -85,7 +85,7 @@
 			<td>
 				<table>
 					<tr><td>alternate</td></tr>
-					<tr><td>backup</td></tr>					
+					<tr><td>backup</td></tr>
 				</table>
 			</td>
 			<td>
@@ -95,9 +95,9 @@
 				</table>
 			</td>
 		</tr>
-	</table>	
+	</table>
 
-	<p><img border="0" src="../images/ngrelr.png" alt="Related reference" /><br>
+	<p><img border="0" src="../../images/ngrelr.png" alt="Related reference" /><br>
 		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="quick_search_view.php">Quick Search View</a>
 	</p>
 </div>
