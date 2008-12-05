@@ -49,7 +49,8 @@
 		with their key capabilities.
 	</p>
 	<h3>Proposed Components</h3>
-		<h4><a name="framework">OSEE Application Framework</a></h4>
+	<a name="framework">
+		<h4>OSEE Application Framework</h4>
 			<u>Key Capabilities</u>
 			<ul>
 				<li>Dynamic and strongly typed artifact model (persistence layer)</li>
@@ -71,6 +72,7 @@
 				<li>Scheduling Service</li>
 				<li>Datastore Adaptor</li>
 			</ul>
+		</a>
 		<h4>OSEE Test Environment (OTE)</h4>
 			<p>OTE is a powerful test solution within OSEE that integrates with existing Java, C, and C++ development environments to provide a seamless flow between developing, debugging, executing, and dispositioning of tests for complex hardware and software.  The user is provided a common interface to the simulated and real-time environments for both functional and unit testing.
 			</p>

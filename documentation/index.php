@@ -26,7 +26,7 @@
 
 		<ol type="upper-roman">
 			<li><a href="what_is.php">What is OSEE?</a><l/i>	
-				<ol type="lower-alpha>
+				<ol type="lower-alpha">
 					<li><a href="what_is.php#framework">OSEE Application Framework</a></li>
 				</ol>
 			<li><b>OSEE Installation & Initialization</b></li>
