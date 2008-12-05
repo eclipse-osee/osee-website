@@ -24,6 +24,12 @@
 	$releaseMajorVersion = "0.4";
 	$releaseVersion = "0.4.0";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
+	$arrowImage = "downloads/images/arrow.gif";
+	$installRequirements = "documentation/installation/requirements.php";
+	$installInstructions = "documentation/installation/eclipse_install.php";
+	$releaseNotes="downloads/0_4_0/ReleaseNotes.html";
+	$releaseNewAndNoteworthy="downloads/0_4_0/NewAndNoteworthy.html";
+
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
@@ -44,7 +50,7 @@
 		</p>
 		<h2>Installation and update process</h2>
 		<p>
-		    You can find step-by-step process descriptions in <a href="/osee/documentation/installation/eclipse_install.php">'Installation Instructions'</a>.
+		    You can find step-by-step process descriptions in <a href="$installInstructions">'Installation Instructions'</a>.
 		</p>
 		<h2>Requirements</h2>
         <p>
@@ -55,21 +61,21 @@
 			<ul>
             	<li>
                     <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/downloads/0_4_0/NewAndNoteworthy.html">New and Noteworthy for OSEE 0.4.0</a><br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<a href="/osee/downloads/0_4_0/ReleaseNotes.html">Release Notes for OSEE 0.4.0</a>
+                    <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNewAndNoteworthy">New and Noteworthy for OSEE 0.4.0</a><br/>
+                    <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNotes">Release Notes for OSEE 0.4.0</a>
                 </li>
                 <li>
                 	<b>Update Site</b><br/>
-                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/$releaseMajorVersion/org.eclipse.osee.zip">OSEE $releaseMajorVersion Achieved Update Site</a></b> - [required]<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/$releaseMajorVersion/org.eclipse.osee.zip">OSEE $releaseMajorVersion Achieved Update Site</a></b> - [required]<br/>
 
                 	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
-                    <img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
+                    <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
-                	<img src="/osee/downloads/images/arrow.gif"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
                 	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.4, add-ons, and dependencies.
-                	Refer to <a href="/osee/documentation/installation/requirements.php">'requirements'</a> for a list of dependencies.
+                	Refer to <a href="$installRequirements">'requirements'</a> for a list of dependencies.
                 	Such scheme of distribution is caused by licensing requirements.</i><br/>
                 </li>
             </ul>
