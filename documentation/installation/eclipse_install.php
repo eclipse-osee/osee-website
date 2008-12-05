@@ -69,13 +69,13 @@
 		</li>
 		<li>
 			Before you can use OSEE you will need to install a relational database. Follow the instructions at 
-			<a href="supported_databases.php">'Supported Databases'</a> to complete this step.
+			<a href="supported_databases.php">'Supported Databases'</a> to complete this step.<br/><br/>
 		</li>
 		<li>
-			Initialize the database with default OSEE data <a href="db_init.php">'Database Initialization'</a>
+			Initialize the database with default OSEE data <a href="db_init.php">'Database Initialization'</a><br/><br/>
 		</li>
 		<li>	
-			Setup config.ini and launch eclipse to start using OSEE <a href="../launch/osee_launch.php">'OSEE Config & Launch'</a>
+			Setup config.ini and launch eclipse to start using OSEE <a href="../launch/osee_launch.php">'OSEE Config & Launch'</a><br/><br/>
 		</li>
 		<li> You can find different OSEE perspectives, such as Define and ATS, and views in correspondent dialogs, activated by menu items <i>'Window > Open Perspective > Other...'</i> and <i>'Window > Show View > Other...'</i>.
 			<br/><br/>
