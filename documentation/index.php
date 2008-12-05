@@ -14,7 +14,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "Eclipse OSEE - Documentation";
+	$pageTitle 		= "OSEE - User's Guide";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -22,22 +22,53 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn" style="width:95%">
-		<h1>OSEE User Guide</h1>
-		<ul>
-		<li><a href="/osee/screencasts.php">Screencasts</a></li>
-		<li><a href="/osee/faq.php">FAQ</a></li>
-		<li><a href="architecture/client_server_overview.php">Client/Server Overview</a></li>
-		<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
-		<li><a href="gettingStarted/concepts/components.php">Components</li>
-		<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
-		<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
-		<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>
-		<li><a href="core/search/attribute_tagging.php">Attribute Tagging </a></li>
-		<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
-		<li><a href="core/xviewer/xviewer.php">XViewer - Advanced TreeViewer Widget</a></li>
+		<h1>$pageTitle</h1>
+
+		<ol type="upper-roman">
+			<li><a href="../launch/osee_launch.php">What is OSEE?</a><l/i>	
+			<li><b>OSEE Installation & Initialization</b></li>
+				<ol type="lower-alpha">
+					<li><a href="../installation/requirements.php">Requirements</a></li>
+					<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
+					<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
+						<ol type="lower-roman">
+							<li><a href="../installation/derby_install.php">Derby Installation</a></li>
+							<li><a href="../installation/postgresql_install.php">PostgreSQL Installation</a></li>
+						</ol>
+					<li><a href="../installation/db_init.php">Database Initialization</a></li>
+				</ol>
+			<li><a href="../launch/osee_launch.php">OSEE Launch & Configuration</a><l/i>
+			
+			<li><b>System Overview</b></li>				
+				<ol type="lower-alpha">
+					<li><a href="../architecture/client_server_overview.php">Client/Server Overview</a></li>
+				</ol>
+
+			<li><a href="/osee/screencasts.php">Screencasts</a></li>
+			<li><a href="/osee/faq.php">FAQ</a></li>
+		</ol>
+		
+		<br/>
+		<br/>	
+		
+		<h1>Needs Categorization</h1>
+		<ul>		
+			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
+
+			<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
+			<li><a href="gettingStarted/concepts/components.php">Components</li>
+			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
+			<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
+
+			<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>
+			<li><a href="core/search/attribute_tagging.php">Attribute Tagging </a></li>
+
+			<li><a href="core/xviewer/xviewer.php">XViewer - Advanced TreeViewer Widget</a></li>
 		</ul>
+
 		<h1>External References</h1>
 		<li><a href="http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf">U.S. Department of Defense Open Technology Development</a></li>
+
 	</div>
 
 EOHTML;

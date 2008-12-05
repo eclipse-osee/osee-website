@@ -15,7 +15,6 @@
 	$Nav->addNavSeparator("OSEE Home", "/osee/index.php");
 	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
 	$Nav->addCustomNav("News and Events", "/osee/news.php", "_self", 2);	
-	$Nav->addCustomNav("Getting Started", 	"/osee/documentation/gettingStarted/gettingStarted.php", "_self", 2);
 	$Nav->addCustomNav("Documentation", "/osee/documentation/index.php", "_self", 2);
 	$Nav->addCustomNav("Screencasts", "/osee/screencasts.php", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
