@@ -27,9 +27,27 @@
 	<div id="midcolumn" style="width:95%">
 
 		<h3>$pageTitle</h3>
-		<p>IN WORK</p>
-		<br>
-		</br>
+		
+		<h4>Pre-requisites</h4>
+		<p>Visit the <a href="../gettingStarted/gettingStarted.php">getting started</a> section if you need more information about any of the pre-requisites below.</p>	
+			<ul>
+				<li>Database has been installed</li>
+				<li>Database server is running</li>
+				<li>A file system path has been selected for binary data storage. The system default is to user the user's home directory.</li>
+				<li>An application server is running</li>
+			</ul> 
+		
+		<br/>
+		
+		<h4>Warning</h4>
+		<p>This process will delete all data from OSEE. Make sure you are certain before running this process.</p>
+
+		<br/>
+		<h4>Instructions</h4>
+		<p>Coming Soon</p>
+		
+		
+		<br/>
 	</div>
 EOHTML;
 

@@ -42,7 +42,7 @@
 						</ol>
 					<li><a href="../installation/db_init.php">Database Initialization</a></li>
 				</ol>
-			<li><a href="../launch/osee_launch.php">OSEE Launch Instructions</a><li>
+			<li><a href="../launch/osee_launch.php">OSEE Launch Instructions</a><l/i>
 			<li><b>Configuration</b></li>
 				<ol type="lower-alpha">
 					<li><b>System Overview</b></li>
