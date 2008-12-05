@@ -32,9 +32,9 @@
 
 The current XViewer is used heavily in the OSEE Product, as can be seen by its use in the OSEE Action Tracking System below, and is already commited to the <a href="http://www.eclipse.org/osee">OSEE Project</a> in the org.eclipse.osee.ui.skynet plugin.<br><br>
 
-Near term plans are to submit this to the Nebula project as an alternative to the standart SWT TreeViewer.</p>
+Near term plans are to submit this to the Nebula project as an alternative to the standard SWT TreeViewer.</p>
 
-<img border="1" style="align:center" src="images/xviewer_main.png" alt="XViewer Main"/>
+<img border="1" style="align:center" src="images/xviewer_main.PNG" alt="XViewer Main"/>
 
 <h3>Capabilities</h3>
 <ul>
@@ -48,35 +48,35 @@ Near term plans are to submit this to the Nebula project as an alternative to th
 <li>Provides ability to <font color="blue">copy rows, columns or individual cells into buffer</font> for pasting into other applications</li>
 <li>Allows for <font color="blue">multi-column editing of selected rows/columns</font></li>
 <li>Provides <font color="blue">html rendering</font> of currently visible table data</li>
-<li>Provides <font color="blue">comma seperated value export</font> to csv file that can be opened in any spreadsheet application</li>
+<li>Provides <font color="blue">comma separated value export</font> to csv file that can be opened in any spreadsheet application</li>
 <li>Provides <font color="blue">table customization dialog</font> to allow customization of visible columns, widths and renaming of columns</li>
 <li>Provides mechanism to <font color="blue">save and load table customizations</font> so users can easily switch between customizations</li>
 <li>Provides mechanism to <font color="blue">mark table customizations as individual or global</font>to provide sharing of customizations by users and teams (needs to be backed with shared file system or database)</li>
 <li>Provides mechanism to <font color="blue">mark table customization as default customization</font> to display whenever this table is shown</li>
 <li>Provides ability for <font color="blue">multiple XViewer tables to be used within the same application</font>, but provide their own columns and customiztions</li>
-<li>All the normal capabilities of the existing SWT Tree/TreeViewer have been retained as XViewer is an extenstion to TreeViewer</li>
+<li>All the normal capabilities of the existing SWT Tree/TreeViewer have been retained as XViewer is an extension to TreeViewer</li>
 </ul>
 
 <h3>Future</h3>
 <ul>
 <li><font color="blue">Submitted to Nebula</font> as alternative to existing SWT TreeViewer (already part of eclipse.org/osee project)</li>
 <li>Allow for <font color="blue">advanced column filtering</font> by complex expression and "canned list" of already entered items</li>
-<li>Add <font color="blue">regular expressions</font> to all filtering capabilies</li>
+<li>Add <font color="blue">regular expressions</font> to all filtering capabilities</li>
 <li>Provide easy ability to <font color="blue">sum selected rows for selected column</font></li>
 <li>Provide simple <font color="blue">summing/counting of rows/column</font> data</li>
 <li>Provide <font color="blue">formulas and functions</font> for advanced summing/counting of data</li>
 <li>Provide <font color="blue">graphing and charting</font> of data</li>
-<li>Collaborate with other table/tree solutions to integrate fuctionality... </li>
+<li>Collaborate with other table/tree solutions to integrate functionality... </li>
 </ul>
 
 <h3>Table Customizations</h3>
-<img border="1" style="align:center" src="images/xviewer_customize.png" alt="XViewer Customize"/>
+<img border="1" style="align:center" src="images/xviewer_customize.PNG" alt="XViewer Customize"/>
 
 <h3>Sorting and Filtering</h3>
-<img border="1" style="align:center" src="images/xviewer_sortfilter.png" alt="XViewer Sorting and Filtering"/>
+<img border="1" style="align:center" src="images/xviewer_sortfilter.PNG" alt="XViewer Sorting and Filtering"/>
 
-<h3>Html Report and CSV Export</h3>
-<img border="1" style="align:center" src="images/xviewer_reportexport.png" alt="XViewer Html Reporting"/>
+<h3>HTML Report and CSV Export</h3>
+<img border="1" style="align:center" src="images/xviewer_reportexport.PNG" alt="XViewer Html Reporting"/>
 		
 		<p/>
 	</div>
