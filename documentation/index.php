@@ -26,22 +26,24 @@
 
 		<ol type="upper-roman">
 			<li><a href="../launch/osee_launch.php">What is OSEE?</a><l/i>	
+										
+			
 			<li><b>OSEE Installation & Initialization</b></li>
 				<ol type="lower-alpha">
-					<li><a href="../installation/requirements.php">Requirements</a></li>
-					<li><a href="../installation/eclipse_install.php">Eclipse Installation</a></li>
-					<li><a href="../installation/supported_databases.php">Supported Databases</a></li>
+					<li><a href="installation/requirements.php">Requirements</a></li>
+					<li><a href="installation/eclipse_install.php">Eclipse Installation</a></li>
+					<li><a href="installation/supported_databases.php">Supported Databases</a></li>
 						<ol type="lower-roman">
-							<li><a href="../installation/derby_install.php">Derby Installation</a></li>
-							<li><a href="../installation/postgresql_install.php">PostgreSQL Installation</a></li>
+							<li><a href="installation/derby_install.php">Derby Installation</a></li>
+							<li><a href="installation/postgresql_install.php">PostgreSQL Installation</a></li>
 						</ol>
-					<li><a href="../installation/db_init.php">Database Initialization</a></li>
+					<li><a href="installation/db_init.php">Database Initialization</a></li>
 				</ol>
-			<li><a href="../launch/osee_launch.php">OSEE Launch & Configuration</a><l/i>
+			<li><a href="launch/osee_launch.php">OSEE Launch & Configuration</a><l/i>
 			
 			<li><b>System Overview</b></li>				
 				<ol type="lower-alpha">
-					<li><a href="../architecture/client_server_overview.php">Client/Server Overview</a></li>
+					<li><a href="architecture/client_server_overview.php">Client/Server Overview</a></li>
 				</ol>
 
 			<li><a href="/osee/screencasts.php">Screencasts</a></li>

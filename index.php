@@ -18,7 +18,7 @@ include ($App->getProjectCommon());
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Open System Engineering Environment";
-	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
+	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Configuration Management, Requirements Management, Project Managements, Test, Simulation";
 	$pageAuthor		= "Roberto E. Escobar";
 	
 	# Paste your HTML content between the EOHTML markers!	
@@ -32,10 +32,15 @@ include ($App->getProjectCommon());
 		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
 		</td>
 		<td>		
-			<p>The Open System Engineering Environment (OSEE) Eclipse project is an tightly integrated environment supporting lean principles across a
-			product's full life-cycle. By streamlining department processes and workflows through a user-definable data model, OSEE is able to eloquently 
-			provide bidirectional traceability across the architecture and design, requirements management, implementation, verification, and validation 
-			stages of the product life-cycle.
+			<p>The Open System Engineering Environment (OSEE) project provides a tightly integrated environment supporting 
+			lean principles across a product's full life-cycle in the context of an overall systems engineering approach.  The 
+			system captures project data into a common user-defined data model providing bidirectional traceability, project 
+			health reporting, status, and metrics which seamlessly combine to form a coherent, accurate view of a project in 
+			real-time.  By building on top of this data model, OSEE has been architected to provide an all-in-one solution 
+			to configuration management, requirements management, testing, validation, and project management.  All of these 
+			work together to help an organization achieve lean objectives by reducing management activities, eliminating data 
+			duplication, reducing cycle-time through streamlined processes, and improving overall product quality through 
+			work flow standardization and early defect detection.					 
 			</p>
 		</td>
 		</tr>
