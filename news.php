@@ -24,39 +24,47 @@
 
 <div id="midcolumn">
 		<h1>Events and Milestones</h1>
-		<h3>2008, November 19 -  Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3>
-		<h3>2008, November 19 - OSEE talk is presented at Eclipse Summit Europe</h3>
+
+	<h3>2008, November 28 - Talks submitted for EclipseCon 2009</h3>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
+		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a><br>
+	<h3>2008, November 19 -  Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3>
+	<h3>2008, November 19 - OSEE talk is presented at Eclipse Summit Europe</h3>
 		<a href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a><br>
-		<h3>2008, Sep 24 - OSEE 0.4.0 was released</h3>
-		<h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3>
-		<h3>2008, March 26 - MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h3>
-		<h3>2008, March 24 - Eclipse ORMF Project joins OSEE as a component.</h3>
-		<h3>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h3>
-<a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
+	<h3>2008, Sep 24 - OSEE 0.4.0 was released</h3>
+	<h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3>
+	<h3>2008, March 26 - MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h3>
+	<h3>2008, March 24 - Eclipse ORMF Project joins OSEE as a component.</h3>
+	<h3>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h3>
+		<a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
 
-		<h3>2007, December 17 - Talks accepted for EclipseCon 2008</h3>
-<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
-<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
-<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
+	<h3>2007, December 17 - Talks accepted for EclipseCon 2008</h3>
+		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
+		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
+		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
 
-		<h3>2007, December 10 - Demo Screencasts Available</h3>
+	<h3>2007, December 10 - Demo Screencasts Available</h3>
       The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
 
-		<h3>2007, December 8 - OSEE source code committed to Eclipse</h3>
+	<h3>2007, December 8 - OSEE source code committed to Eclipse</h3>
       The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.<br>
 
-		<h3>2007, December 19 - Proposed Talks for EclipseCon 2008</h3>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
-<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br><br>
+	<h3>2007, December 19 - Proposed Talks for EclipseCon 2008</h3>
+		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
+		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
+		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
+		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
+		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br><br>
 	
-		<h3>2007, Nov 8 - Delivered OSEE with database to US Army</h3>
-		<h3>2007, Aug 10 - Incubation Phase (conforming)</h3>
-		<h3>2007, July 10 - Project Proposal Phase Approved</h3>
-		<h3>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h3>
-		<h3>2004, November - Test Environment first used for requirements verification in simulated environment</h3>
+	<h3>2007, Nov 8 - Delivered OSEE with database to US Army</h3>
+	<h3>2007, Aug 10 - Incubation Phase (conforming)</h3>
+	<h3>2007, July 10 - Project Proposal Phase Approved</h3>
+	<h3>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h3>
+	<h3>2004, November - Test Environment first used for requirements verification in simulated environment</h3>
 	</div>
 	<div id="rightcolumn">
        <h1>In the News</h1><p>
