@@ -30,7 +30,7 @@
 	approach.  The system captures project data into a common user-defined data model providing bidirectional 
 	traceability, project health reporting, status, and metrics which seamlessly combine to form a coherent, 
 	accurate view of a project in real-time.  By providing an extensible platform consisting of configuration management, 
-	requirements management, testing, validation, and project management, OSEE is aims to become the industry's
+	requirements management, testing, validation, and project management, OSEE aims to become the industry's
 	all-in-one open source systems engineering platform of choice. 
 	</p>
 	
