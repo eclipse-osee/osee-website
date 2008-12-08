@@ -48,7 +48,7 @@
 		selects the best match for the client.  The client requests this information from the arbitration server upon start-up or 
 		whenever it can’t communicate with an application server.  It is important to note that the arbitration server does not have 
 		to be a different server than	an application server. All application servers are able to act as an arbitration server.  An 
-		application server is referred to as an arbitration server when clients interact with it in this context.  Figure 2 depicts 
+		application server is referred as an arbitration server when clients interact with it in this context.  Figure 2 depicts 
 		the sequence of events involved in the arbitration process.</p>		
 		<br/>
 		
@@ -56,6 +56,17 @@
 		<center><b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b></center>		
 		<br/>
 
+		<p>Once a client receives an application server's address and port information, the client must authenticate with the 
+		application server before it can gain access to the OSEE data store.  During the authentication process, a client 
+		submits to the application server the current user's credential information and the authentication protocol id to use 
+		during the process. The application server verifies the user via the selected protocol and grants access to the data 
+		store by creating a session for the user. From this point forward, the application server will be responsible for 
+		managing access to the data store by identifying the user via the session id. Whenever a client wants to interact
+		with the application server, it will need to submit its session id in order to gain access to the OSEE data store.  
+		Figure 3 shows the sequence of events involved in the authentication process. 
+		</p>
+		<br/>
+		
 		<center><img border="1" style="width:891;height:494;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
 		<center><b>Figure 3. OSEE Authentication Sequence Diagram.</b></center>
 				
