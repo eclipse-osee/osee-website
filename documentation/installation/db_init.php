@@ -48,7 +48,7 @@
 		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
 		see the <a href="">'Configuring Database Connection'</a> section. </li>		
 		<li>In a console, launch the database initialization application by entering the following:
-		<div style="border-width:1;border:solid;text-align:center;padding:0.2em;">
+		<div style="border-width:thin;border:solid;padding:0.2em;">
 		<br/>
 		eclipse -nosplash -application org.eclipse.osee.framework.application.server.DbInit
       -console 

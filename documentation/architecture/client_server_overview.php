@@ -36,12 +36,12 @@
 		access and operate on a common OSEE data store.  Figure 1 shows an example of the OSEE Client/Server network.</p>
 		<br/>
 		
-		<div>
-		<img style="width:640;height:640;text-align:center;" src="images/client_server_view.png" alt="OSEE Client/Server View"/>		
-		<b>Figure 1. Example of an OSEE Client/Server Network.</b>
-		</div>
-		
+		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
+		<img style="width:640;height:640;" src="images/client_server_view.png" alt="OSEE Client/Server View"/>		
+		</div >
+		<center><b>Figure 1. Example of an OSEE Client/Server Network.</b></center>
 		<br/>		
+
 		<p>In the figure above, three application servers interact with a single OSEE data store.  The data store is comprised 
 		of a relational database and a remote file system used to store binary data.  It is not necessary for the database and 
 		the binary data to exist on the same machine.  The only requirement is that the application servers have access to both 
@@ -55,18 +55,18 @@
 		the sequence of events involved in the arbitration process.</p>		
 		<br/>
 		
-		<div>
-		<img style="width:640;height:640;text-align:center;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/>
-		<b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b>
+		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
+		<img style="width:640;height:640;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/>
 		</div>
+
+		<center><b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b></center>		
 		<br/>
 
-
-		<div>
-		<img border="1" style="width:891;height:494;text-align:center;" src="images/authentication_sequence.png" alt="Authentication Sequence"/>
-		<b>Figure 3. OSEE Authentication Sequence Diagram.</b>
+		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
+		<img style="width:891;height:494;" src="images/authentication_sequence.png" alt="Authentication Sequence"/>
 		</div>
-		
+		<center><b>Figure 3. OSEE Authentication Sequence Diagram.</b></center>
+				
 		<br/><br/>
 		<p></p>
 		<br>
