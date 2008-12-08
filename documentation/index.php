@@ -26,14 +26,7 @@
 
 		<ol type="upper-roman">
 			<li><a href="overview/what_is.php">What is OSEE?</a></li>
-			<li><a href="overview/components.php">Components</a></li>	
-				<ol type="lower-alpha">
-					<li><a href="overview/components.php#framework">Application Framework Component</a></li>
-					<li><a href="overview/components.php#define">Define</a></li>					
-					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
-					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
-				</ol>
-			<li><b>OSEE Installation & Initialization</b></li>
+			<li><b>Installation & Initialization</b></li>
 				<ol type="lower-alpha">
 					<li><a href="installation/requirements.php">Requirements</a></li>
 					<li><a href="installation/eclipse_install.php">Eclipse Installation</a></li>
@@ -43,14 +36,22 @@
 							<li><a href="installation/postgresql_install.php">PostgreSQL Installation</a></li>
 						</ol>
 					<li><a href="installation/db_init.php">Database Initialization</a></li>
+					<li><a href="launch/osee_launch.php">Launch & Configuration</a><l/i>
 				</ol>
-			<li><a href="launch/osee_launch.php">OSEE Launch & Configuration</a><l/i>
-			
-			<li><b>System Overview</b></li>				
+			<li><b>System Overview</b></li>		
+				<li><a href="overview/components.php">Components</a></li>	
+				<ol type="lower-alpha">
+					<li><a href="overview/components.php#framework">Application Framework Component</a></li>
+					<li><a href="overview/components.php#define">Define</a></li>					
+					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
+					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
+				</ol>
+				<li><a href="">Architeture</a></li>
 				<ol type="lower-alpha">
 					<li><a href="architecture/client_server_overview.php">Client/Server Overview</a></li>
+					<li><a href="architecture/client.php">Client Architecture</a></li>
+					<li><a href="architecture/server.php">Server Architecture</a></li>
 				</ol>
-
 			<li><a href="/osee/screencasts.php">Screencasts</a></li>
 			<li><a href="/osee/faq.php">FAQ</a></li>
 		</ol>

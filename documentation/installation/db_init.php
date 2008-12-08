@@ -40,12 +40,35 @@
 		<br/>
 		
 		<h4>Warning</h4>
-		<p>This process will delete all data from OSEE. Make sure you are certain before running this process.</p>
+		<p>This process will delete all data from OSEE Data Store.  Make sure you are certain before running this process.</p>
 
 		<br/>
 		<h4>Instructions</h4>
-		<p>Coming Soon</p>
 		
+
+		
+		<ol>
+		<li>Ensure database connection information matches database installation. OSEE is preconfigured 
+		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
+		see the <a href="">'Configuring Database Connection'</a> section. </li>
+		<li>In a console, launch the database initialization application by entering the following:
+		<div>
+		eclipse -nosplash -application org.eclipse.osee.framework.application.server.DbInit
+      -console 
+      -vmargs 
+      -XX:MaxPermSize=256m 
+      -Xmx512m 
+      -Dosgi.compatibility.bootdelegation=true
+		-Dequinox.ds.debug=true 
+		-Dorg.osgi.service.http.port=8089 
+		-Dosee.local.application.server=true
+		-Dosee.db.connection.id=postgresqlLocalhost
+		</div>
+		</li>
+		<li>When prompted select "Y"</li>
+		<li>Select 'ATS Configuration'</li>
+		<li>Wait for initialization to complete</li>
+		</ol>
 		
 		<br/>
 	</div>
