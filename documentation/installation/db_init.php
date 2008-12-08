@@ -50,9 +50,10 @@
 		<ol>
 		<li>Ensure database connection information matches database installation. OSEE is preconfigured 
 		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
-		see the <a href="">'Configuring Database Connection'</a> section. </li>
+		see the <a href="">'Configuring Database Connection'</a> section. </li>		
 		<li>In a console, launch the database initialization application by entering the following:
-		<div>
+		<div style="border-width:1;border:solid;text-align:center;padding:0.2em;">
+		<br/>
 		eclipse -nosplash -application org.eclipse.osee.framework.application.server.DbInit
       -console 
       -vmargs 
@@ -63,6 +64,7 @@
 		-Dorg.osgi.service.http.port=8089 
 		-Dosee.local.application.server=true
 		-Dosee.db.connection.id=postgresqlLocalhost
+		<br/>
 		</div>
 		</li>
 		<li>When prompted select "Y"</li>
