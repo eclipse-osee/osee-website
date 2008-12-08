@@ -35,10 +35,7 @@
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 
 		access and operate on a common OSEE data store.  Figure 1 shows an example of the OSEE Client/Server network.</p>
 		<br/>
-		
-		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
-		<img style="width:640;height:640;" src="images/client_server_view.png" alt="OSEE Client/Server View"/>		
-		</div >
+		<center><img border="1" style="width:640;height:640;" src="images/client_server_view.png" alt="OSEE Client/Server View"/></center>		
 		<center><b>Figure 1. Example of an OSEE Client/Server Network.</b></center>
 		<br/>		
 
@@ -55,16 +52,11 @@
 		the sequence of events involved in the arbitration process.</p>		
 		<br/>
 		
-		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
-		<img style="width:640;height:640;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/>
-		</div>
-
+		<center><img border="1" style="width:640;height:640;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/></center>
 		<center><b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b></center>		
 		<br/>
 
-		<div style="border-width:thin;border:solid;padding:0.2em;align:center;">
-		<img style="width:891;height:494;" src="images/authentication_sequence.png" alt="Authentication Sequence"/>
-		</div>
+		<center><img border="1" style="width:891;height:494;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
 		<center><b>Figure 3. OSEE Authentication Sequence Diagram.</b></center>
 				
 		<br/><br/>
