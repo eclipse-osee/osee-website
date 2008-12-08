@@ -42,11 +42,7 @@
 		<h4>Warning</h4>
 		<p>This process will delete all data from OSEE Data Store.  Make sure you are certain before running this process.</p>
 
-		<br/>
 		<h4>Instructions</h4>
-		
-
-		
 		<ol>
 		<li>Ensure database connection information matches database installation. OSEE is preconfigured 
 		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
