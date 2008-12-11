@@ -23,7 +23,7 @@
 <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/5.0%20OSEE%20Define%20Introduction%20Screencats.zip">OSEE Define Introduction</a> - This screencast introduces OSEE Define, the requirements and document management application that is built into OSEE.  It will introduce the difference between requirements and document management and how both types are imported into OSEE.  It will also introduce editing artifacts directly on the main branch, using working branches and show the basics of relating artifacts to each-other.<br><br>
 
 <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/6.0%20OSEE%20ATS%20Introduction%20Screencast.zip">OSEE Action Tracking System (ATS) Introduction</a> - This screencast introduces OSEE ATS, the integrated configuration management/change request application built into OSEE.  It will introduce the purpose of creating an integrated change management system, the terms and objects used in ATS, the benefits of integrated processes and configured workflows in an integrated environment and the scenarios of creating and transitioning an action to completion.  It will also walk through a simple configuration of ATS for a new product and briefly introduce the peer review framework that is available.<br><br>
-
+</div>
 EOHTML;
 
 

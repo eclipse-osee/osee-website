@@ -23,7 +23,7 @@
 	$html = <<<EOHTML
 
 <div id="midcolumn">
-		<h1>Events and Milestones</h1>
+		<h1>$pageTitle</h1>
 
 	<h3>2008, November 28 - Talks submitted for EclipseCon 2009</h3>
 		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
