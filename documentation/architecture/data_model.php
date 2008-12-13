@@ -30,11 +30,11 @@
 				
 		<p>The OSEE framework is built around a user configurable and extensible data model comprised of
 		attributes, artifacts, and relations.  An attribute is a key value pair representing a single data element such as a description, a date, a number, or a file.  
-		These basic data elements are then grouped into artifacts. Artifacts can be configured to have any number of attributes. By default, an artifact will always 
-		have an attribute of type name. In addition, artifacts can be related to one another via relations. By default, all artifacts have a default hierarchy relation type.
-		This allows artifacts to be connected together in a tree like fashion. In the example below, two instances of the basic artifact type are shown. Artifact 1 has an
-		attribute of type name set to string data "X". Artifact 2 has an attribute of type name set to string data "Y". These two artifact instances are related via the
-		default hierarchy relation type. Artifact 1 is Artifact 2's parent artifact.    
+		These basic data elements are grouped into artifacts. Artifacts can be configured to have any number of attributes. By default, an artifact will always 
+		have an attribute of type name. In addition, artifacts can be related to one another via relations. By default, an artifact will always have a default hierarchy 
+		relation type. This allows artifacts to be connected together in a tree like fashion. In the example below, two instances of the basic artifact type are shown. 
+		Artifact 1 has an attribute of type name set to string data "X". Artifact 2 has an attribute of type name set to string data "Y". These two artifact instances 
+		are related via the default hierarchy relation type. Artifact 1 is Artifact 2's parent artifact.    
 		</p>
 		
 		<br/> 		
