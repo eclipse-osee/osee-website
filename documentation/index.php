@@ -49,8 +49,9 @@
 				<li><a href="">Architeture</a></li>
 				<ol type="lower-alpha">
 					<li><a href="architecture/client_server_overview.php">Client/Server Overview</a></li>
-					<li><a href="architecture/client.php">Client Architecture</a></li>
-					<li><a href="architecture/server.php">Server Architecture</a></li>
+					<li><a href="architecture/client_architecture.php">Client Architecture</a></li>
+					<li><a href="architecture/server_architecture.php">Server Architecture</a></li>
+					<li><a href="architecture/data_model.php">Data Model</a></li>
 				</ol>
 			<li><a href="/osee/screencasts.php">Screencasts</a></li>
 			<li><a href="/osee/faq.php">FAQ</a></li>
