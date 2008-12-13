@@ -38,7 +38,7 @@
 		</p>
 		
 		<br/> 		
-		<center><img border="1" style="width:891;height:494;" src="images/basic_artifact.png" alt="Basic Artifact Example"/></center>
+		<center><img border="1" style="width:414;height:165;" src="images/basic_artifact.png" alt="Basic Artifact Example"/></center>
 		<center><b>Figure 1. Basic Artifact Example.</b></center>
 		 
 		<p>By default, OSEE has the following basic attributes:</p>
