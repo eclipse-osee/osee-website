@@ -36,21 +36,7 @@
 		<h4>Instructions</h4>
 		<ol>
 			<li>Download PostgreSQL from <a href="http://www.postgresql.org">http://www.postgresql.org/download</a></li>					
-			<li>Follow PostgreSQL Installation Wizard instructions:<br/>
-					<ol>
-						<li>When prompted select the language as English</li>
-						<li>Continue to select next until you get to the 'Service configuration' page</li>
-								i) Select a password for postgres user
-								ii) if prompted to create the postgres user please accept
-								iii) next
-						<li>'Initialise database cluster'</li>
-								i) change the encoding of the 'server' and 'client' to 'UTF8'
-								ii) set the password 'PASSWORD'
-								iii) next
-						<li>Continue to select 'Next' while accepting the default settings until you click finish to do the install.</li>
-								i) if prompted by anti-virus during the install allow the application to run
-						<li>Uncheck 'Launch Stack Builder at exit' and click finish</li>				
-			</li>
+			<li>Follow PostgreSQL installation instructions</li>
 			<li>Configure PostgreSQL for OSEE
 					<ol>
 							<li>Launch pgAdmin (in windows Start->All Programs->PostgreSQL*->pgAdmin III) </li>
