@@ -33,8 +33,8 @@
 			<ul>
 				<li>Database has been installed</li>
 				<li>Database server is running</li>
-				<li>A file system path has been selected for binary data storage. The system default is to user the user's home directory.</li>
-				<li>An application server is running</li>
+				<li>A file system path has been selected for binary data storage. The system default the user's home directory.</li>
+				<li>An application server is running. See <a href="../launch/osee_launch.php">'Application Server Launch'<a> for more info.</li>
 			</ul> 
 		
 		<br/>
