@@ -44,9 +44,9 @@
 
 		<h4>Instructions</h4>
 		<ol>
-		<li>Ensure database connection information matches database installation. OSEE is preconfigured 
+		<li>Ensure database connection information matches database installation. OSEE is pre-configured 
 		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
-		see the <a href="">'Configuring Database Connection'</a> section. </li>		
+		see the <a href="../launch/osee_launch.php">'Configuring Database Connection'</a> section. </li>		
 		<li>In a console, launch the database initialization application by entering the following:
 		<div style="border-width:thin;border:solid;padding:0.2em;">
 		<br/>

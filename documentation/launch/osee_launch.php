@@ -27,6 +27,8 @@
 	<div id="midcolumn" style="width:95%">
 
 		<h3>$pageTitle</h3>
+		
+		
 		<p>COMING SOON</p>
 		<br>
 		</br>
