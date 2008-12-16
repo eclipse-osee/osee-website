@@ -40,8 +40,12 @@
 		<br/> 		
 		<center><img border="1" style="width:414;height:165;" src="images/basic_artifact.png" alt="Basic Artifact Example"/></center>
 		<center><b>Figure 1. Basic Artifact Example.</b></center>
-		 
-		<p>By default, OSEE has the following basic attributes:</p>
+	 
+		<p>Now that we have a basic understanding of the model, lets take a closer look at attributes and how they are defined. An attribute is defined through its attribute type.
+		The attribute type is a blue print for constructing attribute instances. It defines the type of data the will be held by the attribute, the data source or who provides it, how many 
+		instances can be created, default value to use during creation, whether the attribute can be tagged for word searches, and if the attribute holds file data, its file extension. 
+		
+		By default, data contained in the attribute can be represented through OSEE's basic data types: 
 		<ul>
 			<li>String Attribute</li>
 			<li>Boolean Attribute</li>			
@@ -50,6 +54,16 @@
 			<li>Date Attribute<li>
 			<li>Enumerated Attribute</li>
 		</ul>
+		</p>
+		
+		<p>OSEE provides 3 attribute data providers: the default attribute data provider, URI attribute data provider, and the Clob attribute data provider. The default attribute data provider
+		is used for data containing less than 4000 characters in length. Data is stored and retrieved from the OSEE relational database. Most attribute types will use this data provider to handle
+		its data content. The URI attribute data provider is used for large data. The provider communicates to the OSEE application server to store and retrieve data. The Clob attribute data provider 
+		is a hybrid provider using both the OSEE relational database and the application server to retrieve and store data. When the data contained by the attribute has less than 4000 characters, 
+		the provider uses the relational database. If the data exceeds the 4000 character limit, then the application server is used. 
+		</p>
+		
+		
 		<br/>
 	</div>
 EOHTML;
