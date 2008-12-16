@@ -63,7 +63,6 @@
 		<h1>Needs Categorization</h1>
 		<ul>		
 			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
-			<li><a href="gettingStarted/concepts/arch.php">Architecture</li>
 			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
 			<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
 			<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>

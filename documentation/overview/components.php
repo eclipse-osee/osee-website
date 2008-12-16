@@ -49,7 +49,7 @@
 				<li>Scheduling Service</li>
 				<li>Datastore Adaptor</li>
 			</ul>
-</div>
+	</div>
 			
 
 	<a name="define"/>
