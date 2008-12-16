@@ -63,7 +63,9 @@
 		the provider uses the relational database. If the data exceeds the 4000 character limit, then the application server is used. 
 		</p>
 		
-		
+		<br/>
+		<center><img border="1" style="width:414;height:165;" src="images/attributeType.png" alt="Attribute Type Example"/></center>
+		<center><b>Figure 1. Attribute Type Example.</b></center>
 		<br/>
 	</div>
 EOHTML;
