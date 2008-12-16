@@ -10,17 +10,29 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		Although there is quite a bit to understand about the Architecture of OSEE, the main thing to understand right away
+		
+		<p>Although there is quite a bit to understand about the Architecture of OSEE, the main thing to understand right away
 		is that OSEE provides an Extensible Framework called the OSEE Application Framework and also provides some Exemplary
 		Applications built on this framework in the form of OSEE Define (the Requirements Management application) and OSEE ATS
-		(Action Tracking System; the Configuration Management application).<br><br>
+		(Action Tracking System; the Configuration Management application).
+		</p>
+		
+		<p>
 		The Application Framework provides all the necessary services to allow the application(s) to persist and share data
-		in a common-version controlled object database.<br><br>
-		Just like Eclipse provides the ability to ADD a plugin to the existing Eclipse environment, so OSEE allows other 
-		applications to ADD plugins and share the common data storage.<br><br>
+		in a common-version controlled object database.
+		</p>
+		
+		<p>
+		Just like Eclipse provides the ability to add a plugin to the existing Eclipse environment, so OSEE allows other 
+		applications to add plugins and share the common data storage.
+		</p>
+		
+		<p>
 		And just like Eclipse RCP allows an application to be built and deployed using the Eclipse framework but not include all the
 		Exemplary applications like JDT, OSEE allows an application to be built and deployed using the OSEE Application 
-		Framework without including such applications as OSEE Define and OSEE ATS.<br><br>
+		Framework without including such applications as OSEE Define and OSEE ATS.
+		</p>
+		<br><br>
       <img align="center" src="/osee/images/OSEEArchitecture.gif" border="0"/>
 EOHTML;
 
