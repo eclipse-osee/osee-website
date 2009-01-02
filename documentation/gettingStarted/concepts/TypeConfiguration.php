@@ -75,10 +75,10 @@ the java type <code>org.eclipse.osee.framework.skynet.core.artifact.Artifact</co
 				<li><code>org.eclipse.osee.framework.skynet.core.IntegerAttribute</code></li>
 				<li><code>org.eclipse.osee.framework.skynet.core.StringAttribute</code></li>
 				<li><code>org.eclipse.osee.framework.skynet.core.EnumeratedAttribute</code></li>
-				<li><code>org.eclipse.osee.framework.skynet.core.WordTemplateAttribute</code></li>
-				<li><code>org.eclipse.osee.framework.skynet.core.WordWholeDocumentAttribute</code></li>
+				<li><pre>org.eclipse.osee.framework.skynet.core.WordTemplateAttribute</pre></li>
+				<li><pre>org.eclipse.osee.framework.skynet.core.WordWholeDocumentAttribute</pre></li>
 				</ul>
-			 If a custom java type that extends <code>Attribute</code> is needed, then that type should be specified here.
+			 If a custom java type that extends <pre>Attribute</pre> is needed, then that type should be specified here.
 			</td>
 		</tr>
 		<tr>
