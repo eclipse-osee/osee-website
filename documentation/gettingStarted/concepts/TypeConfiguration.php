@@ -23,6 +23,14 @@
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
+<style type="text/css">
+code {font-size:medium;}
+</style>
+
+
+
+
+
 	<div id="midcolumn" style="width:95%">
 <h2>Define Custom Data Model</h2>
 <p>
@@ -75,10 +83,10 @@ the java type <code>org.eclipse.osee.framework.skynet.core.artifact.Artifact</co
 				<li><code>org.eclipse.osee.framework.skynet.core.IntegerAttribute</code></li>
 				<li><code>org.eclipse.osee.framework.skynet.core.StringAttribute</code></li>
 				<li><code>org.eclipse.osee.framework.skynet.core.EnumeratedAttribute</code></li>
-				<li><kbd>org.eclipse.osee.framework.skynet.core.WordTemplateAttribute</kbd></li>
-				<li><kbd>org.eclipse.osee.framework.skynet.core.WordWholeDocumentAttribute</kbd></li>
+				<li><code>org.eclipse.osee.framework.skynet.core.WordTemplateAttribute</code></li>
+				<li><code>org.eclipse.osee.framework.skynet.core.WordWholeDocumentAttribute</code></li>
 				</ul>
-			 If a custom java type that extends <kbd>Attribute</kbd> is needed, then that type should be specified here.
+			 If a custom java type that extends <code>Attribute</code> is needed, then that type should be specified here.
 			</td>
 		</tr>
 		<tr>
