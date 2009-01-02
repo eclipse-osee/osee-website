@@ -24,7 +24,7 @@
 	$html = <<<EOHTML
 
 <style type="text/css">
-code {font-size:medium;}
+code {font-size:small;}
 </style>
 
 
