@@ -23,7 +23,7 @@
 	When configuring this SVN repository leave the user name and password blank in order to get anonymous, read-only access.</p>
 
 	<ol>
-		<li><a href="http://www.eclipse.org/documentation/installation/postgresql_install.php">PostgreSQL Installation</a></li>
+		<li><a href="http://www.eclipse.org/osee/documentation/installation/postgresql_install.php">PostgreSQL Installation</a></li>
 		<li>Use the configuration \org.eclipse.osee.framework.resource.management\OseeApplicationServer [postgresql localhost].launch to run an OSEE application server</li>
 		<li>Use the configuration \osee.runConfigs.db.postgres\DB Config [postgresql localhost].launch to run an OSEE database initialization</li>
 		<li>Use the configuration \osee.runConfigs.db.postgres\OSEE product [postgresql localhost].launch to run a local OSEE client</li>
