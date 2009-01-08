@@ -14,7 +14,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - User's Guide";
+	$pageTitle 		= "OSEE - Documentation Index";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -22,7 +22,7 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn" style="width:95%">
-		<h1>$pageTitle</h1>
+		<h1>OSEE - User's Guide</h1>
 
 		<ol type="upper-roman">
 			<li><a href="overview/what_is.php">What is OSEE?</a></li>
@@ -60,10 +60,15 @@
 		<br/>
 		<br/>	
 		
+		<h1>OSEE - Developer's Guide</h1>
+		<ol type="upper-roman">
+			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
+			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Model Customization</a></li>
+			<li><a href="configuration/developmentRuntime.php">Configuration of a Development Runtime</a></li>
+		</ol>
+		
 		<h1>Needs Categorization</h1>
 		<ul>		
-			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
-			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Types</a></li>
 			<li><a href="ote/OSEE_Test_and_Simulation_Component.php">OSEE Test and Simulation Component</a></li>
 			<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>
 			<li><a href="core/search/attribute_tagging.php">Attribute Tagging </a></li>
