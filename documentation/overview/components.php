@@ -25,7 +25,7 @@
 		<h1>$pageTitle</h1>
 	
 	
-	<a name="framework"/>
+	<a name=framework/>
 	<div class="homeitem3col">
 		<h4>OSEE Application Framework</h4>
 			<u>Key Capabilities</u>
@@ -52,7 +52,7 @@
 	</div>
 			
 
-	<a name="define"/>
+	<a name=define/>
 	<div class="homeitem3col">
 		<h4>Define</h4>
 			<p>Define provides requirements and process management with tightly integrated change management using the Action Tracking System (ATS).  OSEE provides publishing capabilities that enable the creation of documents from smaller internal documents to the complex documents needed to meet military requirements for contract deliverables such as the Software Requirements Specification (SRS), System Performance Specification (SPS), Prime Item Development Specification (PIDS), and all the required traceability between them.</p>
@@ -68,8 +68,8 @@
 			</ul>
 </div>
 						
-	<a name="ats"/>
-	<a name="actTrkSys"/>
+	<a name=ats/>
+	<a name=actTrkSys/>
 	<div class="homeitem3col">
 		<h4>Action Tracking System (ATS)</h4>
 			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
@@ -87,7 +87,7 @@
 			</ul>
 </div>
 			
-	<a name="ote"/>
+	<a name=ote/>
 	<div class="homeitem3col">
 		<h4>OSEE Test Environment (OTE)</h4>
 			<p>OTE is a powerful test solution within OSEE that integrates with existing Java, C, and C++ development environments to provide a seamless flow between developing, debugging, executing, and dispositioning of tests for complex hardware and software.  The user is provided a common interface to the simulated and real-time environments for both functional and unit testing.
