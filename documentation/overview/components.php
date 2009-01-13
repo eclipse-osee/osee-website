@@ -68,10 +68,8 @@
 			</ul>
 </div>
 						
-	<a name=ats/>
-	<a name=actTrkSys/>
 	<div class="homeitem3col">
-		<h4>Action Tracking System (ATS)</h4>
+		<h4 id=ats name=ats>Action Tracking System (ATS)</h4>
 			<p>ATS is a tightly integrated change tracking system that manages changes throughout a product's lifecycle.  ATS provides integrated change management to all OSEE applications through user customizable workflows.</p>
 			<u>Key Capabilities</u>
 			<ul>			
