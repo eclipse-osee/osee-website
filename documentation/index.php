@@ -36,7 +36,7 @@
 							<li><a href="installation/postgresql_install.php">PostgreSQL Installation</a></li>
 						</ol>
 					<li><a href="installation/db_init.php">Database Initialization</a></li>
-					<li><a href="launch/osee_launch.php">Launch & Configuration</a><l/i>
+					<li><a href="launch/osee_launch.php">Launch & Configuration</a></li>
 				</ol>
 			<li><b>System Overview</b></li>		
 				<li><a href="overview/components.php">Components</a></li>	
@@ -44,8 +44,9 @@
 					<li><a href="overview/components.php#framework">Application Framework Component</a></li>
 					<li><a href="overview/components.php#define">Define</a></li>					
 					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
-					<ol type="lower-alpha">
+					<ol>
 						<li><a href="ats/ATS.htm">ATS Users Guide</a></li>
+			         <li><a href="configuration/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
 					</ol>
 					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
 				</ol>

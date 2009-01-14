@@ -38,7 +38,7 @@
 			<li>If an existing workflow (eg: osee.ats.teamWorkflow) is to be used, enter this as the id.  Otherwise a new workflow will be created.</li>
 			<li>Upon Selecting Finish, ATS will be configured with the entered information.  You can then select to create a new Action and select
 			one of the Actionable Items (named above).  This will create a new workflow and assign it to the above Team for processing.</li>
-			<li>See <a href="ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
+			<li>See <a href="../ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
 		</ol>
 		<li>Creating a New workflow configuration for existing Team / Actionable Items using the ATS Workflow Configuration Editor</li>
 		<ol type="lower-alpha">
@@ -46,7 +46,7 @@
 			<li>Enter in a unique namespace for your configuration (eg: org.company.code)</li>
 			<li>Upon Selecting Finish, ATS will create a simple workflow that can be expanded with new states, transitions and widgets.</li>
 			<li>This workflow will need to be related to the Team Definition that will use it.  
-			See <a href="ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
+			See <a href="../ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
 		</ol>
 		<li>Editing an existing workflow configuration using the ATS Workflow Configuration Editor</li>
 		<ol type="lower-alpha">
@@ -56,10 +56,10 @@
 			<li>Workflow can be edited to include new states and transitions.  Double-click state to relate widgets and rules.</li>
 			<li>Selecting Save will validate the workflow and save the changes to the database.  These changes can be used immediately by Team Definitions
 			configured to use this workflow.</li>
-			<li>See <a href="ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
+			<li>See <a href="../ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
 		</ol>
 		<li>Advanced ATS Configuration via the org.eclipse.osee.ats.config.demo - Although ATS can be configured dynamically in a runtime environment, 
-		advanced configuration like including creating new widgets and rules, can be done through extension points.  
+		advanced configuration, like creating new widgets and rules, can be done through extension points.  
 		The ats.config.demo plugin is an example of these capabilities.</li>
 	</ol>
 	</div>
