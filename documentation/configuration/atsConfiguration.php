@@ -18,27 +18,30 @@
 
 	<h2>$pageTitle</h2>
 	<p>
-	The Action Tracking System (ATS) can be configured for tracking changes made to requirements, software, hardware or anything else that needs to be tracked.<br><br>
-	The integrated nature of ATS allows for the tight configuration management of changes to the artifacts that are stored and managed
-	in OSEE, such as requirement, and provides advanced features that allow for advanced workflow management of assets.<br><br>
+	The Action Tracking System (ATS) can be configured for tracking changes made to such things as requirements, software, hardware and facilities.<br><br>
+	
+	The integrated nature of ATS also allows for the tight configuration management of changes to the artifacts that are stored and managed
+	in OSEE, such as requirements, and provides advanced features that allow for advanced workflow management of these items.<br><br>
+	
 	OSEE ATS provides a few levels of configuration, from the simple/dynamic configuration that can be created/modified during runtime
 	to a more advanced configuration that requires a separate plugin and release/update.</p>
 
 	<ol>
 		<li>Create a New configuration using the ATS Configuration Wizard</li>
-		<ol>
+		<ol type="lower-alpha">
 			<li>Select File -> New -> Other -> OSEE ATS -> ATS Configuration</li>
 			<li>Enter in a unique namespace for your configuration (eg: org.company.code)</li>
 			<li>Enter in a name for the Team that will be performing the work (eg: Code Team)</li>
 			<li>Enter in a list of Actionable Items that you want the users to write change requests against. (eg: Editor, Installer, Website)</li>
-			<li>If Actions are to be grouped and released in versions (or builds), enter a list of versions. (eg: 1.0.0, 1.1.0, 1.2.0)</li>
-			<li>If an existing workflow (eg: ats.defaultTeamWorkflow) is to be used, enter this as the id.  Otherwise a new workflow will be created.</li>
+			<li>If Actions are to be grouped and released in versions (or builds), enter a list of versions. (eg: 1.0.0, 1.1.0, 1.2.0)  Otherwise,
+			this field may be left blank.</li>
+			<li>If an existing workflow (eg: osee.ats.teamWorkflow) is to be used, enter this as the id.  Otherwise a new workflow will be created.</li>
 			<li>Upon Selecting Finish, ATS will be configured with the entered information.  You can then select to create a new Action and select
 			one of the Actionable Items (named above).  This will create a new workflow and assign it to the above Team for processing.</li>
 			<li>See <a href="ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
 		</ol>
 		<li>Creating a New workflow configuration for existing Team / Actionable Items using the ATS Workflow Configuration Editor</li>
-		<ol>
+		<ol type="lower-alpha">
 			<li>Select File -> New -> Other -> OSEE ATS -> ATS Workflow Configuration</li>
 			<li>Enter in a unique namespace for your configuration (eg: org.company.code)</li>
 			<li>Upon Selecting Finish, ATS will create a simple workflow that can be expanded with new states, transitions and widgets.</li>
@@ -46,7 +49,7 @@
 			See <a href="ats/ATS.htm#section8.1">Configure ATS for Change Tracking</a> for more information.</li>
 		</ol>
 		<li>Editing an existing workflow configuration using the ATS Workflow Configuration Editor</li>
-		<ol>
+		<ol type="lower-alpha">
 			<li>In the Branch Manager, set the Default Working Branch to the Common branh.</li>
 			<li>In the Artifact Explorer, expand Action Tracking System -> Work Flows and select the workflow to edit.  This will
 			open the ATS Workflow Configuration Editor.</li>
