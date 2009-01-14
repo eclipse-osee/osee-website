@@ -1,0 +1,3 @@
+Files in reference folder are copied from ATS plugin.  Do not edit them here but instead edit them in ats plugin and copy them to here.
+
+This is temporary until we get OSEE's help files served off the eclipse.org/osee website.

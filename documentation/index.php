@@ -46,7 +46,7 @@
 					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
 					<ol>
 						<li><a href="ats/ATS.htm">ATS Users Guide</a></li>
-			         <li><a href="configuration/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
+			         <li><a href="ats/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
 					</ol>
 					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
 				</ol>
@@ -69,7 +69,7 @@
 			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
 			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Model Customization</a></li>
 			<li><a href="configuration/developmentRuntime.php">Configuration of a Development Runtime</a></li>
-			<li><a href="configuration/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
+			<li><a href="ats/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
 		</ol>
 		
 		<h1>Needs Categorization</h1>
