@@ -31,14 +31,14 @@
 	
 	<tr>
 		<td class="date">2008/11/28</td>
-		<td>Talks submitted for EclipseCon 2009
+		<td><h4>Talks submitted for EclipseCon 2009</h4>
 			<div class="details">
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
-				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
 			</div>
 		</td>
 	</tr>
@@ -52,7 +52,7 @@
 		<td class="date">2008/11/19</td>
 		<td><h5>OSEE talk is presented at Eclipse Summit Europe</h5>
 			<div class="details">
-				<a class="link" href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a>
+				<a  href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a>
 			</div>
 		</td>
 	</tr>
@@ -69,7 +69,7 @@
 	
 	<tr>
 		<td class="date">2008/03/26</td>
-		<td><h5>MicroDoc <a class="link"href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h5></td>
+		<td><h5>MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h5></td>
 	</tr>
 	
 	<tr>
@@ -81,7 +81,7 @@
 		<td class="date">2008/02/01</td>
 		<td><h5>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h5>
 			<div class="details">
-				<a class="link" href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a>
+				<a  href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a>
    		</div>
 		</td>
 	</tr>
@@ -90,9 +90,9 @@
 		<td class="date">2007/12/17</td>
 		<td><h5>Talks accepted for EclipseCon 2008</h5>
 			<div class="details">
-				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
-				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
-				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies
+				<a  href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
+				<a  href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
+				<a  href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies
 			</div>
 		</td>
 	</tr>
@@ -100,7 +100,7 @@
 	<tr>
 		<td class="date">2007/12/10</td>
 		<td><h5>Demo Screencasts Available</h5>
-      	<div class="details">The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed separately or used as a tutorial along side the OSEE Demo Installation.  Contact <a class="link" href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.</div>
+      	<div class="details">The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed separately or used as a tutorial along side the OSEE Demo Installation.  Contact <a  href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.</div>
 		</td>
 	</tr>
 	
@@ -115,11 +115,11 @@
 		<td class="date">2007/12/19</td>
 		<td><h5>Proposed Talks for EclipseCon 2008</h5>
 				<div class="details">
-					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
-					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
-					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
-					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
-					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a>
+					<a  href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
+					<a  href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
+					<a  href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
+					<a  href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
+					<a  href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a>
 				</div>
 			</td>
 	</tr>
@@ -157,12 +157,12 @@
        <h6>In the News</h6>
        <div class="modal">
        <p>
-       <a class="link" href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
-       <a class="link" href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
-       <a class="link" href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
-       <a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
-       <a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">2007-05-29 - SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
-       <a class="link" href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
+       <a  href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
+       <a  href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
+       <a  href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
+       <a  href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
+       <a  href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">2007-05-29 - SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
+       <a  href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
        </p>
        </div>
    </div>
