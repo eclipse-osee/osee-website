@@ -31,8 +31,9 @@
 	
 	<tr>
 		<td class="date">2008/11/28</td>
-		<td><h3>Talks submitted for EclipseCon 2009</h3>
+		<td>
 			<div class="details">
+				<h4>Talks submitted for EclipseCon 2009</h4>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
