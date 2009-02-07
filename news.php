@@ -31,26 +31,26 @@
 	
 	<tr>
 		<td class="date">2008/11/28</td>
-		<td><h3>Talks submitted for EclipseCon 2009</h3>
+		<td><h5>Talks submitted for EclipseCon 2009</h5>
 			<div class="details">
-				<a class="link"class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
-				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
-				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
-				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
-				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
-				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
+				<a class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
 			</div>
 		</td>
 	</tr>
 		
 	<tr>
 		<td class="date">2008/11/19</td>
-		<td><h3>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3></td>
+		<td><h5>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2008/11/19</td>
-		<td><h3>OSEE talk is presented at Eclipse Summit Europe</h3>
+		<td><h5>OSEE talk is presented at Eclipse Summit Europe</h5>
 			<div class="details">
 				<a class="link" href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a>
 			</div>
@@ -59,27 +59,27 @@
 	
 	<tr>
 		<td class="date">2008/09/24</td>
-		<td><h3>OSEE 0.4.0 was released</h3></td>
+		<td><h5>OSEE 0.4.0 was released</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2008/04/10</td>
-		<td><h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3></td>
+		<td><h5>2008, April 10 - OSEE holds first Architecture deep-dive.</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2008/03/26</td>
-		<td><h3>MicroDoc <a class="link"href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h3></td>
+		<td><h5>MicroDoc <a class="link"href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2008/03/24</td>
-		<td><h3>Eclipse ORMF Project joins OSEE as a component.</h3></td>
+		<td><h5>Eclipse ORMF Project joins OSEE as a component.</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2008/02/01</td>
-		<td><h3>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h3>
+		<td><h5>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h5>
 			<div class="details">
 				<a class="link" href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a>
    		</div>
@@ -88,7 +88,7 @@
 	
 	<tr>
 		<td class="date">2007/12/17</td>
-		<td><h3>Talks accepted for EclipseCon 2008</h3>
+		<td><h5>Talks accepted for EclipseCon 2008</h5>
 			<div class="details">
 				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
 				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
@@ -99,21 +99,21 @@
 	
 	<tr>
 		<td class="date">2007/12/10</td>
-		<td><h3>Demo Screencasts Available</h3>
+		<td><h5>Demo Screencasts Available</h5>
       	<div class="details">The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed separately or used as a tutorial along side the OSEE Demo Installation.  Contact <a class="link" href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.</div>
 		</td>
 	</tr>
 	
 	<tr>
 		<td class="date">2007/12/08</td>
-		<td><h3>OSEE source code committed to Eclipse</h3>
+		<td><h5>OSEE source code committed to Eclipse</h5>
 			<div class="details">The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.</div>
 		</td>
 	</tr>
 	
 	<tr>
 		<td class="date">2007/12/19</td>
-		<td><h3>Proposed Talks for EclipseCon 2008</h3>
+		<td><h5>Proposed Talks for EclipseCon 2008</h5>
 				<div class="details">
 					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
 					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
@@ -126,27 +126,27 @@
 	
 	<tr>
 		<td class="date">2007/05/08</td>
-		<td><h3>2007, Nov 8 - Delivered OSEE with database to US Army</h3></td>
+		<td><h5>2007, Nov 8 - Delivered OSEE with database to US Army</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2007/08/10</td>
-		<td><h3>2007, Aug 10 - Incubation Phase (conforming)</h3></td>
+		<td><h5>2007, Aug 10 - Incubation Phase (conforming)</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2007/07/10</td>
-		<td><h3>Project Proposal Phase Approved</h3></td>
+		<td><h5>Project Proposal Phase Approved</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2007/03/05</td>
-		<td><h3>Exploration of OSEE becoming Eclipse Project</h3></td>
+		<td><h5>Exploration of OSEE becoming Eclipse Project</h5></td>
 	</tr>
 	
 	<tr>
 		<td class="date">2004/11/01</td>
-		<td><h3>Test Environment first used for requirements verification in simulated environment</h3></td>
+		<td><h5>Test Environment first used for requirements verification in simulated environment</h5></td>
 	</tr>
 	
 	</table>
