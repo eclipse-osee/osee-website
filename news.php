@@ -69,9 +69,10 @@
 	<h3>2004, November - Test Environment first used for requirements verification in simulated environment</h3>
 	</div>
 </div>	
-	<div class='sideitem'>
+<div id="rightcolumn">
+	<div class="sideitem">
        <h6>In the News</h6>
-       <div class='modal'>
+       <div class="modal">
        <p>
        <a href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
        <a href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
@@ -81,6 +82,7 @@
        <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
        </p>
        </div>
+   </div>
    </div>
 	
 EOHTML;
