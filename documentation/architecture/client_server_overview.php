@@ -29,7 +29,7 @@
 		<p>In order to be a scalable system, the Open System Engineering Environment (OSEE) has been slowly migrating 
 		into a distributed architecture where clients interact with an application server in-charge of managing access 
 		to an OSEE data store. Additionally, in an effort to provide load balancing, failure recovery, and code compatibility, 
-		clients consult an arbitration server before connecting to an application server.  The arbitration server&quot;s responsibility 
+		clients consult an arbitration server before connecting to an application server.  The arbitration server\'s responsibility 
 		is to keep track of all the application servers interacting with a common data store and direct clients to a healthy 
 		application server compatible with the client’s OSEE code version.  In this arrangement, arbitration servers act as the 
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 

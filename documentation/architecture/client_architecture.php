@@ -39,7 +39,7 @@
 		Framework without including such applications as OSEE Define and OSEE ATS.
 		</p>
 		<br/>
-      <center><img  style="width:100%;height:100%;" align="center" src="/osee/images/OSEEArchitecture.gif" border="0"/></center>
+      <center><img  style="width:100%;height:100%;" src="/osee/images/OSEEArchitecture.gif" border="0"/></center>
       <center><b>Figure 1. OSEE Architecture.</b></center>
       </div>
 EOHTML;
