@@ -52,7 +52,7 @@
 		the sequence of events involved in the arbitration process.</p>		
 		<br/>
 		
-		<center><img border="1" style="width:140%;height:140%;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/></center>
+		<center><img border="1" style="width:150%;height:150%;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/></center>
 		<center><b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b></center>		
 		<br/>
 
@@ -67,7 +67,7 @@
 		</p>
 		<br/>
 		
-		<center><img border="1" style="width:140%;height:140%;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
+		<center><img border="1" style="width:150%;height:150%;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
 		<center><b>Figure 3. OSEE Authentication Sequence Diagram.</b></center>
 				
 		<br/><br/>
