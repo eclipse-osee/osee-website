@@ -31,7 +31,7 @@
 	
 	<tr>
 		<td class="date">2008/11/28</td>
-		<td><h4>Talks submitted for EclipseCon 2009</h4>
+		<td><h3>Talks submitted for EclipseCon 2009</h3>
 			<div class="details">
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
@@ -45,7 +45,7 @@
 		
 	<tr>
 		<td class="date">2008/11/19</td>
-		<td><h5>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h5></td>
+		<td><h4>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h4></td>
 	</tr>
 	
 	<tr>
@@ -156,17 +156,35 @@
 	<div class="sideitem">
        <h6>In the News</h6>
        <div class="modal">
-       <p>
-       <a  href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
-       <a  href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
-       <a  href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
-       <a  href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
-       <a  href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">2007-05-29 - SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
-       <a  href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
-       </p>
-       </div>
+       	<table class="newsPosts" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="date">2008/04/08</td>
+					<td><a class="link" href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">Reduce Software Project Failure</a></td>
+				</tr>
+				<tr>
+					<td class="date">2008/03/19</td>
+					<td><a class="link" href="http://www.embedded-computing.com/b/?p=225">OSEE at EclipseCon - Embedded now Blog </a></td>
+       		</tr>
+				<tr>
+					<td class="date">2008/02/14</td>
+					<td><a class="link" href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">Ralph Mueller - "OSEE Collaboration and EclipseCon"</a></td>
+       		</tr>
+				<tr>
+					<td class="date">2007/05/23</td>
+					<td><a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a></td>
+       		</tr>
+				<tr>
+					<td class="date">2007/05/29</td>
+					<td><a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a></td>
+       		</tr>
+				<tr>
+					<td class="date">2007/07/10</td>
+					<td><a class="link" href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a></td>
+       		</tr>
+       	</table>
+      </div>
    </div>
-   </div>
+</div>
 	
 EOHTML;
 
