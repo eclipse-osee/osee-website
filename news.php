@@ -27,46 +27,129 @@
 
 <div class='homeitem'>
 
-	<h3>2008, November 28 - Talks submitted for EclipseCon 2009</h3>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
-		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a><br>
-	<h3>2008, November 19 -  Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3>
-	<h3>2008, November 19 - OSEE talk is presented at Eclipse Summit Europe</h3>
-		<a href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a><br>
-	<h3>2008, Sep 24 - OSEE 0.4.0 was released</h3>
-	<h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3>
-	<h3>2008, March 26 - MicroDoc <a href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h3>
-	<h3>2008, March 24 - Eclipse ORMF Project joins OSEE as a component.</h3>
-	<h3>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h3>
-		<a href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a><br>
-
-	<h3>2007, December 17 - Talks accepted for EclipseCon 2008</h3>
-		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
-		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
-		<a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies<br>
-
-	<h3>2007, December 10 - Demo Screencasts Available</h3>
-      The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed seperately or used as a tutorial along side the OSEE Demo Installation.  Contact <a href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.<br>
-
-	<h3>2007, December 8 - OSEE source code committed to Eclipse</h3>
-      The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.<br>
-
-	<h3>2007, December 19 - Proposed Talks for EclipseCon 2008</h3>
-		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
-		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
-		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
-		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
-		<a href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a><br><br>
+	<table class="newsPosts" cellspacing="0" cellpadding="0">
 	
-	<h3>2007, Nov 8 - Delivered OSEE with database to US Army</h3>
-	<h3>2007, Aug 10 - Incubation Phase (conforming)</h3>
-	<h3>2007, July 10 - Project Proposal Phase Approved</h3>
-	<h3>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h3>
-	<h3>2004, November - Test Environment first used for requirements verification in simulated environment</h3>
+	<tr>
+		<td class="date">2008/11/28</td>
+		<td><h3>Talks submitted for EclipseCon 2009</h3>
+			<div class="details">
+				<a class="link"class="link" href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
+				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
+				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
+				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=671">Improved Engineering Through Integrated Workflows and Data Management</a><br>
+				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=484">Developing High Integrity Software</a><br>
+				<a class="link"href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
+			</div>
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="date">2008/11/19</td>
+		<td><h3>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/11/19</td>
+		<td><h3>OSEE talk is presented at Eclipse Summit Europe</h3>
+			<div class="details">
+				<a class="link" href="http://www.eclipsecon.org/summiteurope2008/sessions?id=169">Open System Engineering Environment - An Integrated Solution</a>
+			</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/09/24</td>
+		<td><h3>OSEE 0.4.0 was released</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/04/10</td>
+		<td><h3>2008, April 10 - OSEE holds first Architecture deep-dive.</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/03/26</td>
+		<td><h3>MicroDoc <a class="link"href="www.microdoc.com">www.microdoc.com</a> agrees to host server for OSEE demo.</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/03/24</td>
+		<td><h3>Eclipse ORMF Project joins OSEE as a component.</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2008/02/01</td>
+		<td><h3>2008, Feb - EclipseCon Birds of Feather (BOF) session for OSEE Accepted</h3>
+			<div class="details">
+				<a class="link" href="http://www.eclipsecon.org/2008/?page=sub/&id=590">Open System Engineering Environment BOF</a>
+   		</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/12/17</td>
+		<td><h3>Talks accepted for EclipseCon 2008</h3>
+			<div class="details">
+				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=421">The Cure for Your Disconnected Toolset Headache</a> - Long Talk - Tools<br>
+				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=428">Top 10 Deployment Secrets They Don't Want You To Know</a> - Short Talk - Emerging Technologies<br>
+				<a class="link" href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=422">Open System Engineering Environment: An Integrated Solution</a> - Short Talk - Emerging Technologies
+			</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/12/10</td>
+		<td><h3>Demo Screencasts Available</h3>
+      	<div class="details">The Eclipse OSEE Project released demonstration screencasts to showcase the capabilities of OSEE.  These can be viewed separately or used as a tutorial along side the OSEE Demo Installation.  Contact <a class="link" href="mailto: donald.g.dunne@boeing.com">Don Dunne</a> for details.</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/12/08</td>
+		<td><h3>OSEE source code committed to Eclipse</h3>
+			<div class="details">The OSEE Project released its first set of source code to the Eclipse SVN repository.  Screencasts will be provided as well as a demo installation within the week.</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/12/19</td>
+		<td><h3>Proposed Talks for EclipseCon 2008</h3>
+				<div class="details">
+					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/421">The Cure for Your Disconnected Toolset Headache</a><br>
+					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/428">Top 10 Deployment Secrets They Don't Want You To Know</a><br>
+					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/431">Going Vertical: An Experience from the Aerospace Industry</a><br>
+					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/422">Open System Engineering Environment: An Integrated Solution</a><br>
+					<a class="link" href="https://eclipsecon.greenmeetingsystems.com/submissions/view/425">Take Courage and Arm Yourself With The Right Tooling To Embrace Change</a>
+				</div>
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/05/08</td>
+		<td><h3>2007, Nov 8 - Delivered OSEE with database to US Army</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/08/10</td>
+		<td><h3>2007, Aug 10 - Incubation Phase (conforming)</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/07/10</td>
+		<td><h3>Project Proposal Phase Approved</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2007/03/05</td>
+		<td><h3>Exploration of OSEE becoming Eclipse Project</h3></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2004/11/01</td>
+		<td><h3>Test Environment first used for requirements verification in simulated environment</h3></td>
+	</tr>
+	
+	</table>
 	</div>
 </div>	
 <div id="rightcolumn">
@@ -74,12 +157,12 @@
        <h6>In the News</h6>
        <div class="modal">
        <p>
-       <a href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
-       <a href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
-       <a href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
-       <a href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">2007-05-29 - SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
-       <a href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
+       <a class="link" href="http://www.ebizq.net/blogs/it_directions/archives/2008/04/reduce_software.php">2008-04-08 - Reduce Software Project Failure</a><br><br>
+       <a class="link" href="http://www.embedded-computing.com/b/?p=225">2008-03-19 - OSEE at EclipseCon - Embedded now Blog </a><br><br>
+       <a class="link" href="http://ralph-at-eclipse.blog.de/2008/02/14/hidden_gem%7E3726625">2008-02-14 - Ralph Mueller - "OSEE Collaboration and EclipseCon"</a><br><br>
+       <a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30587">2007-05-23 - SDTimes - "Persistence is a Virtue"</a><br><br>
+       <a class="link" href="http://www.sdtimes.com/content/article.aspx?ArticleID=30656">2007-05-29 - SDTimes - "Boeing Pilots Test Solution With Eclipse Persistence"</a><br><br>
+       <a class="link" href="http://www.eclipse.org/proposals/osee/">OSEE Proposal</a>
        </p>
        </div>
    </div>
