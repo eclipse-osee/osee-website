@@ -16,7 +16,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Documentation";
+	$pageTitle 		= "Requirements";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -25,7 +25,7 @@
 
 	<div id="midcolumn" style="width:95%">
 
-		<h3>Requirements</h3>
+		<h3>$pageTitle</h3>
 		<p>
 			JDK 1.6 or higher<br/>
 			Eclipse 3.4<br/>

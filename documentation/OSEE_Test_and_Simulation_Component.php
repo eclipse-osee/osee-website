@@ -22,9 +22,11 @@
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
-<h3>OSEE Test and Simulation Component Features</h3>
 
-<div id="midcolumn" style="width:95%">
+
+<div id="midcolumn">
+<h3>$pageTitle/h3>
+
 <ul>
 	<li>Test Environment Service</li>
 	<ul>

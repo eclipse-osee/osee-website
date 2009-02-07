@@ -24,7 +24,7 @@
 	$html = <<<EOHTML
 
 
-<div id="midcolumn" style="width:95%">
+<div id="midcolumn">
 	<h1>$pageTitle</h1>
 	<br/>
 	<h3>Requirements traceability for a system</h3>

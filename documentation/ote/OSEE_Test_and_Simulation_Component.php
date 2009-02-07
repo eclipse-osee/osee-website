@@ -24,8 +24,8 @@
 	$html = <<<EOHTML
 
 
-<div id="midcolumn" style="width:95%">
-	<h1>OSEE Test and Simulation Component Features</h1>
+<div id="midcolumn">
+	<h1>$pageTitle</h1>
 	<br/>
 	<h3>Test Environment Service</h3>
 	<ul>

@@ -22,7 +22,7 @@
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
-	<div id="midcolumn" style="width:95%">
+	<div id="midcolumn">
 
 		<h3>$pageTitle</h3>
 		<p> OSEE can be installed from within Eclipse using update manager. All the user should do is point update manager to the remote or local update site. To install OSEE:</p>

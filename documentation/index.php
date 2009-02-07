@@ -5,7 +5,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Documentation Index";
+	$pageTitle 		= "OSEE - User's Guide";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 
@@ -13,7 +13,7 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
-		<h1>OSEE - User's Guide</h1>
+		<h1>$pageTitle</h1>
 
 		<ol type="upper-roman">
 			<li><a href="overview/what_is.php">What is OSEE?</a></li>

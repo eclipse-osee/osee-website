@@ -17,7 +17,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Documentation";
+	$pageTitle 		= "OSEE Configuration and Arguments";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar; Ryan D. Brooks";
 
@@ -25,7 +25,7 @@
 	$html = <<<EOHTML
 	<div id="midcolumn">
 
-	<h3>OSEE Configuration and Arguments</h3>
+	<h3>$pageTitle</h3>
 	OSEE can be configured by setting the following Java system properties before launching Eclipse.
 	<br/>
 	<br/>

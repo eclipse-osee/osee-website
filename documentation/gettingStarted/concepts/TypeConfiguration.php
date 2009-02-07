@@ -16,7 +16,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE - Documentation";
+	$pageTitle 		= "OSEE Custom Data Model";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, type, configuration";
 	$pageAuthor		= "Ryan D. Brooks";
 
@@ -27,12 +27,8 @@
 code {font-size:small;}
 </style>
 
-
-
-
-
-	<div id="midcolumn" style="width:95%">
-<h2>Define Custom Data Model</h2>
+	<div id="midcolumn" >
+<h2>$pageTitle</h2>
 <p>
 The data model in OSEE is extensible and user configurable. Users can define new artifact, attribute, and relation types and their
 constraints such as multiplicity and applicability. Type inheritance allows similar types to be defined and modified without tedious redundancy
