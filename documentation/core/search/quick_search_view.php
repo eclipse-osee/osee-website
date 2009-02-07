@@ -32,8 +32,8 @@
 	that is contained <i>inside</i> artifacts in a selected branch.
 	</p>
 
-	<center><img style="width:120%; height:120%;" src="quickSearchView.png" alt="quick search view"/></center>
-
+	<center><img style="width:140%; height:140%;" src="quickSearchView.png" alt="quick search view"/></center>
+	<br/>
 	<p>To find all artifacts that contain a particular set of keywords:</p>
 	<ol>
   		<li>Select <a class="command-link" href='javascript:executeCommand("org.eclipse.ui.views.showView(org.eclipse.ui.views.showView.viewId=org.eclipse.osee.framework.ui.skynet.QuickSearchView)")'>
