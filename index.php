@@ -31,6 +31,8 @@ include ($App->getProjectCommon());
 		<a href="http://en.wikipedia.org/wiki/V_model" target="_self">
 		<img align="left" src="images/VDiagram_sm.png" style="padding-right:10px;width:320px;height:166px;" alt="V-Model"/></a>
 		</td>
+		</tr>
+		<tr>
 		<td>		
 <p>The Open System Engineering Environment (OSEE) project provides a tightly integrated environment supporting 
 lean principles across a product's full life-cycle in the context of an overall systems engineering approach.  The 
