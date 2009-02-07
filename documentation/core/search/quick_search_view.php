@@ -32,7 +32,7 @@
 	that is contained <i>inside</i> artifacts in a selected branch.
 	</p>
 
-	<center><img style="width:100%; height:100%;" src="quickSearchView.png" alt="quick search view"/></center>
+	<center><img style="width:120%; height:120%;" src="quickSearchView.png" alt="quick search view"/></center>
 
 	<p>To find all artifacts that contain a particular set of keywords:</p>
 	<ol>
