@@ -34,7 +34,7 @@ The current XViewer already commited as part of the <a href="http://www.eclipse.
 More information is available at <a href="http://www.eclipse.org/osee/documentation/core/xviewer/xviewer.php">OSEE XViewer</a>.  
 Near term plans to submit this to the Nebula project<br/><br/> 
 
-<img border="1" style="align:center" src="xviewer_main.PNG" alt="XViewer Main"/>
+<img border="1" style="align:center; width:100%; height:100%;" src="xviewer_main.PNG" alt="XViewer Main"/>
 
 <h3>Table Customizations</h3>
 <ul>
@@ -79,13 +79,13 @@ Near term plans to submit this to the Nebula project<br/><br/>
 </ul>
 
 <h3>Table Customizations</h3>
-<img border="1" style="align:center" src="xviewer_customize.PNG" alt="XViewer Customize"/>
+<img border="1" style="align:center; width:100%; height:100%;" src="xviewer_customize.PNG" alt="XViewer Customize"/>
 
 <h3>Sorting and Filtering</h3>
-<img border="1" style="align:center" src="xviewer_sortfilter.PNG" alt="XViewer Sorting and Filtering"/>
+<img border="1" style="align:center; width:100%; height:100%;" src="xviewer_sortfilter.PNG" alt="XViewer Sorting and Filtering"/>
 
 <h3>HTML Report and CSV Export</h3>
-<img border="1" style="align:center" src="xviewer_reportexport.PNG" alt="XViewer Html Reporting"/>
+<img border="1" style="align:center; width:100%; height:100%;" src="xviewer_reportexport.PNG" alt="XViewer Html Reporting"/>
 		
 		<p/>
 	</div>
