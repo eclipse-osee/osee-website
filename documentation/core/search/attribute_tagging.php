@@ -24,7 +24,7 @@
 	$html = <<<EOHTML
 
 
-<div id="midcolumn" style="width:95%">
+<div id="midcolumn" >
 	<h1>$pageTitle</h1>
 	<br/>
 	<p>When an artifact is saved, each attribute contained in the artifact is analyzed to produce a list of

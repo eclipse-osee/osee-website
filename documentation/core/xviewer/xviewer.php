@@ -22,7 +22,7 @@
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
-	<div id="midcolumn" style="width:95%">
+	<div id="midcolumn" >
 
 		<h3>$pageTitle</h3>
 		

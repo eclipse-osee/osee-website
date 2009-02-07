@@ -36,7 +36,7 @@
 					<li><a href="overview/components.php#define">Define</a></li>					
 					<li><a href="overview/components.php#ats">Action Tracking System (ATS)</a></li>
 					<ol>
-						<li><a href="ats/ATS.htm">ATS Users Guide</a></li>
+						<li><a href="ats/ats.php">ATS Users Guide</a></li>
 			         <li><a href="ats/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
 					</ol>
 					<li><a href="overview/components.php#ote">Test Environment Component</a></li>
