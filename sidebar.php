@@ -3,7 +3,7 @@
 
 	<div class="sideitem">
 		<h6>Project Status: Incubation</h6>
-		<div class="modal">
+		<div>
 		<center><a href="/projects/gazoo.php"><img align="center" src="/images/egg-incubation.png" border="0"/></a></center></div>
 	</div>
 
