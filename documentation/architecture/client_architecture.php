@@ -38,7 +38,7 @@
 		Exemplary applications like JDT, OSEE allows an application to be built and deployed using the OSEE Application 
 		Framework without including such applications as OSEE Define and OSEE ATS.
 		</p>
-		<br><br>
+		<br/>
       <center><img  style="width:95%;height:95%;" align="center" src="/osee/images/OSEEArchitecture.gif" border="0"/></center>
       <center><b>Figure 1. OSEE Architecture.</b></center>
       </div>
