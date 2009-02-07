@@ -29,7 +29,7 @@
 		<p>In order to be a scalable system, the Open System Engineering Environment (OSEE) has been slowly migrating 
 		into a distributed architecture where clients interact with an application server in-charge of managing access 
 		to an OSEE data store. Additionally, in an effort to provide load balancing, failure recovery, and code compatibility, 
-		clients consult an arbitration server before connecting to an application server.  The arbitration server\'s responsibility 
+		clients consult an arbitration server before connecting to an application server.  The arbitration server's responsibility 
 		is to keep track of all the application servers interacting with a common data store and direct clients to a healthy 
 		application server compatible with the client’s OSEE code version.  In this arrangement, arbitration servers act as the 
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 
@@ -52,13 +52,13 @@
 		the sequence of events involved in the arbitration process.</p>		
 		<br/>
 		
-		<center><img border="1" style="width:640;height:640;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/></center>
+		<center><img border="1" style="width:100%;height:100%;" src="images/arbitration_sequence.png" alt="Arbitration Sequence"/></center>
 		<center><b>Figure 2. OSEE Client/Server Arbitration Sequence Diagram.</b></center>		
 		<br/>
 
-		<p>Once a client receives an application server&quot;s address and port information, the client must authenticate with the 
+		<p>Once a client receives an application server's address and port information, the client must authenticate with the 
 		application server before it can gain access to the OSEE data store.  During the authentication process, a client 
-		submits to the application server the current user&quot;s credential information and the authentication protocol id to use 
+		submits to the application server the current user's credential information and the authentication protocol id to use 
 		during the process. The application server verifies the user via the selected protocol and grants access to the data 
 		store by creating a session for the user. From this point forward, the application server will be responsible for 
 		managing access to the data store by identifying the user via the session id. Whenever a client wants to interact
@@ -67,7 +67,7 @@
 		</p>
 		<br/>
 		
-		<center><img border="1" style="width:891;height:494;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
+		<center><img border="1" style="width:100%;height:100%;" src="images/authentication_sequence.png" alt="Authentication Sequence"/></center>
 		<center><b>Figure 3. OSEE Authentication Sequence Diagram.</b></center>
 				
 		<br/><br/>
