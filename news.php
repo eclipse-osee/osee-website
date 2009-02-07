@@ -25,6 +25,8 @@
 <div id="midcolumn">
 		<h1>$pageTitle</h1>
 
+<div class='homeitem'>
+
 	<h3>2008, November 28 - Talks submitted for EclipseCon 2009</h3>
 		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
 		<a href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
@@ -66,7 +68,7 @@
 	<h3>2007, March 5-8 - Exploration of OSEE becoming Eclipse Project</h3>
 	<h3>2004, November - Test Environment first used for requirements verification in simulated environment</h3>
 	</div>
-	
+</div>	
 	<div class='sideitem'>
        <h6>In the News</h6>
        <div class='modal'>
