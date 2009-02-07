@@ -35,7 +35,7 @@
 		initial access points into the OSEE server cloud where a collection of application servers manage client requests to 
 		access and operate on a common OSEE data store.  Figure 1 shows an example of the OSEE Client/Server network.</p>
 		<br/>
-		<center><img border="1" style="width:640;height:640;" src="images/client_server_view.png" alt="OSEE Client/Server View"/></center>		
+		<center><img border="1" style="width:100%;height:100%;" src="images/client_server_view.png" alt="OSEE Client/Server View"/></center>		
 		<center><b>Figure 1. Example of an OSEE Client/Server Network.</b></center>
 		<br/>		
 
