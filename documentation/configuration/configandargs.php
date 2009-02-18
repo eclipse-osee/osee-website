@@ -41,22 +41,29 @@
 			<td>org.osgi.service.http.port</td>
 			<td><code>1 - 65535</code></td>
 			<td><code>-1</code></td>
-			<td>OseeProperties</td>
+			<td>OseeServerProperties</td>
 			<td>Port the client will use to communicate with the OSEE Application Server</td>
 		</tr>
 		<tr>
 			<td>osee.application.server.data</td>
 			<td><code>[FILE SYSTEM PATH]</code></td>
 			<td>User Home</td>
-			<td>OseeProperties</td>
-			<td>A directory on the file system to be used by the application server to store and serve artifact binary data. <i>Only used when the application server is also launched through the same VM.</i></td>
+			<td>OseeServerProperties</td>
+			<td>A directory on the file system to be used by the application server to store and serve artifact binary data.</td>
+		</tr>
+		<tr>
+			<td>osee.connection.info.uri</td>
+			<td><code>[FILE SYSTEM PATH]</code></td>
+			<td></td>
+			<td>OseeServerProperties</td>
+			<td>File system path or uri containing custom database connection information.</td>
 		</tr>
 		<tr>
 			<td>osee.db.connection.id</td>
 			<td><code>&lt;db identifier&gt;</code></td>
 			<td>Default from db.connection file</td>
 			<td>OseeProperties</td>
-			<td>Specifies which database OSEE should connect to as specified by the ...db.connection.xml file. See db.connection file for more information.</td>
+			<td>Specifies which database OSEE should connect to. This id references connection information specified in the ...db.connection.xml file. See <a href="dbconnection.php" >Database Connection Information</a>file for more information.</td>
 		</tr>
 		<tr>
 			<td>osee.jini.forced.reggie.search</td>

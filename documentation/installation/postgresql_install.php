@@ -37,6 +37,12 @@
 		<ol>
 			<li>Download PostgreSQL from <a href="http://www.postgresql.org">http://www.postgresql.org/download</a></li>					
 			<li>Follow PostgreSQL installation instructions</li>
+			<li><p>By default, the PostgreSQL database server is configured to allow only local connections. 
+				 If remote connections are to be allow, edit postgresql.conf and pg_hba.conf to set the necessary permissions.
+				 (To setup an unsecured database instance set listen_address to * in the postgresql.conf file and add the following line 
+				 to the pg_hba.conf file: <b>host&nbsp;&nbsp;all&nbsp;&nbsp;all&nbsp;&nbsp;0.0.0.0/0&nbsp;&nbsp;trust</b>)
+				 </p>  
+			</li>
 			<li>Configure PostgreSQL for OSEE
 					<ol>
 							<li>Launch pgAdmin (in windows Start->All Programs->PostgreSQL*->pgAdmin III) </li>
