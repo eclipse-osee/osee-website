@@ -29,33 +29,33 @@
 	To define a custom database connection to be used by the application server, a path to an xml with the following format is required when launching the application server.
 	
 	<div>	
-	<pre>
-	<?xml version="1.0" encoding="UTF-8"?>
-	<DbConnection>
+	<p>
+	&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+	&lt;DbConnection&gt;
 	
-	<DatabaseInfo id="postgresqlInfo">
-		<DatabaseHome key="#DBHOME#" />
-		<DatabaseName key="#DBNAME#" value="OSEE" />
-		<DatabaseType key="#TYPE#" value="postgresql" />
-		<Prefix key="#PREFIX#" value="jdbc:postgresql" />
-		<UserName key="#USERNAME#" value="osee" />
-		<Password key="#PASSWORD#" value="osee" />
-		<Host key="#HOST#" value="@AvailableDbServices.hostAddress" />
-		<Port key="#PORT#" value="@AvailableDbServices.port" />
-	</DatabaseInfo>
+	&lt;DatabaseInfo id=&quot;postgresqlInfo&quot;&gt;
+		&lt;DatabaseHome key=&quot;#DBHOME#&quot; /&gt;
+		&lt;DatabaseName key=&quot;#DBNAME#&quot; value="OSEE" /&gt;
+		&lt;DatabaseType key=&quot;#TYPE#&quot; value="postgresql" /&gt;
+		&lt;Prefix key=&quot;#PREFIX#&quot; value="jdbc:postgresql" /&gt;
+		&lt;UserName key=&quot;#USERNAME#&quot; value="osee" /&gt;
+		&lt;Password key=&quot;#PASSWORD#&quot; value="osee" /&gt;
+		&lt;Host key=&quot;#HOST#&quot; value="@AvailableDbServices.hostAddress" /&gt;
+		&lt;Port key=&quot;#PORT#&quot; value="@AvailableDbServices.port" /&gt;
+	&lt;/DatabaseInfo&gt;
 
-	<ConnectionDescription id="postgresql">
-		<Driver>org.postgresql.Driver</Driver>
-		<Url>#PREFIX#://#HOST#:#PORT#/#DBHOME##DBNAME#</Url>		
-	</ConnectionDescription>
+	&lt;ConnectionDescription id=&quot;postgresql&quot; &gt;
+		&lt;Driver>org.postgresql.Driver&lt;/Driver&gt;
+		&lt;Url>#PREFIX#://#HOST#:#PORT#/#DBHOME##DBNAME#&lt;/Url&gt;		
+	&lt;/ConnectionDescription&gt;
 
-	<AvailableDbServices>
-		<Server id="osee.microdoc" dbInfo="postgresqlInfo"
-			hostAddress="78.46.71.230" port="5432"
-			connectsWith="postgresql" applicationServer="http://osee.microdoc.com:8089/" />
-	</AvailableDbServices>
-	</DbConnection>
-	</pre>
+	&lt;AvailableDbServices>
+		&lt;Server id=&quot;<b>ANY_NAME</b>&quot; dbInfo=&quot;postgresqlInfo&quot;
+			hostAddress=&quot;<b>DATABASE_IP_ADDRESS</b>&quot; port=&quot;<b>DATABASE_PORT</b>&quot;
+			connectsWith=&quot;postgresql&quot; isProduction=&quot;false&quot; /&gt;
+	&lt;/AvailableDbServices&gt;
+	&lt;/DbConnection&gt;
+	</p>
 	</div>
 	</div>
 EOHTML;

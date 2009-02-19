@@ -63,7 +63,7 @@
 			<td><code>&lt;db identifier&gt;</code></td>
 			<td>Default from db.connection file</td>
 			<td>OseeProperties</td>
-			<td>Specifies which database OSEE should connect to. This id references connection information specified in the ...db.connection.xml file. See <a href="dbconnection.php" >Database Connection Information</a>file for more information.</td>
+			<td>Specifies which database OSEE should connect to. This id references connection information specified in the ...db.connection.xml file. See <a href="dbconnection.php" >Database Connection Information</a> file for more information.</td>
 		</tr>
 		<tr>
 			<td>osee.jini.forced.reggie.search</td>
