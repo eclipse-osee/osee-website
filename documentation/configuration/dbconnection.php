@@ -71,7 +71,7 @@
 	 			<p>This entry describes the database to connect to by defining the database name, database home location and user name (or schema) and password to use during connection.
 	 			When using the OSEE PostgreSql installation instructions, the fields should be set to the following:
 	 				<ul>
-	 					<li><b>DATABASE HOME LOCATION:</b> not used therefore remove the value field from this attribute.</li>
+	 					<li><b>DATABASE HOME LOCATION:</b> not used therefore remove the value field from this attribute</li>
 	 					<li><b>DATABASE NAME:</b> OSEE</li>
 	 					<li><b>DATABASE USERNAME:</b> osee</li>
 	 					<li><b>DATABASE PASSWORD:</b> osee</li>
@@ -90,9 +90,9 @@
 	 			When using a local OSEE PostgreSql install, the attributes on a server entry should be set to the following:
 	 				<ul>
 	 					<li><b>id:</b> any meaningful name to identify this entry</li>
-	 					<li><b>hostAddress:</b>localhost</li>
-	 					<li><b>port:</b>5432 (the default PostgreSql port)</li>
-	 					<li><b>isProduction:</b>false unless you want to prevent clients from initializing the database</li>
+	 					<li><b>hostAddress:</b> localhost</li>
+	 					<li><b>port:</b> 5432 (the default PostgreSql port)</li>
+	 					<li><b>isProduction:</b> false unless you want to prevent clients from initializing the database</li>
 		 			</ul>
 	 			</p>
 	 		</li>
