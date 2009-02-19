@@ -28,7 +28,7 @@
 	<h3>$pageTitle</h3>
 	<p>To define a custom database connection for the application server, 
 	a path to an xml with the following format is required when launching the application server. 
-	This path will need to be specified using the <i>osee.connection.info.uri</i> and <i>osee.db.connection.id</i> jvm arguments on launch.
+	This path will need to be specified using the <b><i>osee.connection.info.uri</i></b> and <b><i>osee.db.connection.id</i></b> jvm arguments on launch.
 	See <a href="configandargs.php">configuration and arguments</a> for more information.
 	</p>
 
@@ -86,7 +86,7 @@
 	 		</li>
 	 		<li><b>Available Database Services:</b>
 	 			<p>This section contains entries for each database server and connection option needed at launch time. 
-	 			An entry is referenced at launch time by calling out the entry id in the <i>osee.db.connection.id</i> argument. 
+	 			An entry is referenced at launch time by calling out the entry id in the <b><i>osee.db.connection.id</i></b> argument. 
 	 			When using a local OSEE PostgreSql install, the attributes on a server entry should be set to the following:
 	 				<ul>
 	 					<li><b>id:</b> any meaningful name to identify this entry</li>
