@@ -58,6 +58,7 @@
 		<h1>OSEE - Developer's Guide</h1>
 		<ol type="upper-roman">
 			<li><a href="configuration/configandargs.php">Configuration and VM Arguments</a></li>
+			<li><a href="configuration/dbconnection.php">Custom Database Connection Information</a></li>
 			<li><a href="gettingStarted/concepts/TypeConfiguration.php">Data Model Customization</a></li>
 			<li><a href="configuration/developmentRuntime.php">Configuration of a Development Runtime</a></li>
 			<li><a href="ats/atsConfiguration.php">Configuring ATS for Change Tracking</a></li>
