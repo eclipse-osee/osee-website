@@ -28,7 +28,7 @@
 	<h3>$pageTitle</h3>
 	<p>To define a custom database connection for the application server, 
 	a path to an xml with the following format is required when launching the application server. 
-	This path will need to be specified using the <i>osee.connection.info.uri</i> and <i>osee.db.connection.id<i> jvm arguments on launch.
+	This path will need to be specified using the <i>osee.connection.info.uri</i> and <i>osee.db.connection.id</i> jvm arguments on launch.
 	See <a href="configandargs.php">configuration and arguments</a> for more information.
 	</p>
 
