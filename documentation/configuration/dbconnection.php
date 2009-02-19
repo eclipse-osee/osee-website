@@ -29,7 +29,7 @@
 	<p>To define a custom database connection to be used by the application server, a path to an xml with the following format is required when launching the application server.</p>
 
 		
-	<div style="border-width:thin;border:solid;padding:0.2em;">	
+	<div style="border-width:thin;border:solid;padding:0.2em;width:140%"">	
 	<pre>
 	&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 	&lt;DbConnection&gt;
