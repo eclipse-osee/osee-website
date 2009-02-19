@@ -27,7 +27,7 @@
 
 	<h3>$pageTitle</h3>
 	<p>To define a custom database connection to be used by the application server, a path to an xml with the following format is required when launching the application server.</p>
-	</div>
+
 		
 	<div style="border-width:thin;border:solid;padding:0.2em;">	
 	<pre>
@@ -58,7 +58,8 @@
 	&lt;/DbConnection&gt;
 	</pre>
 	</div>
-
+	
+	</div>
 EOHTML;
 
 	# Generate the web page
