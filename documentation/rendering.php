@@ -7,6 +7,12 @@
 	$Menu = new Menu();
 	include($App->getProjectCommon());
 	
+	# All on the same line to unclutter the user's desktop'
+
+	#*****************************************************************************
+	#
+	#****************************************************************************
+
 	#
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "OSEE - Rendering";
