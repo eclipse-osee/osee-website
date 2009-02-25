@@ -7,6 +7,7 @@
 	$Menu = new Menu();
 	include($App->getProjectCommon());
 	
+	#
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "OSEE - Rendering";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Application Framework, Renderer";
