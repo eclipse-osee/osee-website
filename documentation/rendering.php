@@ -13,13 +13,14 @@
 	$pageAuthor		= "Jeff C. Phillips";
 
 	# Paste your HTML content between the EOHTML markers!
+	
 	$html = <<<EOHTML
 
 	<div id="midcolumn" style="width:95%">
 		<h3>$pageTitle</h3>
-		<h4 id=framework name=framework>Adding a Custom Editor</h4>
+		<h4>Adding a Custom Editor</h4>
 		
-		<p>Additional editors can be added to OSEE and configured so that they will appear in the “Open With” menus throughout OSEE based on a specific artifact type selected. The steps outlined below assume that a custom editor has already been created.</p>
+		<p>Additional editors can be added to OSEE and configured so that they will appear in the "Open With" menus throughout OSEE based on a specific artifact type selected. The steps outlined below assume that a custom editor has already been created.</p>
 		
 		<h4>Topics</h4>
 		<ul>
