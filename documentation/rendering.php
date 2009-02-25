@@ -57,7 +57,7 @@ public class CustomEditorHandler extends AbstractEditorHandler {
 public Object execute(ExecutionEvent event) throws ExecutionException {
   CustomRenderer renderer = new CustomRenderer();
       try {
-			//artifacts is a protected list of artifacts that are populated by the super class AbstractEditorHandler
+         //artifacts is a protected list of artifacts that are populated by the super class AbstractEditorHandler
          renderer.open(artifacts);
       } catch (OseeCoreException ex) {
          OseeLog.log(CustomEditorHandler.class, Level.SEVERE, ex);
