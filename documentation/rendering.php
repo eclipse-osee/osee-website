@@ -48,30 +48,30 @@
 		</li>
 		<code>
 		<pre>
-		/**
-		* @author Jeff C. Phillips
-		*/
-		public class CustomEditorHandler extends AbstractEditorHandler {
-		
-		 @Override
-		public Object execute(ExecutionEvent event) throws ExecutionException {
-		  CustomRenderer renderer = new CustomRenderer();
-		      try {
-					//artifacts is a protected list of artifacts that are populated by the super class AbstractEditorHandler
-		         renderer.open(artifacts);
-		      } catch (OseeCoreException ex) {
-		         OseeLog.log(CustomEditorHandler.class, Level.SEVERE, ex);
-		      }
-		      dispose();
-		    return null;
-		  }
-		
-		   @Override
-		   protected PermissionEnum getPermissionLevel() {
-		   //The default implementation is Read but can be changed here.
-		      return super.getPermissionLevel();
-		   }
-		}
+/**
+* @author Jeff C. Phillips
+*/
+public class CustomEditorHandler extends AbstractEditorHandler {
+
+ @Override
+public Object execute(ExecutionEvent event) throws ExecutionException {
+  CustomRenderer renderer = new CustomRenderer();
+      try {
+			//artifacts is a protected list of artifacts that are populated by the super class AbstractEditorHandler
+         renderer.open(artifacts);
+      } catch (OseeCoreException ex) {
+         OseeLog.log(CustomEditorHandler.class, Level.SEVERE, ex);
+      }
+      dispose();
+    return null;
+  }
+
+   @Override
+   protected PermissionEnum getPermissionLevel() {
+   //The default implementation is Read but can be changed here.
+      return super.getPermissionLevel();
+   }
+}
 		</pre>
 		</code></ul>
 		
@@ -89,69 +89,68 @@
 		</h4>
 		
 		<p>
-		The general purpose of the renderer is to renderer artifacts to different formats. Contributing a new renderer requires two steps. The first create the new renderer class and the second create a new extension point.
+		The general purpose of the renderer is to renderer artifacts to different formats for use in editing, preview, printing, etc. Contributing a new renderer requires two steps. The first create the new renderer class and the second create a new extension point.
 		</P>
 		<ul>
 		<li>
 		Create new Renderer
 		</li>
 		<pre>
-		/**
-		 * @author Jeff C. Phillips
-		 */
-		
-		public class CustomRenderer extends DefaultArtifactRenderer {
-		
-		   @Override
-		   /**
-		    * The applicability rating is what is used by the RendererManager to decide which renderer can be used for
-		    * specific artifact types.
-		    */
-		   public int getApplicabilityRating(PresentationType presentationType, Artifact artifact) throws OseeCoreException {
-		      //In this example, this renderer will be applicable for WordArtifacts
-		      if (artifact.isOfType(WordArtifact.WORD_TEMPLATE)) {
-		         return PRESENTATION_SUBTYPE_MATCH;
-		      }
-		      return NO_MATCH;
-		   }
-		
-		   @Override
-		   /**
-		    * Returns a list of command IDs that will be converted into Menu items
-		    */
-		   public List<String> getCommandId(PresentationType presentationType) {
-		      ArrayList<String> commandIds = new ArrayList<String>(1);
-		
-		      if (presentationType == PresentationType.SPECIALIZED_EDIT) {
-		         commandIds.add("command.custom.editor");
-		      }
-		
-		      return commandIds;
-		   }
-		
-		   @Override
-		   public DefaultArtifactRenderer newInstance() throws OseeCoreException {
-		      return new CustomRenderer();
-		   }
-		
-		   @Override
-		   public void open(List<Artifact> artifacts) throws OseeCoreException {
-		      //Invoke custom editor
-		      CustomEditor.open(artifacts);
-		   }
-		
-		   @Override
-		   public void preview(List<Artifact> artifacts) throws OseeCoreException {
-		      super.preview(artifacts);
-		   }
-		
-		}
+/**
+ * @author Jeff C. Phillips
+ */
+
+public class CustomRenderer extends DefaultArtifactRenderer {
+
+   @Override
+   /**
+    * The applicability rating is what is used by the RendererManager to decide which renderer can be used for
+    * specific artifact types.
+    */
+   public int getApplicabilityRating(PresentationType presentationType, Artifact artifact) throws OseeCoreException {
+      //In this example, this renderer will be applicable for WordArtifacts
+      if (artifact.isOfType(WordArtifact.WORD_TEMPLATE)) {
+         return PRESENTATION_SUBTYPE_MATCH;
+      }
+      return NO_MATCH;
+   }
+
+   @Override
+   /**
+    * Returns a list of command IDs that will be converted into Menu items
+    */
+   public List<String> getCommandId(PresentationType presentationType) {
+      ArrayList<String> commandIds = new ArrayList<String>(1);
+
+      if (presentationType == PresentationType.SPECIALIZED_EDIT) {
+         commandIds.add("command.custom.editor");
+      }
+
+      return commandIds;
+   }
+
+   @Override
+   public DefaultArtifactRenderer newInstance() throws OseeCoreException {
+      return new CustomRenderer();
+   }
+
+   @Override
+   public void open(List<Artifact> artifacts) throws OseeCoreException {
+      //Invoke custom editor
+      CustomEditor.open(artifacts);
+   }
+
+   @Override
+   public void preview(List<Artifact> artifacts) throws OseeCoreException {
+      super.preview(artifacts);
+   }
+
+}
 		</pre>
 		<li>
-		Create new extension point
+		Register New Renderer using an extension point
 		</li>
-		<p>org.eclipse.osee.framework.ui.skynet.ArtifactRenderer.
-			<br>Add a new renderer and select the renderer class above.
+		<p>Extend the extension point org.eclipse.osee.framework.ui.skynet.ArtifactRenderer and add a renderer element and set the class attribute to the renderer class above.
 		</p>
 		</ul>
 	</div>
