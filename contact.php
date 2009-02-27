@@ -32,7 +32,7 @@
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/RobertoEscobar.jpg"/><br/>Robert Escobar<br/>Boeing<br/>Framework, Define</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyFinkbeiner.jpg"/><br/><a href="http://www.eclipsecon.org/2008/index.php?page=presenters/#Andrew_Finkbeiner">Andrew Finkbeiner</a><br/>Boeing<br/>Framework, Test</td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Michael Masterson<br/>Boeing<br/>Framework, Test</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/MikeM_120x120.jpg"/><br/>Michael Masterson<br/>Boeing<br/>Framework, Test</td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/><a href="http://www.eclipsecon.org/2008/index.php?page=presenters/#Jeff_Phillips">Jeff Phillips</a><br/>Boeing<br/>Framework, Define</td>
 </table>
