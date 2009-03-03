@@ -66,7 +66,7 @@
                 <li>
                 
                 	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 3 Mar 2009<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/update_site/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b> - [required]<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b> - [required]<br/>
 
                 	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
