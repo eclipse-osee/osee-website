@@ -58,12 +58,12 @@
 		<div class="homeitem3col">
 			<h3>Latest Version - Released</h3>
 			<ul>
-            	<li>
+<!--            	<li>
                     <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNewAndNoteworthy">New and Noteworthy for OSEE 0.4.0</a><br/>
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNotes">Release Notes for OSEE 0.4.0</a>
                 </li>
-                <li>
+                <li> -->
                 
                 	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 3 Mar 2009<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b> - [required]<br/>
