@@ -28,6 +28,66 @@
 <div class='homeitem'>
 
 	<table class="newsPosts" cellspacing="0" cellpadding="0">
+
+	<tr>
+		<td class="date">2008/03/10</td>
+		<td><b>Birds of Feather (BOF) accepted for EclipseCon 2009</b>
+		<td><b></b>
+			<div class="details">
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=833">Open System Engineering Environment - BOF</a><br>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="date">2009/02/11</td>
+		<td><b>OSEE integrates with GEF</b>
+			<div class="details">
+				OSEE ATS develops and deploys Graphical Workflow Configuration editor<br>
+				OSEE starts development on Graphical Artifact Types editor<br>
+				OSEE starts development on Graphical Branch editor<br>
+			</div>
+       </td>
+	</tr>
+	
+	<tr>
+		<td class="date">2009/01/22</td>
+		<td><b>OSEE integrates BIRT for charts and graphs</b></td>
+	</tr>
+	
+	<tr>
+		<td class="date">2009/01/15</td>
+		<td><b>OSEE XViewer submitted to eclipse.technology.nebula</b>
+			<div class="details">
+				<a  href="http://www.eclipse.org/osee/documentation/core/xviewer/xviewer.php">XViewer Information</a><br>
+				<a  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267265">Track Proposal At Bugzilla</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">Check it out at EclipseCon 2009</a><br>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="date">2008/12/16</td>
+		<td><b>Tutorial accepted for EclipseCon 2009</b>
+		<td><b></b>
+			<div class="details">
+            Much interest has been shown for learning how to configure and deploy OSEE.  Our tutorial addressing just this topic has been accepted for EclipseCon 2009.  Come join us to learn how to make OSEE work for problem space.
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="date">2008/12/16</td>
+		<td><b>Talks accepted for EclipseCon 2009</b>
+		<td><b></b>
+			<div class="details">
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
+				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=676">Unlocking the OSEE Core Framework</a>
+			</div>
+		</td>
+	</tr>
 	
 	<tr>
 		<td class="date">2008/11/28</td>
@@ -45,7 +105,7 @@
 		
 	<tr>
 		<td class="date">2008/11/19</td>
-		<td><h4>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</h4></td>
+		<td>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</td>
 	</tr>
 	
 	<tr>
