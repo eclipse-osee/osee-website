@@ -64,16 +64,11 @@
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNotes">Release Notes for OSEE 0.4.0</a>
                 </li> -->
                 <li>
-                
                 	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 3 Mar 2009<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
-							Required dependencies are included in the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a>.  These dependencies include:<br/>
-							<li>org.eclipse.gef</li>
-							<li>org.eclipse.draw2d</li>
-							<li>org.eclipse.birt</li>
-							<li>org.eclipse.datatools</li>
-							<li>org.apache.derby.core</li>
+							Required dependencies are included in the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a>.<br/>
+							Just for reference, these dependencies include: org.eclipse.gef, org.eclipse.draw2d, org.eclipse.birt, org.eclipse.datatools, and org.apache.derby.core.
                  </ul>
                  <i>Important: If you would like to work with a database other than Derby, you will also need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
                  <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
