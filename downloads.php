@@ -64,7 +64,7 @@
                     <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNotes">Release Notes for OSEE 0.4.0</a>
                 </li> -->
                 <li>
-                	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 3 Mar 2009<br/>
+                	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 12 Mar 2009<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
 							Required dependencies are included in the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a>.<br/>

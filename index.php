@@ -64,7 +64,7 @@ work flow standardization and early defect detection.</p>
 				<li>
 					Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.7.0 Integration Build (Incubation)</a> available 
 					<span class="dates">
-						2008-09-24
+						2009-03-12
 					</span>
 				</li>
 			</ul>
