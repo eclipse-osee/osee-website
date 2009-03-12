@@ -56,7 +56,7 @@
             This version of OSEE requires Eclipse 3.4 and doesn't support previous versions of Eclipse.  Additionally, Java 1.6 or greater is required.
         </p>
 		<div class="homeitem3col">
-			<h3>Latest Version - Released</h3>
+			<h3>Latest Version</h3>
 			<ul>
 <!--            	<li>
                     <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
@@ -66,10 +66,12 @@
                 <li> -->
                 
                 	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 3 Mar 2009<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b> - [required]<br/>
-
-                	<i>Important: If you would like to work with a database other than Derby, you will need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
-                    <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
+                	<div>
+							Required dependencies are included in the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a>
+                		<i>Important: If you would like to work with a database other than Derby, you will also need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
+                  	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
+                  </div>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
