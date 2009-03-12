@@ -62,7 +62,7 @@ work flow standardization and early defect detection.</p>
 			<h3>What's New</h3>
 			<ul>
 				<li>
-					<a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.4.0</a> was released on 
+					Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.7.0 Integration Build (Incubation)</a> available 
 					<span class="dates">
 						2008-09-24
 					</span>
