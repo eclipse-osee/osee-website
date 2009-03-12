@@ -79,7 +79,7 @@
                 <li>
                 	<b>All-In-One</b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
-                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.4, add-ons, and dependencies.
+                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.
                 	Refer to <a href="$installRequirements">'requirements'</a> for a list of dependencies.
                 	Such scheme of distribution is caused by licensing requirements.</i><br/>
                 </li>
