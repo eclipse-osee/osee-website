@@ -71,7 +71,7 @@
 							Just for reference, these dependencies include: org.eclipse.gef, org.eclipse.draw2d, org.eclipse.birt, org.eclipse.datatools, and org.apache.derby.core.
                  </ul>
                  <i>Important: If you would like to work with a database other than Derby, you will also need to install JDBC Drivers distributed from external location. Such scheme of distribution is caused by licensing requirements.</i><br/>
-                 <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a></b>
+                 <img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get add-ons</a> and look for the link labeled Add-Ons Archived Update Site</b>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
