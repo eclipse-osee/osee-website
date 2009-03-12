@@ -32,7 +32,6 @@
 	<tr>
 		<td class="date">2008/03/10</td>
 		<td><b>Birds of Feather (BOF) accepted for EclipseCon 2009</b>
-		<td><b></b>
 			<div class="details">
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=833">Open System Engineering Environment - BOF</a><br>
 			</div>
@@ -69,7 +68,6 @@
 	<tr>
 		<td class="date">2008/12/16</td>
 		<td><b>Tutorial accepted for EclipseCon 2009</b>
-		<td><b></b>
 			<div class="details">
             Much interest has been shown for learning how to configure and deploy OSEE.  Our tutorial addressing just this topic has been accepted for EclipseCon 2009.  Come join us to learn how to make OSEE work for problem space.
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
@@ -80,7 +78,6 @@
 	<tr>
 		<td class="date">2008/12/16</td>
 		<td><b>Talks accepted for EclipseCon 2009</b>
-		<td><b></b>
 			<div class="details">
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=675">An Integrated Test Environment for Systems Engineering</a><br>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=672">XViewer - An SWT Widget with the power of the spreadsheet.</a><br>
@@ -105,7 +102,7 @@
 		
 	<tr>
 		<td class="date">2008/11/19</td>
-		<td>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</td>
+		<td><b>Eclipse Summit Birds of Feather (BOF) session at 19:30 CET</b></td>
 	</tr>
 	
 	<tr>
