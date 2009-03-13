@@ -30,7 +30,7 @@
 	<table class="newsPosts" cellspacing="0" cellpadding="0">
 
 	<tr>
-		<td class="date">2008/03/10</td>
+		<td class="date">2009/03/10</td>
 		<td><b>Birds of Feather (BOF) accepted for EclipseCon 2009</b>
 			<div class="details">
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=833">Open System Engineering Environment - BOF</a><br>
