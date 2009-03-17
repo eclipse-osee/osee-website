@@ -21,11 +21,12 @@
 		
 		<h4>System Requirements (non-Eclipse)</h4>
 		<ul>
-			<li>JRE 1.6 or higher</li>
+			<li>System with at least 1GB of RAM</li>
+			<li>Java Runtime Environment (JRE) 1.6 or higher</li>
 			<li>Relational Database such as PostgreSQL, MySQL, Oracle, or Derby.<br/>
 			See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</li>
 		</ul>
-		<h4>Eclipse Requirements</h4>
+		<h4>Eclipse Dependencies</h4>
 		<ol>
 			<li>An Eclipse 3.4.1 base with the following features installed</li>
 			<ul>
@@ -36,10 +37,10 @@
 				<li>org.apache.derby.core</li>
 			</ul>
 			The easiest solution is the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a> since it provides the above Eclipse dependencies.<br/> 
-			Unzip the content of this zip file into a (short) path on you computer to create your Eclipse base.
+			Unzip the contents of this zip file into a (short) path on you computer to create your Eclipse base.
 			<li>OSEE add-ons - <a href="$externalDownloadsSite">Visit external site under the section &quot;Add-On Features&quot;</a><br/>
 				From the Eclipse base installed in the previous step, launch the update manager and install the add-ins archived update site (no need to unzip it).  For more detail see step-by-step <a href="$installInstructions">'Update Manager Instructions'</a>.
-				<i>Note: To use OSEE with a database other than Derby, you will need to install JDBC Drivers distributed from this external location. Such scheme of distribution is caused by licensing requirements.</i>
+				<i>Note: To use OSEE with a database other than Derby, you will need the JDBC Drivers included in the OSEE add-ons distributed from the external location. Such a scheme of distribution is caused by licensing requirements.</i>
 			</li>
 		</ol>
 	</div>
