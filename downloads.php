@@ -35,17 +35,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>
-			OSEE distribution consists of two parts - OSEE plug-ins and add-ons.
-			These two items are required to work with OSEE if you will be using a database other than Derby.
 			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
 			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
 			Add-ons are libraries with their own licenses, which are distributed from an external location
 			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.
-		</p>
-		<p>
-			In order to install OSEE you should install OSEE plug-ins and at least one add-ons, such as PostgreSQL.
-			OSEE plug-ins and add-ons are distributed from different update sites on different locations,
-			so you should point to two different update sites in the Eclipse update manager.
 		</p>
 		<h2>Requirements</h2>
         <p>
