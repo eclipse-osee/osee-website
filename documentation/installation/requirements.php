@@ -26,7 +26,7 @@
 			See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</li>
 		</ul>
 		<h4>Eclipse Requirements</h4>
-		<ul>
+		<ol>
 			<li>An Eclipse 3.4.1 base with the following features installed</li>
 			<ul>
 				<li>org.eclipse.gef</li>
@@ -38,8 +38,10 @@
 			The easiest solution is the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a> since it provides the above Eclipse dependencies.<br/> 
 			Unzip the content of this zip file into a (short) path on you computer to create your Eclipse base.
 			<li>OSEE add-ons - <a href="$externalDownloadsSite">Visit external site under the section &quot;Add-On Features&quot;</a><br/>
-			To use OSEE with a database other than Derby, you will need to install JDBC Drivers distributed from this external location. Such scheme of distribution is caused by licensing requirements.</li>
-		</ul>
+				From the Eclipse base installed in the previous step, launch the update manager and install the add-ins archived update site (no need to unzip it).  For more detail see step-by-step <a href="$installInstructions">'Update Manager Instructions'</a>.
+				<i>Note: To use OSEE with a database other than Derby, you will need to install JDBC Drivers distributed from this external location. Such scheme of distribution is caused by licensing requirements.</i>
+			</li>
+		</ol>
 	</div>
 
 EOHTML;
