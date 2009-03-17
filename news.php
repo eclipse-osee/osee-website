@@ -69,7 +69,7 @@
 		<td class="date">2008/12/16</td>
 		<td><b>Tutorial accepted for EclipseCon 2009</b>
 			<div class="details">
-            Much interest has been shown for learning how to configure and deploy OSEE.  Our tutorial addressing just this topic has been accepted for EclipseCon 2009.  Come join us to learn how to make OSEE work for problem space.<br>
+            Much interest has been shown for learning how to configure and deploy OSEE.  Our tutorial addressing just this topic has been accepted for EclipseCon 2009.  Come join us to learn how to make OSEE work for your problem space.<br>
 				<a  href="https://www.eclipsecon.org/submissions/2009/view_talk.php?id=680">OSEE, from www.eclipse.org/osee to deployment...</a><br>
 			</div>
 		</td>
