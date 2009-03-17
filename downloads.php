@@ -56,7 +56,7 @@
                 	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 12 Mar 2009<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
-							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base installed in the previous step, launch the update manager and install the osee archived update site (no need to unzip it).
+							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base with the previously referenced dependencies, launch the update manager and install the OSEE archived update site (no need to unzip it).
 				      </ul>
                  When launching the client you must set the following java system properties (i.e. include them in the command used to launch eclipse) -Dosee.authentication.protocol=trustAll -Dosee.arbitration.server=http://localhost:8089.  
                  <br/>

@@ -39,7 +39,7 @@
 			The easiest solution is the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a> since it provides the above Eclipse dependencies.<br/> 
 			Unzip the contents of this zip file into a (short) path on you computer to create your Eclipse base.
 			<li>OSEE add-ons - <a href="$externalDownloadsSite">Visit external site under the section &quot;Add-On Features&quot;</a><br/>
-				From the Eclipse base installed in the previous step, launch the update manager and install the add-ins archived update site (no need to unzip it).  For more detail see step-by-step <a href="$installInstructions">'Update Manager Instructions'</a>.<br/>
+				From the Eclipse base installed in the previous step, launch the update manager and install the add-ins archived update site (no need to unzip it).  For more detail, see step-by-step <a href="$installInstructions">'Update Manager Instructions'</a>.<br/>
 				<br/>
 				<i>Note: To use OSEE with a database other than Derby, you will need the JDBC Drivers included in the OSEE add-ons distributed from the external location. Such a scheme of distribution is caused by licensing requirements.</i>
 			</li>
