@@ -35,7 +35,9 @@
 				<li>org.apache.derby.core</li>
 			</ul>
 			<li>The easiest solution is the Ganymede Eclipse install <a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/ganymede/SR2/eclipse-reporting-ganymede-SR2-win32.zip"> Eclipse IDE for Java and Report Developers</a> since it provides all these Ecilpse dependencies</li>
-	</ul>
+			<li>OSEE add-ons - <a href="$externalDownloadsSite">Visit external site under the section &quot;Add-On Features&quot;</a><br/>
+			To use OSEE with a database other than Derby, you will need to install JDBC Drivers distributed from this external location. Such scheme of distribution is caused by licensing requirements.</li>
+		</ul>
 	</div>
 
 EOHTML;
