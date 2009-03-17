@@ -6,15 +6,7 @@
 	$Nav = new Nav();
 	$Menu = new Menu();
 	include($App->getProjectCommon());
-	# All on the same line to unclutter the user's desktop'
 
-	#*****************************************************************************
-	#
-	# requirements.php
-	#
-	#****************************************************************************
-
-	#
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "Requirements";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
