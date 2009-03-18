@@ -28,6 +28,7 @@
 	$installInstructions = "documentation/installation/eclipse_install.php";
 	$releaseNotes="downloads/0_4_0/ReleaseNotes.html";
 	$releaseNewAndNoteworthy="downloads/0_4_0/NewAndNoteworthy.html";
+	$configandargs="documentation/configuration/configandargs.php";
 
 
 	# Paste your HTML content between the EOHTML markers!
@@ -58,7 +59,13 @@
                 	<ul>
 							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base with the previously referenced dependencies, launch the update manager and install the OSEE archived update site (no need to unzip it).
 				      </ul>
-                 When launching the client you must set the following java system properties (i.e. include them in the command used to launch eclipse) -Dosee.authentication.protocol=trustAll -Dosee.arbitration.server=http://localhost:8089.  
+                 When launching the client you must set the following java system properties:<br/>
+                 <ul>
+                 		-Dosee.authentication.protocol=trustAll<br/>
+                 		-Dosee.arbitration.server=http://localhost:8089
+                 </ul>
+
+                 <i>Refer to <a href="$configandargs">OSEE Configuration Properties</a> for further information on setting these properties.</i> 
                  <br/>
                 </li>
                 <li>
