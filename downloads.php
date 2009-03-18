@@ -65,15 +65,13 @@
                  		-Dosee.arbitration.server=http://localhost:8089
                  </ul>
 
-                 <i>Refer to <a href="$configandargs">OSEE Configuration Properties</a> for further information on setting these properties.</i> 
+                 <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
                  <br/>
                 </li>
                 <li>
                 	<b>All-In-One</b><br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="$externalDownloadsSite">Visit external site to get all-in-one</a></b>
-                	<i> Visit external site to obtain all-in-one distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.
-                	Refer to <a href="$installRequirements">'requirements'</a> for a list of dependencies.
-                	Such scheme of distribution is caused by licensing requirements.</i><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$externalDownloadsSite">Visit external site to obtain all-in-one</a>
+                	distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.<br/>
                 </li>
             </ul>
 		</div>

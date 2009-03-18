@@ -10,7 +10,7 @@
 	# All on the same line to unclutter the user's desktop'
 
 	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "OSEE Configuration and Arguments";
+	$pageTitle 		= "OSEE Configuration Properties";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
 	$pageAuthor		= "Roberto E. Escobar; Ryan D. Brooks";
 
