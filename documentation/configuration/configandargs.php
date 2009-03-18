@@ -29,7 +29,7 @@
 	OSEE can be configured by setting the following Java system properties before launching Eclipse.
 	<br/>
 	<br/>
-	<table style="border:1;width:95%;font-size:1.0em;">
+	<table style="border:1;width:95%;font-size:1.0em;valign:top;">
 		<tr style="background:#CCCCCC">
 			<th>System Property Name</th>
 			<th>Values</th>
