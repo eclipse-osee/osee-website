@@ -24,7 +24,8 @@
 	in the command to	launch Eclipse or in the corresponding ini file for the eclipse executable used.
 	<br/>
 	<br/>
-	<table style="border:1;width:95%;font-size:1.0em;" valign="top">
+	<table style="border:1;width:95%;font-size:1.0em;">
+	 <col span=5 valign="top">
 		<tr style="background:#CCCCCC">
 			<th>System Property Name</th>
 			<th>Values</th>
