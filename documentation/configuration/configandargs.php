@@ -9,13 +9,6 @@
 
 	# All on the same line to unclutter the user's desktop'
 
-	#*****************************************************************************
-	#
-	# configandargs.php
-	#
-	#****************************************************************************
-
-	#
 	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "OSEE Configuration and Arguments";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework, Install";
@@ -26,10 +19,12 @@
 	<div id="midcolumn">
 
 	<h3>$pageTitle</h3>
-	OSEE can be configured by setting the following Java system properties before launching Eclipse.
+	OSEE can be configured by setting the following Java system properties when launching Eclipse.  Java system properties are key/value pairs and can
+	be passed as launch arguments in the form of -D<key>=<value> (i.e. -Dosee.authentication.protocol=trustAll).  These -D options can be specified directly
+	in the command to	launch Eclipse or in the corresponding ini file for the eclipse executable used.
 	<br/>
 	<br/>
-	<table style="border:1;width:95%;font-size:1.0em;valign:top;">
+	<table style="border:1;width:95%;font-size:1.0em;" valign="top">
 		<tr style="background:#CCCCCC">
 			<th>System Property Name</th>
 			<th>Values</th>
