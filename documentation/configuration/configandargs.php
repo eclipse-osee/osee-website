@@ -55,6 +55,13 @@
 			<td>File system path or uri containing custom database connection information.</td>
 		</tr>
 		<tr>
+			<td>osee.derby.server</td>
+			<td><code>[http://&lt;address&gt;:&lt;port&gt;]</code></td>
+			<td></td>
+			<td>OseeServerProperties</td>
+			<td>When specified, this system property sets the URL used launch a derby database server.</td>
+		</tr>
+		<tr>
 			<td>osee.db.connection.id</td>
 			<td><code>&lt;db identifier&gt;</code></td>
 			<td>Default from db.connection file</td>
