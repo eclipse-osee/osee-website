@@ -70,7 +70,7 @@
 			<li><a href="core/search/quick_search_view.php">Quick Search View</a></li>
 			<li><a href="core/search/attribute_tagging.php">Attribute Tagging </a></li>
 
-			<li><a href="core/xviewer/xviewer.php">XViewer - Advanced TreeViewer Widget</a></li>
+			<li><a href="http://www.eclipse.org/osee/xviewer/">XViewer - Advanced TreeViewer Widget</a></li>
 		</ul>
 
 		<h1>External References</h1>
