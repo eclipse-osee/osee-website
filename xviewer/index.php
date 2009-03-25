@@ -29,7 +29,8 @@
 		<p>XViewer - Advanced TreeViewer Widget</p>
 
 <a href="http://www.eclipse.org/osee/xviewer/XViewer.pdf">EclipseCon 2009 Presentation Slides</a><br><br>
-<a href="http://www.eclipse.org/osee/xviewer/org_eclipse_nebula_widgets_xviewer.zip">Download Zip</a><br><br>
+<a href="http://www.eclipse.org/osee/xviewer/org_eclipse_nebula_widgets_xviewer.zip">Download Zip of Code and Example</a><br><br>
+<a href="http://www.eclipse.org/osee/xviewer/README.txt">Download Instructions</a><br><br>
 
 <p>The purpose of the XViewer is to give the application developer a more advanced and dynamic TreeViewer that has the filtering and sorting the capabilities of a spreadsheet while providing the users the ability to customize their table to suit their current needs and save/restore these customizations for future use by individual or group.<br><br>
 
