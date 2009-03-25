@@ -56,10 +56,10 @@
 		</tr>
 		<tr>
 			<td>osee.derby.server</td>
-			<td><code>[http://&lt;address&gt;:&lt;port&gt;]</code></td>
+			<td><code>[&lt;address&gt;:&lt;port&gt;]</code></td>
 			<td></td>
 			<td>OseeServerProperties</td>
-			<td>When specified, this system property sets the URL used launch a derby database server.</td>
+			<td>When specified, this system property sets the URL used to launch a derby database server.</td>
 		</tr>
 		<tr>
 			<td>osee.db.connection.id</td>
