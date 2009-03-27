@@ -26,7 +26,7 @@
 <div class="homeitem3col">
 <h3><a name="Committers"></a>Committers</h3>
 <p><table border="0" width="100%"><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Ken Aguilar<br/>Boeing<br/>Framework, Test<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/KenAguilar.jpg"/><br/>Ken Aguilar<br/>Boeing<br/>Framework, Test<br/></td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/RyanBrooks.jpg"/><br/><a href="http://www.eclipsecon.org/2008/index.php?page=presenters/#Ryan_Brooks">Ryan Brooks</a><br/>Boeing<br>OSEE Project Lead<br/>Framework, Define, ATS, Test</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/DonDunne.jpg"/><br/><a href="http://www.eclipsecon.org/2008/index.php?page=presenters/#Donald_G._Dunne">Don Dunne</a><br/>Boeing<br>OSEE Project Lead<br/>Framework, ATS</td>
 </tr><tr>
