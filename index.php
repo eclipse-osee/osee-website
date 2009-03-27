@@ -46,19 +46,8 @@ work flow standardization and early defect detection.</p>
 		</td>
 		</tr>
         </table>
-      <div class="homeitem">
-      <h3>New to OSEE?</h3>
-      	<ul>
-      		<li>
-      		   <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">
-      		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, 
-      		   it's architecture, the maturity of the application framework and the status and maturity of the different applications 
-      		   that use the framework.
-      		</li>
-      	</ul>
-      </div>
-      
-		<div class="homeitem">	
+        
+        		<div class="homeitem">	
 			<h3>What's New</h3>
 			<ul>
 				<li>
@@ -86,6 +75,20 @@ work flow standardization and early defect detection.</p>
 			</ul>
 		</div>	
 	</div> 
+        
+      <div class="homeitem">
+      <h3>New to OSEE?</h3>
+      	<ul>
+      		<li>
+      		   <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">
+      		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, 
+      		   it's architecture, the maturity of the application framework and the status and maturity of the different applications 
+      		   that use the framework.
+      		</li>
+      	</ul>
+      </div>
+      
+
 	<div id="rightcolumn">
 		$sidebar
      </div>
