@@ -48,23 +48,40 @@ work flow standardization and early defect detection.</p>
         </table>
         
   <div class="homeitem">	
-			<h3>What's New</h3>
-			<ul>
-				<li>
-					Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.7.0 Integration Build (Incubation)</a> available 
-					<b><span class="dates">	2009-03-12</span></b>
-				</li>
-				<li><p>ElipseCon 2009 - <a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_slides.pdf">From www.eclipse.org/osee to deployment - Tutorial</a> - Introduces new and current users to latest features and describes how a company can deploy and configure OSEE to meet its needs.</p>
+  <h3>What's New</h3>
+  <table class="newsPosts" cellspacing="0" cellpadding="0">
+
+	<tr>
+		<td class="date">2009/03/12</td>
+		<td><b>Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.7.0 Integration Build (Incubation)</a> available </b>
+		</td>
+	</tr>
+ 	<tr>
+		<td class="date">2009/03/23</td>
+		<td><b><a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_slides.pdf">From www.eclipse.org/osee to deployment - Tutorial</a></b>
+			<div class="details">
+					Introduces new and current users to latest features and describes how a company can deploy and configure OSEE to meet its needs.<br/>
 					Click the following link to download material: <a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_materials.zip">'OSEE Tutorial Material'</a>
-				</li>
-				<li>
-					<p>ElipseCon 2009 - <a href="http://www.eclipse.org/osee/Unlocking_the_OSEE_Core_Framework.pdf">Unlocking the OSEE Core Framework</a> - short introduction to services provided by the OSEE Core Framework</p>
-				</li>
-				<li>
-					<p>ElipseCon 2009 - <a href="http://www.eclipse.org/osee/OTE_eclipsecon2009_slides.pdf">An Integrated Test Environment for Systems Engineering</a> - short introduction to features provided by OSEE's newest component - the Open System Engineering Test Environment Framework</p>
-				</li>
-			</ul>
-		</div>	
+			</div>
+       </td>
+	</tr> 
+	  <tr>
+		<td class="date">2009/03/25</td>
+		<td><b><a href="http://www.eclipse.org/osee/OTE_eclipsecon2009_slides.pdf">An Integrated Test Environment for Systems Engineering</a></b>
+			<div class="details">
+			Short introduction to features provided by OSEE's newest component - the Open System Engineering Test Environment Framework
+			</div>
+       </td>
+	</tr> 
+   	<tr>
+		<td class="date">2009/03/26</td>
+		<td><b><a href="http://www.eclipse.org/osee/Unlocking_the_OSEE_Core_Framework.pdf">Unlocking the OSEE Core Framework</a></b>
+			<div class="details">
+					Short introduction to OSEE's core framework services.
+			</div>
+       </td>
+	</tr> 
+	</table>
 	</div> 
         
       <div class="homeitem">
@@ -78,7 +95,7 @@ work flow standardization and early defect detection.</p>
       		</li>
       	</ul>
       </div>
-      
+  </div>
 
 	<div id="rightcolumn">
 		$sidebar
