@@ -62,7 +62,16 @@ work flow standardization and early defect detection.</p>
 			<div class="details">
 					Introduces new and current users to the latest features available in OSEE 0.7.0.<br/> 
 					Describes how a company can deploy and configure OSEE to meet its needs.<br/>
-					Click the following link to download material: <a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_materials.zip">'OSEE Tutorial Material'</a>
+					Click the following link to download the material: <a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_materials.zip">'OSEE Tutorial Material'</a>
+			</div>
+       </td>
+	</tr> 
+	 <tr>
+		<td class="date">2009/03/25</td>
+		<td><b><a href="http://www.eclipse.org/osee/xviewer/XViewer.pdf">XViewer - An SWT Widget with the power of the spreadsheet</a></b>
+			<div class="details">
+					Introduces users to XViewer features and capabilities.<br/> Describes how users can incorporate the XViewer into their GUIs.<br/>
+					Click the following link to download the material: <a href="http://www.eclipse.org/osee/xviewer/org_eclipse_nebula_widgets_xviewer.zip">'XViewer Code and Example'</a>
 			</div>
        </td>
 	</tr> 
