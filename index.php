@@ -60,7 +60,8 @@ work flow standardization and early defect detection.</p>
 		<td class="date">2009/03/23</td>
 		<td><b><a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_slides.pdf">From www.eclipse.org/osee to deployment - Tutorial</a></b>
 			<div class="details">
-					Introduces new and current users to latest features and describes how a company can deploy and configure OSEE to meet its needs.<br/>
+					Introduces new and current users to the latest features available in OSEE 0.7.0.<br/> 
+					Describes how a company can deploy and configure OSEE to meet its needs.<br/>
 					Click the following link to download material: <a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_materials.zip">'OSEE Tutorial Material'</a>
 			</div>
        </td>
@@ -77,7 +78,7 @@ work flow standardization and early defect detection.</p>
 		<td class="date">2009/03/26</td>
 		<td><b><a href="http://www.eclipse.org/osee/Unlocking_the_OSEE_Core_Framework.pdf">Unlocking the OSEE Core Framework</a></b>
 			<div class="details">
-					Short introduction to OSEE's core framework services.
+					Short introduction to OSEE's core framework services and how developers can incorporate them into their applications.
 			</div>
        </td>
 	</tr> 
