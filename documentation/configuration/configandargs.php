@@ -48,18 +48,39 @@
 			<td>A directory on the file system to be used by the application server to store and serve artifact binary data.</td>
 		</tr>
 		<tr>
-			<td>osee.connection.info.uri</td>
-			<td><code>[FILE SYSTEM PATH]</code></td>
-			<td></td>
-			<td>OseeServerProperties</td>
-			<td>File system path or uri containing custom database connection information.</td>
-		</tr>
-		<tr>
 			<td>osee.derby.server</td>
 			<td><code>[&lt;address&gt;:&lt;port&gt;]</code></td>
 			<td></td>
 			<td>OseeServerProperties</td>
 			<td>When specified, this system property sets the URL used to launch a derby database server.</td>
+		</tr>
+		<tr>
+			<td>osee.application.server.data</td>
+			<td><code>[FILE SYSTEM PATH]</code></td>
+			<td>User Home</td>
+			<td>OseeServerProperties</td>
+			<td>A directory on the file system to be used by the application server to store and serve artifact binary data.</td>
+		</tr>
+		<tr>
+			<td>osee.version</td>
+			<td><code>[&lt;&quote;version 1&quote;&gt;;&lt;&quote;version 2&quote;&gt;]</code></td>
+			<td></td>
+			<td>OseeServerProperties</td>
+			<td>When specified, this system property sets the application server's supported client versions. NOTE: version string can use regular expressions</td>
+		</tr>
+		<tr>
+			<td>osee.check.tag.queue.on.startup</td>
+			<td><code>true, false</code></td>
+			<td>false</td>
+			<td>OseeServerProperties</td>
+			<td>When specified, this system property allows the application server to check the tag queue and begin tagging and pending tag jobs.</td>
+		</tr>
+		<tr>
+			<td>osee.connection.info.uri</td>
+			<td><code>[FILE SYSTEM PATH]</code></td>
+			<td></td>
+			<td>OseeProperties</td>
+			<td>File system path or uri containing custom database connection information.</td>
 		</tr>
 		<tr>
 			<td>osee.db.connection.id</td>
@@ -155,7 +176,7 @@
 		<tr>
 			<td>osee.local.http.worker.port</td>
 			<td><code>&lt;port&gt;</code></td>
-			<td><code>8010</code></td>
+			<td><code>Port Scan starting from 18000</code></td>
 			<td>OseeClientProperties</td>
 			<td><p>Port to use for local worker server.</p></td>
 		</tr>
