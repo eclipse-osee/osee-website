@@ -45,18 +45,18 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/AndyJury.jpg"/><br/>Andy Jury<br/>Boeing<br/>Test</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/TheronVirgin.jpg"/><br/>Theron Virgin<br/>Boeing<br/>Define, Test</td>
 </tr><tr>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Joel Rosi-Schwartz<br/>Etish Limited<br/>Define, ORMF</td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Barbara Rosi-Schwartz<br/>Etish Limited<br/>Define, ORMF</td>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Stephan Eberle<br/>Geensys<br>Define, Framework, Application Dev</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
 </tr></table>
 
 </div>
 <div class="homeitem3col">
 <h3><a name="Collaborators"></a>Interested Parties</h3>
 <p><table border="0" width="100%"><tr >
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Boeing<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Boeing<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
 </tr></table>
 
 </div>
