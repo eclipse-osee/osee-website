@@ -35,6 +35,7 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/MikeM_120x120.jpg"/><br/>Michael Masterson<br/>Boeing<br/>Framework, Test</td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/JeffPhillips.jpg"/><br/><a href="http://www.eclipsecon.org/2008/index.php?page=presenters/#Jeff_Phillips">Jeff Phillips</a><br/>Boeing<br/>Framework, Define</td>
+<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Megumi Telles</a><br/>Boeing<br/>Framework, ATS</td>
 </table>
 
 </div>
@@ -46,17 +47,12 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/TheronVirgin.jpg"/><br/>Theron Virgin<br/>Boeing<br/>Define, Test</td>
 </tr><tr>
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Stephan Eberle<br/>Geensys<br>Define, Framework, Application Dev</td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
 </tr></table>
 
 </div>
 <div class="homeitem3col">
 <h3><a name="Collaborators"></a>Interested Parties</h3>
 <p><table border="0" width="100%"><tr >
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
-<td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/eclipseface.png"/><br/>Empty<br/>Empty<br/></td>
 </tr></table>
 
 </div>
