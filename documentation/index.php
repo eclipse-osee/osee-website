@@ -26,6 +26,7 @@
 							<li><a href="installation/derby_install.php">Derby Installation</a></li>
 							<li><a href="installation/postgresql_install.php">PostgreSQL Installation</a></li>
 						</ol>
+					<li><a href="launch/launch_application_server.php">Launch Application Server</a></li>
 					<li><a href="installation/db_init.php">Database Initialization</a></li>
 					<li><a href="launch/osee_launch.php">Launch & Configuration</a></li>
 				</ol>
