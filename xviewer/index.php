@@ -25,7 +25,7 @@
 	<div id="midcolumn" >
 
 		<h3>$pageTitle</h3>
-	   <b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget">OSEE Wiki<a></font></b>
+	   <b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget">OSEE Wiki<a></font></b><br/>
 		
 		<p>XViewer - Advanced TreeViewer Widget</p>
 
