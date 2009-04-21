@@ -17,7 +17,7 @@
 	$Nav->addCustomNav("News and Events", "/osee/news.php", "_self", 2);	
 	$Nav->addCustomNav("Documentation", "/osee/documentation/index.php", "_self", 2);
 	$Nav->addCustomNav("Screencasts", "/osee/screencasts.php", "_self", 2);
-	$Nav->addCustomNav("FAQ", "/osee/faq.php", "_self", 2);
+	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
 	$Nav->addCustomNav("Repository", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
 	$Nav->addCustomNav("Bug Components", "https://bugs.eclipse.org/bugs/describecomponents.cgi?product=OSEE", "_self", 2);

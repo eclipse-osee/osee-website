@@ -22,7 +22,7 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
-	<a href="http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions>FAQ moved here</a>
+	<a href="http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions">FAQ moved here</a>
 	</div>
 	
 EOHTML;
