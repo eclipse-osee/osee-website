@@ -15,6 +15,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
+		<b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE">OSEE Wiki<a></font></b>
 		<ol type="upper-roman">
 			<li><a href="overview/what_is.php">What is OSEE?</a></li>
 			<li><b>Installation & Initialization</b></li>

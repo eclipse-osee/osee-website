@@ -17,7 +17,6 @@
 	$Nav->addCustomNav("News and Events", "/osee/news.php", "_self", 2);	
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
 	$Nav->addCustomNav("Documentation (wiki)", "http://wiki.eclipse.org/OSEE", "_self", 2);
-	$Nav->addCustomNav("Documentation (old)", "/osee/documentation/index.php", "_self", 2);
 	$Nav->addCustomNav("Screencasts (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#Screencasts", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
@@ -28,4 +27,5 @@
 	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_self", 2);
 	$Nav->addCustomNav("XViewer (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget", "_self", 2);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
+	$Nav->addCustomNav("Documentation (retired)", "/osee/documentation/index.php", "_self", 2);
 ?>
