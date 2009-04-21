@@ -25,10 +25,9 @@
 	<div id="midcolumn" >
 
 		<h3>$pageTitle</h3>
+	   <b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget">OSEE Wiki<a></font></b>
 		
 		<p>XViewer - Advanced TreeViewer Widget</p>
-
-		<b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget">OSEE Wiki<a></font></b>
 
 <a href="http://www.eclipse.org/osee/xviewer/XViewer.pdf">EclipseCon 2009 Presentation Slides</a><br><br>
 <a href="http://www.eclipse.org/osee/xviewer/org_eclipse_nebula_widgets_xviewer.zip">Download Zip of Code and Example</a><br><br>
