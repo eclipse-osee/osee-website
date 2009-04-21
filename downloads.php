@@ -36,7 +36,6 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<b><font color="red">Documentation moved to <a href="http://wiki.eclipse.org/OSEE>OSEE Wiki<a></font></b>
 		<p>
 			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
 			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
