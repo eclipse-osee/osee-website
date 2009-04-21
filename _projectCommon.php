@@ -15,8 +15,10 @@
 	$Nav->addNavSeparator("OSEE Home", "/osee/index.php");
 	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
 	$Nav->addCustomNav("News and Events", "/osee/news.php", "_self", 2);	
-	$Nav->addCustomNav("Documentation", "/osee/documentation/index.php", "_self", 2);
-	$Nav->addCustomNav("Screencasts", "/osee/screencasts.php", "_self", 2);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
+	$Nav->addCustomNav("Documentation (wiki)", "http://wiki.eclipse.org/OSEE", "_self", 2);
+	$Nav->addCustomNav("Documentation (old)", "/osee/documentation/index.php", "_self", 2);
+	$Nav->addCustomNav("Screencasts (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#Screencasts", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
 	$Nav->addCustomNav("Repository", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
@@ -24,7 +26,6 @@
 	$Nav->addCustomNav("Open Bugs", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 2);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
 	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.osee", "_self", 2);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
-	$Nav->addCustomNav("XViewer", "/osee/xviewer", "_self", 2);
+	$Nav->addCustomNav("XViewer (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget", "_self", 2);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
 ?>
