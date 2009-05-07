@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<plan xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml">
+  <release projectid="osee" version="1.0"/>
+    <introduction>
+    <html:p>This document lays out the feature and API set for the OSEE project, version 0.8.1 milestone build.</html:p>
+  </introduction>
+  <release_deliverables>
+    <html:p>OSEE is distributed from Eclipse.org via archive site download. Add-on features are distributed via the OSEE Microdoc Site.</html:p>
+  </release_deliverables>
+  <release_milestones>
+    <milestone date="5/31/2009" milestone="M1"><html:p>May milestone</html:p></milestone>
+    <postamble/>
+  </release_milestones>
+  <target_environments>
+  <html:p>
+New OSEE builds do not support nor Eclipse 3.3 and earlier, nor JRE 1.5. 
+In the future this solution should allow us to make project code more clean and stable.
+  </html:p>
+   <html:p>
+OSEE supports the following:
+<html:ul>
+<html:li>Eclipse Platform 3.4.x</html:li>
+<html:li>JDK/JRE 1.6.x</html:li>
+</html:ul>
+  </html:p>
+    <internationalization>
+       <html:p>
+The user interface elements provided by OSEE, including dialogs and error messages, are not externalized. 
+The English strings are provided as the default resource bundles. 
+        </html:p>
+    </internationalization>
+  </target_environments>
+  
+  <compatibility_with_previous_releases/>
+  <themes_and_priorities>
+    <preamble>
+     <html:p>
+A list of project requirements and agreed upon implementation time frames is found in this document. 
+For the milestones listed in this document, a set of overall themes is used to indicate what major set of functionalities 
+is to be concentrated on for each. These themes are presented below, while the requirements document and associated 
+Bugzilla entries are left to those wanting more detailed information on each. 
+     </html:p>
+    </preamble>
+  <theme name="In Work">
+        <description>...(optional) html...</description>
+        <committed bugzilla="...(recommended) bugzilla search url...">
+           ...(optional alternate) html...</committed>
+        <proposed bugzilla="...(recommended) bugzilla search url...">
+           ...(optional alternate) html...</proposed>
+        <deferred bugzilla="...(recommended) bugzilla search url...">
+           ...(optional alternate) html...</deferred>
+     </theme> 
+  </themes_and_priorities>
+  <appendix/>
+</plan>
