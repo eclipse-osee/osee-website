@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
 <plan xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml">
-  <release projectid="osee" version="1.0"/>
+  <release projectid="osee" version="0.8.1"/>
     <introduction>
     <html:p>This document lays out the feature and API set for the OSEE project, version 0.8.1 milestone build.</html:p>
   </introduction>
@@ -9,7 +9,7 @@
     <html:p>OSEE is distributed from Eclipse.org via archive site download. Add-on features are distributed via the OSEE Microdoc Site.</html:p>
   </release_deliverables>
   <release_milestones>
-    <milestone date="5/31/2009" milestone="M1"><html:p>May milestone</html:p></milestone>
+    <milestone date="5/27/2009"><html:p>0.8.1 milestone</html:p></milestone>
     <postamble/>
   </release_milestones>
   <target_environments>
