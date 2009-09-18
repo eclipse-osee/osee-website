@@ -1,57 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
-     name="Project Name">
-  <release projectid="technology.dash" version="1.0"/>
-  <introduction>
-    <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-  </introduction>
-  <release_deliverables>
-    <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-  </release_deliverables>
-  <release_milestones>
-     <preamble>
-        <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-     </preamble>
-     <milestone date="7/1/2008" milestone="M1"><html:div>optional html</html:div></milestone>
-     <milestone date="8/1/2008" milestone="M2"><html:div>optional html</html:div></milestone>
-     <milestone date="9/1/2008" milestone="RC1"><html:div>optional html</html:div></milestone>
-     <milestone date="6/28/2009" milestone="1.0"/>
-     <postamble><html:div>html content</html:div></postamble>
-  </release_milestones>
-  <target_environments>
-    <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-    <internationalization>
-         <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-    </internationalization>
-  </target_environments>
-  <compatibility_with_previous_releases>
-      <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-  </compatibility_with_previous_releases>
-  <themes_and_priorities>
-    <preamble>
-        <html:div>Some xhtml content here.  Make sure to use the prefix before the elements</html:div>
-    </preamble>
-    <theme name="Appealing to the Broader Community">
-       <description>...(optional) html...</description>
-       <committed bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</committed>
-       <proposed bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</proposed>
-       <deferred bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</deferred>
-    </theme>
-    <theme name="Design for Extensibility">
-       <description>...(optional) html...</description>
-       <committed bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</committed>
-       <proposed bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</proposed>
-       <deferred bugzilla="...(recommended) bugzilla search url...">
-          ...(optional alternate) html...</deferred>
-    </theme>
-  </themes_and_priorities>
-  <appendix name="Project Refactoring">
-    ...html...
-  </appendix>	
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan"
+	xmlns:html="http://www.w3.org/1999/xhtml" name="Project Name">
+	<release projectid="technology.dash" version="1.0" />
+	<introduction>
+		<html:div>
+			This document delineates the OSEE milestone and release
+			schedule from its current state to graduation from incubation.
+		</html:div>
+	</introduction>
+	<release_deliverables>
+		<html:div>
+			OSEE will provide both client and server update sites. 
+			<!--
+				Platform-specific installers?
+			-->
+		</html:div>
+	</release_deliverables>
+	<release_milestones>
+		<preamble>
+			<html:div>Approximate dates for the later milestones have not yet
+				been determined.</html:div>
+		</preamble>
+		<milestone date="9/19/2009" milestone="0.8M2">
+			<html:div></html:div>
+		</milestone>
+		<milestone date="" milestone="0.9M0">
+			<html:div></html:div>
+		</milestone>
+		<milestone date="" milestone="1.0M1">
+			<html:div>First stable milestone build for graduation review
+			</html:div>
+		</milestone>
+		<milestone date="" milestone="1.0RC1">
+			<html:div>Initial Release Candidate for Graduation</html:div>
+		</milestone>
+		<milestone date="" milestone="1.0">
+			<html:div>Graduation Release</html:div>
+		</milestone>
+		<postamble>
+			<html:div></html:div>
+		</postamble>
+	</release_milestones>
+	<target_environments>
+		<html:div>In addition to continuing support for Windows, Solaris, and
+			Linux, effort is being made to fully support versions of OS X that
+			can support Ecilpse 3.5 and Java 6.</html:div>
+		<internationalization>
+			<html:div>
+				Due to community demand, internationalization efforts have
+				already begun, with tentative support for the German locale.
+			</html:div>
+		</internationalization>
+	</target_environments>
+	<compatibility_with_previous_releases>
+		<html:div>Beginning with the 0.9 milestone, robust export/import
+			utilities will be provided for migration to newer database schemas.
+		</html:div>
+	</compatibility_with_previous_releases>
+	<themes_and_priorities>
+		<preamble>
+			<html:div></html:div>
+		</preamble>
+		<theme name="Testability">
+			<description>
+				As OSEE matures, test coverage will be a crucial factor in maintaining the project and expanding the number of contributors.
+			</description>
+		</theme>
+		<theme name="Collaboration">
+			<description>
+
+			</description>
+		</theme>
+		<theme name="Documentation">
+			<description>
+				Thorough and up-to-date documentation is a crucial factor in
+				enabling productive collaboration from the entire development
+				community.
+			</description>
+		</theme>
+	</themes_and_priorities>
+	<appendix name="Project Refactoring">
+
+	</appendix>
 </plan>
