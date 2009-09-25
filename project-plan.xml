@@ -6,7 +6,7 @@
 	<introduction>
 		<html:div>
 			This document delineates the OSEE milestone and release
-			schedule from its current state to graduation from incubation.
+			schedule from its current state through graduation from incubation to a mature Eclipse project.
 		</html:div>
 	</introduction>
 	<release_deliverables>
@@ -22,10 +22,10 @@
 			<html:div>Approximate dates for the later milestones have not yet
 				been determined.</html:div>
 		</preamble>
-		<milestone date="9/19/2009" milestone="0.8M2">
+		<milestone date="10/03/2009" milestone="0.8M2">
 			<html:div></html:div>
 		</milestone>
-		<milestone date="" milestone="0.9M0">
+		<milestone date="11/18/2009" milestone="0.9M0">
 			<html:div></html:div>
 		</milestone>
 		<milestone date="" milestone="1.0M1">
@@ -60,19 +60,44 @@
 	</compatibility_with_previous_releases>
 	<themes_and_priorities>
 		<preamble>
-			<html:div></html:div>
+			<html:div>The bulk of the OSEE capabilities needed for OSEE 1.0.0 have been developed, but much remains to make
+			OSEE consumable and mature.</html:div>
 		</preamble>
 		<theme name="Testability">
 			<description>
 				As OSEE matures, test coverage will be a crucial factor in maintaining the project and expanding the number of contributors.
 			</description>
 		</theme>
-		<theme name="Collaboration">
+		<theme name="OSEE Test Environment">
 			<description>
-
+				Develop an example test scenario using OTE to run multiple client/server integration tests of OSEE.
 			</description>
 		</theme>
-		<theme name="Documentation">
+		<theme name="Code Quality">
+			<description>
+				Improve code and API quality in preparation for other developers to build upon the OSEE framework.
+				<html:ul>
+					<html:li>Remove deprecated methods</html:li>
+					<html:li>Address compiler warnings</html:li>
+				</html:ul>
+			</description>
+		</theme>
+		<theme name="Eclipse Project Infrastructure">
+			<description>
+				<html:ul>
+					<html:li>Continuous Integration Server</html:li>
+					<html:li>Automatic online-help generation</html:li>
+					<html:li>Ensure Orbit is used for all third party libraries</html:li>
+					<html:li>Update IP Log</html:li>
+				</html:ul>
+			</description>
+		</theme>
+		<theme name="Collaboration">
+			<description>
+				Reduce barriers to entry for new contributors and committers.
+			</description>
+		</theme>
+		<theme name="Usability and Documentation">
 			<description>
 				Thorough and up-to-date documentation is a crucial factor in
 				enabling productive collaboration from the entire development
