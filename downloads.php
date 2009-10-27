@@ -19,15 +19,15 @@
 	$pageAuthor		= "Roberto E. Escobar";
 
 	# Must update these values after every release
-	$releaseDate = "24 Sep 2008";
-	$releaseMajorVersion = "0.4";
-	$releaseVersion = "0.4.0";
+	$releaseDate = "26 Oct 2009";
+	$releaseMajorVersion = "0.8";
+	$releaseVersion = "0.8.3";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
 	$arrowImage = "downloads/images/arrow.gif";
 	$installRequirements = "documentation/installation/requirements.php";
 	$installInstructions = "documentation/installation/eclipse_install.php";
-	$releaseNotes="downloads/0_4_0/ReleaseNotes.html";
-	$releaseNewAndNoteworthy="downloads/0_4_0/NewAndNoteworthy.html";
+	$releaseNotes="downloads/0_8_3/ReleaseNotes.html";
+	$releaseNewAndNoteworthy="downloads/0_8_3/NewAndNoteworthy.html";
 	$configandargs="documentation/configuration/configandargs.php";
 
 
@@ -49,14 +49,9 @@
 		<div class="homeitem3col">
 			<h3>Latest Version</h3>
 			<ul>
-<!--            	<li>
-                    <b>Version</b>: $releaseVersion  |  <b>Date</b>: $releaseDate  |  <b>Type</b>: Release<br/>
-                    <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNewAndNoteworthy">New and Noteworthy for OSEE 0.4.0</a><br/>
-                    <img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$releaseNotes">Release Notes for OSEE 0.4.0</a>
-                </li> -->
                 <li>
-                	<b>Client Update Site - Integration Build</b> | <b>Date</b>: 16 Apr 2009<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee.client_integration_build_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
+                	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee.client_$releaseVersion_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
 							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base with the previously referenced dependencies, launch the update manager and install the OSEE archived update site (no need to unzip it).
 				      </ul>
@@ -65,13 +60,11 @@
                  		-Dosee.authentication.protocol=trustAll<br/>
                  		-Dosee.arbitration.server=http://localhost:8089
                  </ul>
-
-                 <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
-                 <br/>
+                 <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> <br/>
                 </li>
-          <!--       <li>
-                	<b>Server Update Site - Integration Build</b> | <b>Date</b>: 16 Apr 2009<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee.server_integration_build_incubation.zip">OSEE Server Incubation Archived Update Site</a></b><br/>
+                 <li>
+                	<b>Server Archive - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/updatesite/org.ecilpse.osee.server_$releaseVersion_incubation.zip">OSEE Server Incubation Archived </a></b><br/>
                 	<ul>
 							Unzip the archive to a convenient location.
 				      </ul>
@@ -83,7 +76,7 @@
 
                  <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
                  <br/>
-                </li> -->
+                </li>
                 <li>
                 	<b>All-In-One</b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$externalDownloadsSite">Visit external site to obtain all-in-one</a>
