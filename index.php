@@ -52,10 +52,16 @@ work flow standardization and early defect detection.</p>
   <table class="newsPosts" cellspacing="0" cellpadding="0">
 
 	<tr>
-		<td class="date">2009/03/12</td>
-		<td><b>Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.7.0 Integration Build (Incubation)</a> available </b>
+		<td class="date">29 Oct 2009</td>
+		<td><b><a href="http://blogs.itemis.de/sasidharan/2009/10/29/mission-accomplished/">Independent assessment of OSEE presented at Eclipse Summit</a></b>
 		</td>
 	</tr>
+	<tr>
+		<td class="date">26 Oct 2009</td>
+		<td><b>Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.8.3 Milestone Build (Incubation)</a> available </b>
+		</td>
+	</tr>
+	
  	<tr>
 		<td class="date">2009/03/23</td>
 		<td><b><a href="http://www.eclipse.org/osee/OSEE_eclipsecon2009_tutorial_slides.pdf">From www.eclipse.org/osee to deployment - Tutorial</a></b>
@@ -102,6 +108,9 @@ work flow standardization and early defect detection.</p>
       		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, 
       		   it's architecture, the maturity of the application framework and the status and maturity of the different applications 
       		   that use the framework.
+      		</li>
+      		<li>
+      			<a href="http://wiki.eclipse.org/OSEE/Tutorial">OSEE Tutorial</a>
       		</li>
       	</ul>
       </div>
