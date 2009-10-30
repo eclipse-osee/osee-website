@@ -57,12 +57,12 @@ work flow standardization and early defect detection.</p>
 		</td>
 	</tr>
 	<tr>
-		<td class="date">26 Oct 2009</td>
+		<td>26 Oct 2009</td>
 		<td><b>Updated <a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.8.3 Milestone Build (Incubation)</a> available </b>
 		</td>
 	</tr>
    <tr>
-		<td class="date">26 Mar 2009</td>
+		<td>26 Mar 2009</td>
 		<td><b><a href="http://www.eclipse.org/osee/Unlocking_the_OSEE_Core_Framework.pdf">Unlocking the OSEE Core Framework</a></b>
 			<div class="details">
 					Short introduction to OSEE's core framework services and how developers can incorporate them into their applications.
@@ -70,7 +70,7 @@ work flow standardization and early defect detection.</p>
        </td>
 	</tr> 
 	 <tr>
-		<td class="date">25 Mar 2009</td>
+		<td>25 Mar 2009</td>
 		<td><b><a href="http://www.eclipse.org/osee/xviewer/XViewer.pdf">XViewer - An SWT Widget with the power of the spreadsheet</a></b>
 			<div class="details">
 					Introduces users to XViewer features and capabilities.<br/> Describes how users can incorporate the XViewer into their GUIs.<br/>
@@ -79,7 +79,7 @@ work flow standardization and early defect detection.</p>
        </td>
 	</tr> 
 	  <tr>
-		<td class="date">25 Mar 2009</td>
+		<td>25 Mar 2009</td>
 		<td><b><a href="http://www.eclipse.org/osee/OTE_eclipsecon2009_slides.pdf">An Integrated Test Environment for Systems Engineering</a></b>
 			<div class="details">
 			Short introduction to features provided by OSEE's newest component - the Open System Engineering Test Environment Framework
