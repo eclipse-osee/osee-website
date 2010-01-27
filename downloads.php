@@ -78,7 +78,10 @@
                  <br/>
                 </li>
                 <li>
-                	<b>All-In-One</b><br/>
+                	<b>Full Eclipse with OSEE Client pre-installed with Derby</b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.${releaseVersion}_incubation.zip">OSEE Server Incubation Archived </a></b><br/>
+                	
+                	<b>Full Eclipse with OSEE Client pre-installed with Postgres</b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$externalDownloadsSite">Visit external site to obtain all-in-one</a>
                 	distribution. The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.<br/>
                 </li>
