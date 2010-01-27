@@ -19,9 +19,9 @@
 	$pageAuthor		= "Roberto E. Escobar";
 
 	# Must update these values after every release
-	$releaseDate = "26 Oct 2009";
-	$releaseMajorVersion = "0.8";
-	$releaseVersion = "0.8.3";
+	$releaseDate = "25 Jan 2010";
+	$releaseMajorVersion = "0.9";
+	$releaseVersion = "0.9.1";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
 	$arrowImage = "downloads/images/arrow.gif";
 	$installRequirements = "documentation/installation/requirements.php";
