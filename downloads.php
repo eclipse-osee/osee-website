@@ -42,10 +42,13 @@
 			Add-ons are libraries with their own licenses, which are distributed from an external location
 			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.
 		</p>
-		<h2>Requirements</h2>
-        <p>
-           <a href="$installRequirements">System Requirements and Eclipse Dependencies</a>.
-        </p>
+		<h2>System Requirements (non-Eclipse)</h2>
+		<ul>
+			<li>System with at least 1GB of RAM</li>
+			<li>Java Runtime Environment (JRE) 1.6 or higher</li>
+			<li>Relational Database such as PostgreSQL, MySQL, Oracle, or Derby.<br/>
+			See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</li>
+		</ul>
 		<div class="homeitem3col">
 			<h3>Latest Version</h3>
 			<ul>

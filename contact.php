@@ -38,6 +38,19 @@
 <td width="33%" height="200" align="center" valign="bottom"><img border="0" src="images/team/MegumiTelles.jpg"/><br/>Megumi Telles</a><br/>Boeing<br/>Framework, ATS</td>
 </table>
 
+<! 
+Ryan Brooks is the co-lead of the Open System Engineering Environment (OSEE) project.
+OSEE had its roots in Boeing's Longbow Apache helicopter program where he worked as
+an Embedded Software Engineer.  He earned a Bachelor of Science in Computer
+Engineering from Auburn University.  Previous conference presentations and papers include:
+"An Integrated Test Environment for Systems Engineering" - EclipseCon 2009;
+"The Cure for Your Disconnected Toolset Headache" - EclipseCon 2008;
+"A Linux/Java Environment for Testing Real-time Avionics Software" - 2nd Boeing Software Conference, 2007;
+"Lean Engineering and the Open System Engineering Environment" - 1st Boeing Software Conference, 2006;
+"Lean Engineering and the Open System Engineering Environment" - JACMET Lean Symposium, 2005;
+"A Jini-enabled Active Badge System" - 38th Annual ACM Southeast Conference, 2000.
+-->
+
 </div>
 <div class="homeitem3col">
 <h3><a name="Contributors"></a>Contributors</h3>

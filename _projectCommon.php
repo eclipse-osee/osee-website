@@ -26,5 +26,4 @@
 	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68&S=03be8852279043e2fbe465ca71cbb7ac", "_self", 2);
 	$Nav->addCustomNav("XViewer (wiki)", "http://wiki.eclipse.org/OSEE/Users_Guide#XViewer_-_Advanced_TreeViewer_Widget", "_self", 2);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
-	$Nav->addCustomNav("Documentation (retired)", "/osee/documentation/index.php", "_self", 2);
 ?>
