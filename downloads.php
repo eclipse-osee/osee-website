@@ -66,7 +66,8 @@
                 </li>
                  <li>
                 	<b>Server Archive - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.ecilpse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived </a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.ecilpse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/org.ecilpse.osee.server_postgresql_0.9.1_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></b><br/>
                 	<ul>
 							Unzip the archive to a convenient location on the server machine (might be the same as the client).
 				      </ul>
@@ -82,6 +83,10 @@
                 <li>
                   <b>Full Eclipse with OSEE Client $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.${releaseVersion}_incubation.zip">${releaseVersion} Client with Derby</a></b><br/>
+                </li>
+                <li>
+                  <b>Postgresql Add-on Feature $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip">${releaseVersion} Client with Derby</a></b><br/>
                 </li>
 					 <li>
                   <b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/>
