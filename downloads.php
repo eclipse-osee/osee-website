@@ -34,8 +34,7 @@
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
-		
+		<h2>License Information</h1>
 		<p>
 			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
 			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
@@ -50,7 +49,7 @@
 			See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</li>
 		</ul>
 		<div class="homeitem3col">
-			<h3>Latest Version</h3>
+			<h2>OSEE Downloads</h3>
 			<ul>
                 <li>
                 	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
@@ -81,9 +80,11 @@
                  <br/>
                 </li>
                 <li>
-                	<b>Full Eclipse with OSEE Client pre-installed</b><br/>
+                  <b>Full Eclipse with OSEE Client $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.${releaseVersion}_incubation.zip">${releaseVersion} Client with Derby</a></b><br/>
-                	<br/>
+                </li>
+					 <li>
+                  <b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$externalDownloadsSite">Visit external site to obtain full client for PostgreSQL</a>
                 	The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.<br/>
                 </li>
