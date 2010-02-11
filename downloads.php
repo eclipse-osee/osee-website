@@ -86,7 +86,7 @@
                 </li>
                 <li>
                   <b>Postgresql Add-on Feature $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip">${releaseVersion} Client with Derby</a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip">${releaseVersion} Postgresql Feature</a></b><br/>
                 </li>
 					 <li>
                   <b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/>
