@@ -65,12 +65,10 @@ work flow standardization and early defect detection.</p>
 		<td class="date" valign="top">18 Dec 2009</td>
 		<td><b>Talks submitted for EclipseCon 2010</b>
 			<div class="details">
-			<ul>
-				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1511">Eclipse and the development of mission/safety-critical systems</a></li>
-				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1507">Xtext and GEF deliver editors for the Open System Engineering Environment</a></li>
-				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1490">The users don't really know what they want!</a></li>
-				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1488">What do we do with all that data?</a></li>
-			</ul>
+				<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1511">Eclipse and the development of mission/safety-critical systems</a><br/>
+				<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1507">Xtext and GEF deliver editors for the Open System Engineering Environment</a><br/>
+				<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1490">The users don't really know what they want!</a><br/>
+				<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1488">What do we do with all that data?</a><br/>
 			</div>
 		</td>
 	</tr>
