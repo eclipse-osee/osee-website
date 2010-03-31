@@ -18,9 +18,9 @@
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
 	
 	$Nav->addNavSeparator("Documentation", "");
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 1);
 	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide#Screencasts", "_self", 2);
-	$Nav->addCustomNav("FAQ", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 2);
+	$Nav->addCustomNav("FAQ", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 3);
 	
 	$Nav->addNavSeparator("Development", "");
 	$Nav->addCustomNav("Source Code", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
