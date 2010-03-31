@@ -49,7 +49,7 @@ work flow standardization and early defect detection.</p>
         
   <div class="homeitem">	
   <h3>What's New</h3>
-  <table class="newsPosts" cellspacing="5" cellpadding="5">
+  <table class="newsPosts" cellspacing="10" cellpadding="0">
   
   	<tr>
   		<td class="date">31 Mar 2010</td>
@@ -65,10 +65,12 @@ work flow standardization and early defect detection.</p>
 		<td class="date">18 Dec 2009</td>
 		<td><b>Talks submitted for EclipseCon 2010</b>
 			<div class="details">
-			<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1511">Eclipse and the development of mission/safety-critical systems</a><br>
-			<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1507">Xtext and GEF deliver editors for the Open System Engineering Environment</a><br>
-			<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1490">The users don't really know what they want!</a><br>
-			<a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1488">What do we do with all that data?</a><br>
+			<ul>
+				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1511">Eclipse and the development of mission/safety-critical systems</a></li>
+				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1507">Xtext and GEF deliver editors for the Open System Engineering Environment</a></li>
+				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1490">The users don't really know what they want!</a></li>
+				<li><a href="https://www.eclipsecon.org/submissions/2010/view_talk.php?id=1488">What do we do with all that data?</a></li>
+			</ul>
 			</div>
 		</td>
 	</tr>
@@ -115,7 +117,7 @@ work flow standardization and early defect detection.</p>
       	<ul>
       		<li>
       		   <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">
-      		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, 
+      		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused its creation, 
       		   its architecture, the maturity of the application framework and the status and maturity of the different applications 
       		   that use the framework.
       		</li>

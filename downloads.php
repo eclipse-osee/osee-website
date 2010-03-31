@@ -30,8 +30,6 @@
 	$releaseNewAndNoteworthy="downloads/0_8_3/NewAndNoteworthy.html";
 	$configandargs="documentation/configuration/configandargs.php";
 
-
-	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 	<div id="midcolumn">
 		<h2>License Information</h1>
@@ -43,10 +41,10 @@
 		</p>
 		<h2>System Requirements (non-Eclipse)</h2>
 		<ul>
-			<li>System with at least 1GB of RAM</li>
+			<li>System with at least 2GB of RAM</li>
 			<li>Java Runtime Environment (JRE) 1.6 or higher</li>
-			<li>Relational Database such as PostgreSQL, MySQL, Oracle, or Derby.<br/>
-			See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</li>
+			<li>A PostgreSQL, Oracle, or Derby database. <br/>
+			<em>See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</em></li>
 		</ul>
 		<div class="homeitem3col">
 			<h2>OSEE Downloads</h3>
@@ -88,7 +86,8 @@
                   <b>Postgresql Add-on Feature $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip">${releaseVersion} Postgresql Feature</a></b><br/>
                 </li>
-					 <li>
+
+				 <li>
                   <b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<a href="$externalDownloadsSite">Visit external site to obtain full client for PostgreSQL</a>
                 	The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.<br/>
