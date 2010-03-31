@@ -6,6 +6,13 @@
 		<div>
 		<center><a href="/projects/gazoo.php"><img align="center" src="/images/egg-incubation.png" border="0"/></a></center></div>
 	</div>
+	
+	<div class="sideitem">
+		<h6>Commit Activity</h6>
+		<a href="http://dash.eclipse.org/dash/commits/web-app/summary.cgi?company=y&month=x&project=technology.osee">
+			<img src="http://dash.eclipse.org/dash/commits/web-app/active-graph.cgi?project=technology.osee" />
+		</a>
+	</div>
 
 	<div class="sideitem">
 		<h6>Quick Links</h6>
