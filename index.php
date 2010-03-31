@@ -50,7 +50,13 @@ work flow standardization and early defect detection.</p>
   <div class="homeitem">	
   <h3>What's New</h3>
   <table class="newsPosts" cellspacing="0" cellpadding="0">
-
+  
+  	<tr>
+  		<td class="date">31 Mar 2010</td>
+  		<td>The slides from the OSEE team's presentation at EclipseCon 2010, 
+  		entitled "Xtext and GEF deliver editors for the Open System Engineering Environment", 
+  		are available <a href="http://www.eclipse.org/osee/Xtext_and_GEF_deliver_editors_for_the_Open_System_Engineering_Environment.ppt">here</a>.
+  	</tr>
 	<tr>
 		<td class="date">25 Jan 2010</td>
 		<td><b><a href="http://www.eclipse.org/osee/downloads.php">OSEE 0.9.1 is Available</a></b></td>
