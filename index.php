@@ -49,7 +49,7 @@ work flow standardization and early defect detection.</p>
         
   <div class="homeitem">	
   <h3>What's New</h3>
-  <table class="newsPosts" cellspacing="0" cellpadding="0">
+  <table class="newsPosts" cellspacing="5" cellpadding="5">
   
   	<tr>
   		<td class="date">31 Mar 2010</td>
@@ -116,7 +116,7 @@ work flow standardization and early defect detection.</p>
       		<li>
       		   <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/2.0%20OSEE%20Overview%20Screencast.zip">
       		   OSEE Overview</a> - This screencast provides an overview of OSEE including the driving forces that caused it's creation, 
-      		   it's architecture, the maturity of the application framework and the status and maturity of the different applications 
+      		   its architecture, the maturity of the application framework and the status and maturity of the different applications 
       		   that use the framework.
       		</li>
       		<li>

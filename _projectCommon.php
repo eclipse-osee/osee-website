@@ -17,16 +17,16 @@
 	$Nav->addCustomNav("Project Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
 	
-	$Nav->addNavSeparator("Documentation", "");
+	$Nav->addNavSeparator("Documentation", "http://wiki.eclipse.org/OSEE");
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
 	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide#Screencasts", "_self", 2);
 	$Nav->addCustomNav("FAQ", "http://wiki.eclipse.org/OSEE/Users_Guide#Frequently_Asked_Questions", "_self", 2);
 	
-	$Nav->addNavSeparator("Development", "");
+	$Nav->addNavSeparator("Development", "https://bugs.eclipse.org");
 	$Nav->addCustomNav("Source Code", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
 	$Nav->addCustomNav("Bugzilla", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 2);
 
-	$Nav->addNavSeparator("Discussion", "");
+	$Nav->addNavSeparator("Discussion", "https://dev.eclipse.org/mailman/listinfo/osee-dev");
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
 	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68&S=03be8852279043e2fbe465ca71cbb7ac", "_self", 2);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
