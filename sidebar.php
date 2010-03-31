@@ -12,7 +12,7 @@
 		<div class="modal">
 		<ul>
 			<li><a href="http://osee.microdoc.com/node/2">OSEE add-ons page</a></li>
-			<li><a href="www.open-do.org">Open DO-178</a></li>
+			<li><a href="http://www.open-do.org/">Open DO-178</a></li>
 			<li><a href="http://www.eclipse.org/proposals/osee/">Project Proposal</a></li>
 		</ul>
 		</div>
