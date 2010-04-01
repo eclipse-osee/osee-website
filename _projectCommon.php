@@ -19,7 +19,7 @@
 	
 	$Nav->addNavSeparator("Documentation", "http://wiki.eclipse.org/OSEE");
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
-	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide#Screencasts", "_self", 2);
+	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Screencasts", "_self", 2);
 	
 	$Nav->addNavSeparator("Development", "https://bugs.eclipse.org");
 	$Nav->addCustomNav("Source Code", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
