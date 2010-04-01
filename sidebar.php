@@ -9,7 +9,7 @@
 	
 	<div class="sideitem">
 		<h6>Commit Activity</h6>
-		<a href="http://dash.eclipse.org/dash/commits/web-app/summary.cgi?company=y&month=x&project=technology.osee">
+		<a href="http://dash.eclipse.org/dash/commits/web-app/summary.cgi?company=x&month=y&project=technology.osee">
 			<img src="http://dash.eclipse.org/dash/commits/web-app/active-graph.cgi?project=technology.osee" />
 		</a>
 	</div>
