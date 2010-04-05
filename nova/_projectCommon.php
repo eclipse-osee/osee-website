@@ -12,7 +12,6 @@
  *******************************************************************************/
 
 	$theme = "Nova";
-	
 
 	# Define your project-wide Navigation here
 	# This appears on the left of the page if you define a left nav
