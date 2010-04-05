@@ -11,9 +11,7 @@
  *    
  *******************************************************************************/
 
-	# Set the theme for your project's web pages.
-	# See http://eclipse.org/phoenix/
-	$theme = "Miasma";
+	$theme = "Nova";
 	
 
 	# Define your project-wide Navigation here

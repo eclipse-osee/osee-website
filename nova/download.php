@@ -5,6 +5,7 @@
 	$App = new App();
 	$Nav = new Nav();
 	$Menu = new Menu();
+	$Theme = "Miasma";
 	include($App->getProjectCommon());
 
 	#*****************************************************************************
