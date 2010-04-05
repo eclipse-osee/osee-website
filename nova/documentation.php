@@ -21,52 +21,23 @@
 	ob_start();
 	?>
 	<div id="midcolumn">
-		<h1>&lt;H1&gt; tag</h1>
-		
+		<h1>Documentation</h1>
 		<p>
-			This is a &lt;p&gt; tag.  
-		</p>
-		
-		<p>
-			This is a &lt;p&gt; tag.  With a lot of text. <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-		
-		
-		<h3>&lt;h3&gt; tag</h3>
-		<div class="homeitem">
 			<ul>
-				<li>This is an unordered list</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-				<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</li>
- 				<li>Curabitur vel lorem in turpis adipiscing dictum. Nunc mi est, scelerisque vitae, venenatis et, euismod et, sem. Praesent aliquet mi vel felis. Pellentesque pellentesque convallis ante. Praesent imperdiet velit vitae justo. Nullam quis purus. Aenean neque enim, consequat non, mattis eu, gravida sed, massa.</li>
+				<li>
+				The <a href="http://wiki.eclipse.org/OSEE">OSEE Wiki</a> is the central repository for OSEE documentation, 
+				including tutorials, installation help, user guides, and other information.
+				</li>
+				<li>
+				Our <a href="http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Screencasts">screencasts</a> provide a
+				detailed video demonstration of OSEE's capabilities.
+				</li>
 			</ul>
-			<ol> 
-				<li>This is an ordered list</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-				<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</li>
- 				<li>Curabitur vel lorem in turpis adipiscing dictum. Nunc mi est, scelerisque vitae, venenatis et, euismod et, sem. Praesent aliquet mi vel felis. Pellentesque pellentesque convallis ante. Praesent imperdiet velit vitae justo. Nullam quis purus. Aenean neque enim, consequat non, mattis eu, gravida sed, massa.</li>
-			</ol>				
-		</div>
-		
-		<h2>&lt;h2&gt; tag</h2>
-		<table>
-			<tr>
-				<td>Tables look </td>
-				<td>like this</td>
-			</tr>
-			<tr>
-				<td>Data</td>
-				<td>Data</td>
-			</tr>
-			<tr>
-				<td>Data</td>
-				<td>Data</td>
-			</tr>
-		</table>
-		
+		</p>
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
+	<!--
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
@@ -82,6 +53,7 @@
 				</div>
 		</div>
 	</div>
+	-->
 
 	
 	<?
