@@ -88,5 +88,5 @@
 	$html = ob_get_clean();
 
 	# Generate the web page
-	$App->generatePage('Nova', $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
