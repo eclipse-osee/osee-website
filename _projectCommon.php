@@ -14,7 +14,7 @@
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 
 	$Nav->addNavSeparator("OSEE Home", "/osee/index.php");
-	$Nav->addCustomNav("Project Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
+	$Nav->addCustomNav("About OSEE", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
 	$Nav->addCustomNav("Downloads", "/osee/downloads.php", "_self", 2);
 	
 	$Nav->addNavSeparator("Documentation", "http://wiki.eclipse.org/OSEE");
