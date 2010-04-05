@@ -20,7 +20,7 @@
 	# Paste your HTML content between the EOHTML markers!	
 	ob_start();
 	?>
-	<div id="midcolumn">
+	<div class="homeitem">
 		<h1>Documentation</h1>
 		<p>
 			<ul>
