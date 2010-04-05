@@ -13,8 +13,9 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Nova #midcolumn Template";
-	$pageKeywords	= "Nova, template, #midcolumn";
-	$pageAuthor		= "Nathan Gervais";
+	$pageKeywords	= "OSEE, template, #midcolumn";
+	$pageAuthor		= "Ryan Schmitt";
+	$theme = "Miasma";
 		
 	# Paste your HTML content between the EOHTML markers!	
 	ob_start();
