@@ -52,7 +52,7 @@ work flow standardization and early defect detection.</p>
   <table class="newsPosts" cellspacing="10" cellpadding="0">
   	<tr>
   		<td class="date" valign="top">19 May 2010</td>
-  		<td>The final build of OSEE 0.9.4 has been made, and downloads will be available on the <a href="downloads">downloads page</a> shortly.</td>
+  		<td>The final build of OSEE 0.9.4 has been made, and downloads will be available on the <a href="downloads.php">downloads page</a> shortly.</td>
   	</tr>
   	<tr>
   		<td class="date" valign="top">31 Mar 2010</td>
