@@ -21,7 +21,7 @@
 	# Must update these values after every release
 	$releaseDate = "25 Jan 2010";
 	$releaseMajorVersion = "0.9";
-	$releaseVersion = "0.9.1";
+	$releaseVersion = "0.9.4";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
 	$arrowImage = "downloads/images/arrow.gif";
 	$installRequirements = "documentation/installation/requirements.php";
