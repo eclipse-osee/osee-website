@@ -51,7 +51,7 @@
 			<ul>
                 <li>
                 	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.ecilpse.osee.client_${releaseVersion}_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.client_${releaseVersion}_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
 							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base with the previously referenced dependencies, launch the update manager and install the OSEE archived update site (no need to unzip it).
 				      </ul>
@@ -64,8 +64,8 @@
                 </li>
                  <li>
                 	<b>Server Archive - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.ecilpse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></b><br/>
-                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/org.ecilpse.osee.server_postgresql_0.9.1_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></b><br/>
+                	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/org.eclipse.osee.server_postgresql_0.9.1_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></b><br/>
                 	<ul>
 							Unzip the archive to a convenient location on the server machine (might be the same as the client).
 				      </ul>
