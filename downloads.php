@@ -58,8 +58,8 @@
                  When launching the client you must set the following java system properties:<br/>
                  <ul>
                  		<p>
-                 		<tt>-Dosee.authentication.protocol=trustAll<br/>
-                 		   -Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/></tt>
+                 		<FONT FACE= "Courier New">-Dosee.authentication.protocol=trustAll<br/>
+                 		   -Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/></font>
                  		   <i>The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b></i> 
                  		</p>
                  </ul>
