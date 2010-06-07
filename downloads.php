@@ -34,12 +34,12 @@
 	<div id="midcolumn">
 		<h2>License Information</h2>
 		<p>
-			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
+				OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
 			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
 			Add-ons are libraries with their own licenses, which are distributed from an external location
 			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.
 		</p>
-		<h2>System Requirements (non-Eclipse)</h2>
+		<h2>System Requirements</h2>
 		<ul>
 			<li>System with at least 2GB of RAM</li>
 			<li>Java Runtime Environment (JRE) 1.6 or higher</li>
