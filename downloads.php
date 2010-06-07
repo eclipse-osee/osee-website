@@ -57,8 +57,11 @@
 				      </ul>
                  When launching the client you must set the following java system properties:<br/>
                  <ul>
-                 		-Dosee.authentication.protocol=trustAll<br/>
-                 		-Dosee.arbitration.server=http://localhost:8089
+                 		<p>
+                 			-Dosee.authentication.protocol=trustAll<br/>
+                 		   -Dosee.arbitration.server=http://<serveraddress>:<serverport><br/>
+                 		   <i>The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b></i> 
+                 		</p>
                  </ul>
                  <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> <br/>
                 </li>
@@ -67,15 +70,10 @@
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/org.eclipse.osee.server_postgresql_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></b><br/>
                 	<ul>
-							Unzip the archive to a convenient location on the server machine (might be the same as the client).
+							Unzip the archive to a convenient location on the server machine (might be the same as the client).<br/>
+							Launch using the startup files provided<br/>
+							<i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
 				      </ul>
-                 When launching the server you must set the following java system properties:<br/>
-                 <ul>
-                 		-Dosee.authentication.protocol=trustAll<br/>
-                 		-Dosee.arbitration.server=http://localhost:8089
-                 </ul>
-
-                 <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
                  <br/>
                 </li>
                 <li>
