@@ -32,7 +32,7 @@
 
 	$html = <<<EOHTML
 	<div id="midcolumn">
-		<h2>License Information</h1>
+		<h2>License Information</h2>
 		<p>
 			OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
 			A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
@@ -47,7 +47,7 @@
 			<em>See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</em></li>
 		</ul>
 		<div class="homeitem3col">
-			<h2>OSEE Downloads</h3>
+			<h2>OSEE Downloads</h2>
 			<ul>
                 <li>
                 	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
@@ -58,14 +58,14 @@
                  When launching the client you must set the following java system properties:<br/>
                  <ul>
                  		<p>
-                 			-Dosee.authentication.protocol=trustAll<br/>
-                 		   -Dosee.arbitration.server=http://<serveraddress>:<serverport><br/>
+                 		<tt>-Dosee.authentication.protocol=trustAll<br/>
+                 		   -Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/></tt>
                  		   <i>The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b></i> 
                  		</p>
                  </ul>
                  <i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> <br/>
                 </li>
-                 <li>
+                <li>
                 	<b>Server Archive - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></b><br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://osee-external.googlecode.com/files/org.eclipse.osee.server_postgresql_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></b><br/>
