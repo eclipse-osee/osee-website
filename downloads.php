@@ -6,6 +6,7 @@
 	$Nav = new Nav();
 	$Menu = new Menu();
 	include($App->getProjectCommon());
+	$theme = "Miasma";
 
 	#*****************************************************************************
 	# downloads.php
@@ -23,7 +24,7 @@
 	$releaseMajorVersion = "0.9";
 	$releaseVersion = "0.9.4";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
-	$arrowImage = "downloads/images/arrow.gif";
+	$arrowImage = "images/arrow.gif";
 	$installRequirements = "documentation/installation/requirements.php";
 	$installInstructions = "documentation/installation/eclipse_install.php";
 	$releaseNotes="downloads/0_8_3/ReleaseNotes.html";
