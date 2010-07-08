@@ -48,7 +48,7 @@
                 	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.client_${releaseVersion}_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
-							See <a http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Installation</a> on how to install from this update site.
+							See <a href="http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Installation</a> on how to install using this update site.
 				      </ul>
                  When launching the client you must set the following java system properties:<br/>
                  <ul>
