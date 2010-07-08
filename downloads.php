@@ -25,7 +25,6 @@
 	$releaseVersion = "0.9.4";
 	$externalDownloadsSite = "http://osee.microdoc.com/node/2";
 	$arrowImage = "images/arrow.gif";
-	$installRequirements = "documentation/installation/requirements.php";
 	$installInstructions = "documentation/installation/eclipse_install.php";
 	$releaseNotes="downloads/0_8_3/ReleaseNotes.html";
 	$releaseNewAndNoteworthy="downloads/0_8_3/NewAndNoteworthy.html";
@@ -40,13 +39,8 @@
 			Add-ons are libraries with their own licenses, which are distributed from an external location
 			at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.
 		</p>
-		<h2>System Requirements</h2>
-		<ul>
-			<li>System with at least 2GB of RAM</li>
-			<li>Java Runtime Environment (JRE) 1.6 or higher</li>
-			<li>A PostgreSQL, Oracle, or Derby database. <br/>
-			<em>See instructions for installing <a href="supported_databases.php">'Supported Databases'</a> to complete this step.</em></li>
-		</ul>
+		<h2>Non-Eclipse System Requirements</h2>
+			<a href="http://wiki.eclipse.org/OSEE/Developers_Guide#Non-Eclipse_System_Requirements">Non-Eclipse System Requirements</a>
 		<div class="homeitem3col">
 			<h2>OSEE Downloads</h2>
 			<ul>
@@ -54,7 +48,7 @@
                 	<b>Client Update Site - Milestone Build $releaseVersion</b> | <b>Date</b>: $releaseDate<br/>
                 	<img src="$arrowImage"></img>&nbsp;&nbsp;<b><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.client_${releaseVersion}_incubation.zip">OSEE Client Incubation Archived Update Site</a></b><br/>
                 	<ul>
-							First ensure you have satisfied the needed <a href="$installRequirements">system requirements and Eclipse dependencies</a>.  Next, from the Eclipse base with the previously referenced dependencies, launch the update manager and install the OSEE archived update site (no need to unzip it).
+							See <a http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Installation</a> on how to install from this update site.
 				      </ul>
                  When launching the client you must set the following java system properties:<br/>
                  <ul>
