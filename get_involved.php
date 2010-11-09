@@ -25,7 +25,7 @@
 		<p>
 			<ul>
 				<li>
-				Our <a href="https://dev.eclipse.org/svnroot/technology/org.eclipse.osee">SVN repository</a> contains all the
+				Our <a href="http://git.eclipse.org/c/osee/org.eclipse.osee.git">Git repository</a> contains all the
 				source code for OSEE.
 				</li>
 				<li>

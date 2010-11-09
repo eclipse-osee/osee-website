@@ -30,7 +30,7 @@
 	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Screencasts", "_self", 2);
 	
 	$Nav->addNavSeparator("Development", "https://bugs.eclipse.org");
-	$Nav->addCustomNav("Source Code", "https://dev.eclipse.org/svnroot/technology/org.eclipse.osee", "_self", 2);
+	$Nav->addCustomNav("Source Code", "http://git.eclipse.org/c/osee/org.eclipse.osee.git/", "_self", 2);
 	$Nav->addCustomNav("Bugzilla", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 2);
 
 	$Nav->addNavSeparator("Support", "https://dev.eclipse.org/mailman/listinfo/osee-dev");
