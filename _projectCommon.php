@@ -12,7 +12,9 @@
  *******************************************************************************/
 
 	$theme = "Nova";
-
+	
+	$pageKeywords	= "osee, systems engineering";
+	
 	# Define your project-wide Navigation here
 	# This appears on the left of the page if you define a left nav
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -37,12 +39,6 @@
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
 	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68&S=03be8852279043e2fbe465ca71cbb7ac", "_self", 2);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
-	
-	# Define keywords, author and title here, or in each PHP page specifically
-	$pageKeywords	= "osee, systems engineering";
-	$pageAuthor		= "Ryan Schmitt";
-	# $pageTitle 		= "Osee";
-
 
 	# top navigation bar
 	# To override and replace the navigation with your own, uncomment the line below.
