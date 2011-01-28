@@ -10,7 +10,9 @@
 	$pageTitle 		= "OSEE - Downloads";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
+	
 	$version      = "0.9.4";
+   $externalDownloadsSite = "http://osee.microdoc.com/node/2";
 
    #*****************************************************************************
 	
@@ -19,6 +21,7 @@
 	$html .= "</div>";
 	
 	$html = preg_replace('/@VERSION@/', $version, $html);
+	$html = preg_replace('/@EXTERNAL_DOWNLOADS_SITE@/', $externalDownloadsSite, $html);
 	
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
