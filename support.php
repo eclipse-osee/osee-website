@@ -15,7 +15,7 @@
 	$pageTitle 		= "Nova #midcolumn Template";
 	$pageKeywords	= "OSEE, template, #midcolumn";
 	$pageAuthor		= "Ryan Schmitt";
-	$theme = "Miasma";
+	$theme = "Nova";
 		
 	# Paste your HTML content between the EOHTML markers!	
 	ob_start();

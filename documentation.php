@@ -15,7 +15,7 @@
 	$pageTitle 		= "OSEE Documentation";
 	$pageKeywords	= "OSEE, documentation, wiki, screencasts";
 	$pageAuthor		= "Ryan Schmitt";
-	$theme = "Miasma";
+	$theme = "Nova";
 		
 	# Paste your HTML content between the EOHTML markers!	
 	ob_start();

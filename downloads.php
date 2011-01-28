@@ -6,7 +6,7 @@
 	$Nav = new Nav();
 	$Menu = new Menu();
 	include($App->getProjectCommon());
-	$theme = "Miasma";
+	$theme = "Nova";
 
 	#*****************************************************************************
 	# downloads.php
