@@ -45,7 +45,7 @@
 	# $Menu->setMenuItemList(array());
 	# $Menu->addMenuItem("Home", "/project", "_self");
 	# $Menu->addMenuItem("Download", "/project/downloads/", "_self");
-	# $Menu->addMenuItem("Documentation", "/project/documentation.php", "_self");
+	# $Menu->addMenuItem("Documentation", "/project/documentation/", "_self");
 	# $Menu->addMenuItem("Support", "/project/support.php", "_self");
 	# $Menu->addMenuItem("Developers", "/project/developers", "_self");
 	

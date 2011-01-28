@@ -6,12 +6,6 @@
    $Nav	= new Nav();
    $Menu = new Menu();
    include($App->getProjectCommon());
-    
-   #*****************************************************************************
-	# downloads.php
-	#
-	# Description: Primary Download Page
-	#*****************************************************************************
 	
 	$pageTitle 		= "OSEE - Downloads";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
