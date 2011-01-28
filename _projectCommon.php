@@ -32,7 +32,7 @@
 	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68", "_self", 3);
 	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 3);
    
-   $Nav->addNavSeparator("Developers", "/osee/developers/", "_self", 3);
+   $Nav->addNavSeparator("Getting Involved", "/osee/developers/", "_self", 3);
 	$Nav->addCustomNav("Source Code", "http://git.eclipse.org/c/osee/org.eclipse.osee.git/", "_self", 3);
 	$Nav->addCustomNav("Bugzilla", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 3);
       
@@ -46,7 +46,7 @@
 	$Menu->addMenuItem("Download", "/osee/downloads/", "_self");
 	$Menu->addMenuItem("Documentation", "/osee/documentation/", "_self");
 	$Menu->addMenuItem("Support", "/osee/support/", "_self");
-	$Menu->addMenuItem("Developers", "/osee/developers/", "_self");
+	$Menu->addMenuItem("Getting Involved", "/osee/developers/", "_self");
 	$Menu->addMenuItem("About", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 3);
 		
 	# To define additional CSS or other pre-body headers
