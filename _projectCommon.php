@@ -19,36 +19,34 @@
 	# This appears on the left of the page if you define a left nav
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
+	$Nav->setLinkList(array());
 	
-	# If you want to override the eclipse.org navigation, uncomment below.
-	# $Nav->setLinkList(array());
-	
-	$Nav->addNavSeparator("OSEE Home", "/osee/index.php");
-	$Nav->addCustomNav("About OSEE", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 2);
-	$Nav->addCustomNav("Downloads", "/osee/downloads/", "_self", 2);
-	
-	$Nav->addNavSeparator("Documentation", "http://wiki.eclipse.org/OSEE");
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/OSEE", "_self", 2);
-	$Nav->addCustomNav("Screencasts", "http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Screencasts", "_self", 2);
-	
-	$Nav->addNavSeparator("Development", "https://bugs.eclipse.org");
-	$Nav->addCustomNav("Source Code", "http://git.eclipse.org/c/osee/org.eclipse.osee.git/", "_self", 2);
-	$Nav->addCustomNav("Bugzilla", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 2);
+	$Nav->addNavSeparator("OSEE", "/osee/");
+	$Nav->addCustomNav("Downloads", "/osee/downloads/", "_self", 3);
+	$Nav->addCustomNav("Documentation", "/osee/documentation/", "_self", 3);
 
-	$Nav->addNavSeparator("Support", "https://dev.eclipse.org/mailman/listinfo/osee-dev");
-	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 2);
-	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68&S=03be8852279043e2fbe465ca71cbb7ac", "_self", 2);
-	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 2);
+	$Nav->addNavSeparator("Support", "/osee/support/", "_self", 3);
+	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 3);
+	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68", "_self", 3);
+	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 3);
+   
+   $Nav->addNavSeparator("Developers", "/osee/developers/", "_self", 3);
+	$Nav->addCustomNav("Source Code", "http://git.eclipse.org/c/osee/org.eclipse.osee.git/", "_self", 3);
+	$Nav->addCustomNav("Bugzilla", "https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=OSEE&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED", "_self", 3);
+      
+   $Nav->addNavSeparator("About", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 3);
+
 
 	# top navigation bar
 	# To override and replace the navigation with your own, uncomment the line below.
-	# $Menu->setMenuItemList(array());
-	# $Menu->addMenuItem("Home", "/project", "_self");
-	# $Menu->addMenuItem("Download", "/project/downloads/", "_self");
-	# $Menu->addMenuItem("Documentation", "/project/documentation/", "_self");
-	# $Menu->addMenuItem("Support", "/project/support.php", "_self");
-	# $Menu->addMenuItem("Developers", "/project/developers", "_self");
-	
+	$Menu->setMenuItemList(array());
+	$Menu->addMenuItem("Home", "/osee/", "_self");
+	$Menu->addMenuItem("Download", "/osee/downloads/", "_self");
+	$Menu->addMenuItem("Documentation", "/osee/documentation/", "_self");
+	$Menu->addMenuItem("Support", "/osee/support/", "_self");
+	$Menu->addMenuItem("Developers", "/osee/developers/", "_self");
+	$Menu->addMenuItem("About", "http://www.eclipse.org/projects/project_summary.php?projectid=technology.osee", "_self", 3);
+		
 	# To define additional CSS or other pre-body headers
 	# $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/osee/nova/style.css"/>');
 	
