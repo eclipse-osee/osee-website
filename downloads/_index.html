@@ -1,0 +1,64 @@
+<p><a href="http://marketplace.eclipse.org/content/egit-git-team-provider">
+						<img src="/egit/images/star.png" border="0"/>
+						Like EGit? Star it as a <b>favorite</b> on Eclipse Marketplace!</a></p>
+
+
+<h2>License Information</h2>
+<p>
+	OSEE plug-ins are provided under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL").
+A copy of the EPL is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.
+Add-ons are libraries with their own licenses, which are distributed from an external location
+at <a href="$externalDownloadsSite">$externalDownloadsSite</a>.</p>
+
+<h2>Non-Eclipse System Requirements</h2>
+<p><a href="http://wiki.eclipse.org/OSEE/Developers_Guide#Non-Eclipse_System_Requirements">Non-Eclipse System Requirements</a></p>
+
+<h2>Installing the Latest Version: @VERSION@</h2>
+<p>EGit can be installed in three main ways:</p>
+<ul>
+<li>
+<p>Client Update Site: <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.client_${releaseVersion}_incubation.zip">OSEE Client Incubation Archived Update Site</a> (Recommended)</p>
+<p>See <a href="http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Installation</a> on how to install using this update site.</p>
+<p>When launching the client you must set the following java system properties:<br/>
+<ul>
+<p><FONT FACE= "Courier New">-Dosee.authentication.protocol=trustAll<br/>-Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/></font>
+<i>The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b></i></p>
+</ul>
+<i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i></p><br/>
+</li>
+<li><p>OSEE Application Server</p>
+<ul>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/org.eclipse.osee.server_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Derby </a></li>
+<li><a href="http://osee-external.googlecode.com/files/org.eclipse.osee.server_postgresql_${releaseVersion}_incubation.zip">OSEE Server Incubation Archived - Postgresql</a></li>
+</ul>
+<p>
+Unzip the archive to a convenient location on the server machine (might be the same as the client).<br/>
+Launch using the startup files provided<br/>
+<i>Refer to</i> <a href="$configandargs">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
+</p>
+</li>
+<li>Add-on Feature - <a href="http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip">Postgresql Driver Feature</a></li>  
+<li>
+<p>All-In-One Clients</p>
+<ul>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.${releaseVersion}_incubation.zip">OSEE Win32 Client with Derby</a></li>
+<li>
+<b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/>
+<a href="$externalDownloadsSite">Visit external site to obtain full client for PostgreSQL</a>
+The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.</li>
+</ul>
+</li>
+</ul>
+
+<h2>Release Candidate Builds</h2>
+<p>For a preview of the next release, you can install OSEE from this repository:</p>
+<ul>
+<li><a href="http://"></a></li>
+</ul>
+
+<h2>Archived Builds</h2>
+<p></p>
+<ul>
+</ul>
+
+<p>All downloads are provided under the terms and conditions of the <a href="http://www.eclipse.org/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> unless otherwise specified. Please note that the use of the software you are about to access may be subject to third party terms and conditions and you are responsible for abiding by such terms and conditions.</p> 
