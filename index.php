@@ -16,7 +16,7 @@
 	
    #*****************************************************************************
 
-	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/osee/style.css"/>');
+	#$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/osee/style.css"/>');
 	
 	
 	$html  = '<div id="bigbuttons">';
