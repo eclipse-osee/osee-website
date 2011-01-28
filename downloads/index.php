@@ -25,7 +25,7 @@
 	
 	$html = preg_replace('/@RELEASE_VERSION@/', $release_version, $html);
 	$html = preg_replace('/@EXTERNAL_DOWNLOADS_SITE@/', $externalDownloadsSite, $html);
-	$html = preg_replace('@CONFIG_AND_ARGS@/', $configandargs, $html);
+	$html = preg_replace('/@CONFIG_AND_ARGS@/', $configandargs, $html);
 	
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);

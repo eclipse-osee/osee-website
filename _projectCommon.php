@@ -30,7 +30,7 @@
 	$Nav->addNavSeparator("Support", "/osee/support/", "_self", 3);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/osee-dev", "_self", 3);
 	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php?t=thread&frm_id=68", "_self", 3);
-	$Nav->addCustomNav("Contacts", "/osee/contact.php", "_self", 3);
+	$Nav->addCustomNav("Contacts", "/osee/contact/", "_self", 3);
    
    $Nav->addNavSeparator("Getting Involved", "/osee/developers/", "_self", 3);
 	$Nav->addCustomNav("Source Code", "http://git.eclipse.org/c/osee/org.eclipse.osee.git/", "_self", 3);
