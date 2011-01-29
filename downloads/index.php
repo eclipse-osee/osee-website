@@ -13,7 +13,7 @@
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 	
-	$release_prefix = "Milestone Build";
+	$release_prefix = "Milestone Build ";
 	$release_date = "19 May 2010";
 	$release_version      = "0.9.4";
    $external_downloads_site = "http://osee.microdoc.com/node/2";
