@@ -3,24 +3,29 @@
 <hr>
 
 <h2>Install Instructions</h2>
-OSEE consists of a standard eclipse update site and an application server.
-<ul>
-<li>Client Install Instructions:<br/>
-See <a href="http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Installation</a> on how to install using this update site.<br/>
-When launching the client you must set the following java system properties:<br/>
-<FONT FACE= "Courier New">-Dosee.authentication.protocol=trustAll<br/>-Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/></font>
-<i>The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b></i>
-<i>Refer to</i> <a href="@CONFIG_AND_ARGS@">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i>
-</li>
 
-<li>Server Instructions:
+<h3>OSEE Client (Update-Site)</h3>
+<ol>
+<li>Follow <a href="http://wiki.eclipse.org/OSEE/Users_Guide/Getting_Started#Eclipse_Installation">Eclipse Update Site Installation</a> instructions.</li>
+<li>Set the following java system properties before launching:
+<div style="background-color:whitesmoke;align:center">
+<i>-Dosee.authentication.protocol=trustAll<br/>
+-Dosee.arbitration.server=http://&lt;serveraddress&gt;:&lt;serverport&gt;<br/>
+The server port must match the server's <b>org.osgi.service.http.port</b> system property. In the server launch files provided, the port number is set to <b>8089</b><br/>
+Refer to <a href="@CONFIG_AND_ARGS@">OSEE Configuration Properties</a> for further information on java system property settings.
+</i>
+</div>
+</li>
+</ol>
+
+<h3>OSEE Application Server</h3>
 <ol> 
 <li>Unzip the archive to a convenient location on the server machine (might be the same as the client).</li>
-<li>Launch using the startup files provided</li>
+<li>Launch using the launch files provided <i>(*.sh, *.bat)</i><br/>
+<i>Refer to</i> <a href="@CONFIG_AND_ARGS@">OSEE Configuration Properties</a> <i>for further information on java system property settings.</i></li>
 </ol>
-</li>
-</ul>
-<i>Refer to</i> <a href="@CONFIG_AND_ARGS@">OSEE Configuration Properties</a> <i>for further information on setting these properties.</i> 
+
+<hr>
 
 <h2>Latest Version: @RELEASE_PREFIX@@RELEASE_VERSION@ - @RELEASE_DATE@</h2>
 <ul>
@@ -34,15 +39,15 @@ When launching the client you must set the following java system properties:<br/
 </li>
 <li>All-In-One Clients:
 <ul>
-<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.@RELEASE_VERSION@_incubation.zip">OSEE Win32 - Derby</a></li>
-<li><b>Full Eclipse with OSEE Client and PostgreSql 0.7.0</b><br/><a href="@EXTERNAL_DOWNLOADS_SITE@">Visit external site to obtain full client for PostgreSQL</a>
-The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies.  Such scheme of distribution is caused by licensing requirements.</li>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/builds/osee.client.full.@RELEASE_VERSION@_incubation.zip">OSEE Client - Win32 - Derby</a></li>
+<li><a href="@EXTERNAL_DOWNLOADS_SITE@">OSEE Client - Win32 - PostgreSql (External Site)</a><br/>
+The distribution is comprised of Eclipse 3.4, OSEE 0.7, add-ons, and dependencies. Such scheme of distribution is caused by licensing requirements.</li>
 </ul>
 </li>
 </ul>
 
 <h2>Release Candidate Build</h2>
-<p>For a preview of the next release, please use the following links:</p>
+For a preview of the next release, please use the following links:
 <ul>
 <li>Client Update Site: <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/installs/rc_update_site">http://www.eclipse.org/downloads/download.php?file=/technology/osee/installs/rc_update_site</a></li>
 <li>Application Server: <a href="http://www.eclipse.org/downloads/download.php?file=/technology/osee/installs/rc_osee_server_runtime.zip">http://www.eclipse.org/downloads/download.php?file=/technology/osee/installs/rc_osee_server_runtime.zip</a></li>
