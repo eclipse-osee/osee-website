@@ -14,6 +14,7 @@
 	$pageAuthor		= "Roberto E. Escobar";
 	
 	$release_version      = "OSEE_0.9.9_SR3_20111110";
+	$postgres_bundle 		 = "http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip";
    $external_downloads_site = "http://osee.microdoc.com/node/2";
    $config_args="http://wiki.eclipse.org/OSEE/Developers_Guide#Configuration_Properties";
    
@@ -23,9 +24,8 @@
 	$html .= file_get_contents('_index.html');
 	$html .= "</div>";
 	
-	$html = preg_replace('/@RELEASE_PREFIX@/', $release_prefix, $html);
-	$html = preg_replace('/@RELEASE_DATE@/', $release_date, $html);
 	$html = preg_replace('/@RELEASE_VERSION@/', $release_version, $html);
+	$html = preg_replace('/@POSTGRES_BUNDLE@/', $postgres_bundle, $html);
 	$html = preg_replace('/@EXTERNAL_DOWNLOADS_SITE@/', $external_downloads_site, $html);
 	$html = preg_replace('/@CONFIG_AND_ARGS@/', $config_args, $html);
 	
