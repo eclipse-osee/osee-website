@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan-render.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan"
-	xmlns:html="http://www.w3.org/1999/xhtml" name="Project Name">
-	<release projectid="technology.dash" version="1.0" />
+	xmlns:html="http://www.w3.org/1999/xhtml" name="Open System Engineering Environment">
+	<release projectid="technology.osee" version="1.0" />
 	<introduction>
 		<html:div>
 			This document delineates the OSEE milestone and release
-			schedule from its current state through graduation from incubation to a mature Eclipse project.
+			schedule from its current state through graduation from incubation to a mature Eclipse project which will be version 1.0.
 		</html:div>
 	</introduction>
 	<release_deliverables>
 		<html:div>
-			OSEE will provide both client and server update sites. 
-			<!--
-				Platform-specific installers?
-			-->
+			OSEE will provide both IDE-based client and server update sites.  The server includes the ability to serve a web based client. 
 		</html:div>
 	</release_deliverables>
 	<release_milestones>
 		<preamble>
-			<html:div>Approximate dates for the later milestones have not yet
-				been determined.</html:div>
+			<html:div>Approximate dates for the later milestones have not yet been determined.</html:div>
 		</preamble>
-		<milestone date="10/03/2009" milestone="0.8M2">
+		<milestone date="2/15/2012" milestone="0.9.9_SR4">
 			<html:div></html:div>
 		</milestone>
-		<milestone date="11/18/2009" milestone="0.9M0">
+		<milestone date="3/14/2012" milestone="0.9.9_SR5">
 			<html:div></html:div>
 		</milestone>
-		<milestone date="" milestone="1.0M1">
+		<milestone date="4/18/2012" milestone="0.9.9_SR6">
 			<html:div>First stable milestone build for graduation review
 			</html:div>
 		</milestone>
@@ -45,7 +41,7 @@
 	<target_environments>
 		<html:div>In addition to continuing support for Windows, Solaris, and
 			Linux, effort is being made to fully support versions of OS X that
-			can support Ecilpse 3.5 and Java 6.</html:div>
+			can support Java 6.</html:div>
 		<internationalization>
 			<html:div>
 				Due to community demand, internationalization efforts have
