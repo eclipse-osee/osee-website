@@ -13,7 +13,7 @@
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
 	
-	$release_version      = "OSEE_0.9.9_SR3_20111205";
+	$release_version      = "OSEE_0.9.9_SR4_20120131";
 	$postgres_bundle 		 = "http://osee-external.googlecode.com/files/postgresql_0.9.1_incubation.zip";
    $external_downloads_site = "http://osee.microdoc.com/node/2";
    $config_args="http://wiki.eclipse.org/OSEE/Developers_Guide#Configuration_Properties";
