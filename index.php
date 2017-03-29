@@ -20,7 +20,6 @@
 
 	#$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/osee/style.css"/>');
 	
-	
 	$html  = '<div id="bigbuttons">';
 	$html .= file_get_contents('_pageHeader.html');
    $html .= '</div>';
@@ -35,6 +34,8 @@
 	$html .= '</div>';
 	$html .= '</div>';
 
+	$html = preg_replace('/@RELEASE_VERSION@/', $release_version, $html);
+		
 	# Generate the web page
 	$App->generatePage($theme, $Menu, null, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
