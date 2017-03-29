@@ -6,13 +6,13 @@
    $Nav	= new Nav();
    $Menu = new Menu();
    include($App->getProjectCommon());
+   include("../sharedEnv.php");
 	
    #*****************************************************************************
 
 	$pageTitle 		= "OSEE - Downloads";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
-	$release_version      = "0.24.4.v201703241706-REL";
 	$postgres_bundle 		 = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/osee-external/org.ecilpse.osee.server_postgresql_0.9.1_incubation_updated.zip";
    $config_args="http://wiki.eclipse.org/OSEE/Developers_Guide#Configuration_Properties";
    

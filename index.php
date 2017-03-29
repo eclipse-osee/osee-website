@@ -13,7 +13,7 @@
       
 	$pageTitle 			= "Open System Engineering Environment";
 	$pageKeywords		= "eclipse, osee";
-	$release_version  = "0.24.4.v201703241706-REL";
+	include("sharedEnv.php");
 	
    #*****************************************************************************
    #*****************************************************************************
