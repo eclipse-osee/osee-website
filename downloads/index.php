@@ -13,7 +13,7 @@
 	$pageTitle 		= "OSEE - Downloads";
 	$pageKeywords	= "OSEE, Open, System, Engineering, Environment, Eclipse, Define, ATS, OTE, Application Framework";
 	$pageAuthor		= "Roberto E. Escobar";
-	$postgres_bundle 		 = "https://github.com/osee-dev/osee.external.releases/raw/master/org.eclipse.ip/org.postgresql.driver_8.3.0.v201703031753-REL.jar"
+	$postgres_bundle 		 = "https://github.com/osee-dev/osee.external.releases/raw/master/org.eclipse.ip/org.postgresql.driver_8.3.0.v201703031753-REL.jar";
    $config_args="http://wiki.eclipse.org/OSEE/Developers_Guide#Configuration_Properties";
    
    #*****************************************************************************
