@@ -11,7 +11,7 @@
  *    
  *******************************************************************************/
 
-	$theme = "Nova";
+	$theme = "Quicksilver";
 	
 	$pageKeywords	= "osee, systems engineering";
 	$pageAuthor		= "Ryan Brooks";
