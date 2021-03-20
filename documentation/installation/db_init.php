@@ -53,7 +53,6 @@
 		eclipse -nosplash -application org.eclipse.osee.framework.application.server.DbInit
       -console 
       -vmargs 
-      -XX:MaxPermSize=256m 
       -Xmx512m 
       -Dosgi.compatibility.bootdelegation=true
 		-Dequinox.ds.debug=true 

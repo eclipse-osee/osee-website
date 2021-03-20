@@ -47,9 +47,7 @@
 					<ol>
 							<li>Launch pgAdmin (in windows Start->All Programs->PostgreSQL*->pgAdmin III) </li>
 							<li>Double Click on PostgreSQL Database Server (listed under Servers on the left hand side)
-									<ol>
-										<li>If you are prompted for a password type the password selected during installation (user should be postgres by default)</li>
-									</ol>
+								If you are prompted for a password type the password selected during installation (user should be postgres by default)<br/>
 							</li>
 							<li>Create an "osee" user
 									<ol>
@@ -75,29 +73,15 @@
 									<ol>
 										<li>Create the OSEE database right-clicking on Databases and selecting "New Database..."</li>
 										<li>Enter the following in the dialog:<br/>
-												&nbsp;&nbsp;&nbsp;&nbsp;Name: OSEE<br/>
+												&nbsp;&nbsp;&nbsp;&nbsp;Name: osee<br/>
 												&nbsp;&nbsp;&nbsp;&nbsp;Owner: osee<br/>
 												&nbsp;&nbsp;&nbsp;&nbsp;Encoding: UTF-8
 										</li>
 									<li>Click 'OK'</li>
-									<li> You should now have an "OSEE" Database under Databases</li>
+									<li> You should now have an "osee" Database under Databases</li>
 									</ol>
-							<li>Click on OSEE and then expand it and expand Schemas</li> 
-							<ol>
-									<li>Create the "osee" schema:
-											<ol>
-												<li>Right click on Schemas and select "New Schema..."</li>
-												<li>Enter the following in the dialog: <br/> 
-													&nbsp;&nbsp;&nbsp;&nbsp;Name: osee<br/>
-													&nbsp;&nbsp;&nbsp;&nbsp;Owner: osee</li>
-												<li>Click 'OK'</li>
-												<li>You should now have an "osee" schema under schemas</li>
-											</ol>
-									</li>
 							<ol>
 						</li> 
-				 </ol>
-			</li>
 			<li>The relational database is now configured. Proceed to <a href="db_init.php">OSEE Database Initialization</a></li>
 		</ol>
 		<br/>
