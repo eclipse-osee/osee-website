@@ -70,18 +70,17 @@
 									</ol>
 							</li>
 							<li>Expand the Databases item in the tree</li>
-									<ol>
-										<li>Create the OSEE database right-clicking on Databases and selecting "New Database..."</li>
-										<li>Enter the following in the dialog:<br/>
-												&nbsp;&nbsp;&nbsp;&nbsp;Name: osee<br/>
-												&nbsp;&nbsp;&nbsp;&nbsp;Owner: osee<br/>
-												&nbsp;&nbsp;&nbsp;&nbsp;Encoding: UTF-8
-										</li>
+								<ol>
+									<li>Create the OSEE database right-clicking on Databases and selecting "New Database..."</li>
+									<li>Enter the following in the dialog:<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;Name: osee<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;Owner: osee<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;Encoding: UTF-8
+									</li>
 									<li>Click 'OK'</li>
-									<li> You should now have an "osee" Database under Databases</li>
-									</ol>
-							<ol>
-						</li> 
+									<li>Ensure there is now an "osee" Database under Databases</li>
+								</ol>
+							</ol>
 			<li>The relational database is now configured. Proceed to <a href="db_init.php">OSEE Database Initialization</a></li>
 		</ol>
 		<br/>

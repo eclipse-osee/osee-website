@@ -47,24 +47,13 @@
 		<li>Ensure database connection information matches database installation. OSEE is pre-configured 
 		to work with a PostgreSQL server running on port 5432. If you need a specialized database connection
 		see the <a href="../launch/osee_launch.php">'Configuring Database Connection'</a> section. </li>		
-		<li>In a console, launch the database initialization application by entering the following:
+		<li>In a console use the following http request to initialize the OSEE database:
 		<div style="border-width:thin;border:solid;padding:0.2em;">
 		<br/>
-		eclipse -nosplash -application org.eclipse.osee.framework.application.server.DbInit
-      -console 
-      -vmargs 
-      -Xmx512m 
-      -Dosgi.compatibility.bootdelegation=true
-		-Dequinox.ds.debug=true 
-		-Dorg.osgi.service.http.port=8089 
-		-Dosee.local.application.server=true
-		-Dosee.db.connection.id=postgresqlLocalhost
+		curl -X POST -H "osee.account.id: 11" -H "Content-Type: text/plain" http://localhost:8089/ats/config/initialize/demo
 		<br/>
 		</div>
 		</li>
-		<li>When prompted select "Y"</li>
-		<li>Select 'ATS Configuration'</li>
-		<li>Wait for initialization to complete</li>
 		</ol>
 		
 		<br/>
