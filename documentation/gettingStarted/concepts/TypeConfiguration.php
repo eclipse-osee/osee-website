@@ -113,7 +113,7 @@ the java type <code>org.eclipse.osee.framework.skynet.core.artifact.Artifact</co
 		</tr>
 		<tr>
 			<td>Tip Text</td>
-			<td>Text to describe an attribute. Any valid UTF-8 characters with a max length of 4000 bytes</td>
+			<td>Text to describe an attribute.  Any valid UTF-8 characters with a max length of 4000 bytes</td>
 		</tr>
 		<tr style="background:#CCCCCC"><th colspan="2">Artifact Type / Attribute Type Mapping Table</th></tr>
 		<tr align="left">
