@@ -108,7 +108,7 @@ the java type <code>org.eclipse.osee.framework.skynet.core.artifact.Artifact</co
 			<td>The framework with prevent having lest than this number of this attribute type on a single artifact</td>
 		</tr>
 		<tr>
-			<td>Max Occurrence</td>
+			<td>Max </td>
 			<td>The framework with prevent adding more than this number of this attribute type to a single artifact</td>
 		</tr>
 		<tr>
